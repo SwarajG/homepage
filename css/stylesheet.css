@@ -1,0 +1,808 @@
+/*
+* Font of body
+*/
+@font-face {
+  font-family: 'apercu';
+  src: url('../fonts/apercu_regular.eot.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/apercu_regular.eot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/apercu_regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/apercu_regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/apercu_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/apercu_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: 'apercu';
+  color: #4E4E50;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+
+/*
+* Header styles
+*/
+
+.header {
+  background: rgba(0,0,0,0.5);
+}
+
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: inline-block;
+  text-align: right;
+  width: 1100px;
+  margin-left: -5px;
+}
+
+/*
+*Navbar of the page
+*/
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  margin-top: -35px;
+}
+
+.navbar__menu {
+  float: right;
+  width: 100%;
+  margin: 0;
+  padding-right: 50px;
+}
+
+.navbar__menu--link {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  margin-left: -5px;
+  color: white;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  border-bottom: 5px solid transparent;
+  -moz-transition: border-color 0.5s ease;
+   -o-transition: border-bottom 0.5s ease;
+  -ms-transition: border-bottom 0.5s ease;
+      transition: border-bottom 0.5s ease;
+}
+
+.navbar__menu--link:hover {
+	border-bottom: 5px solid white;   
+}
+
+.navbar__menu--logo {
+  position:  absolute;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 300px;
+}
+
+.navbar__menu--list {
+    display: inline;
+}
+
+.navbar__header {
+	position: absolute;
+  margin-top: -10px;
+	padding-left: 400px;
+  outline: none;
+  font-size: 25px;
+}
+
+.navbar__signin {
+  margin: 10px;
+  width: 8em;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  border:1px solid white;
+  -moz-transition: background-color 0.5s ease;
+     -o-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+     -o-transition: color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease;
+}
+
+.navbar__signin:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+  background: white;
+}
+
+/*
+*Jumbotron bakground image and Header
+*/
+
+.jumbotron__header {
+  padding-top: 130px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.jumbotron__header--faq{
+  padding-top: 130px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 70px;
+  text-align: left;
+}
+
+.jumbotron__subheader {
+  height: 100px;
+  padding-left: 200px;
+  margin-top: -25px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.jumbotron__subheader--faq {
+  text-align: left;
+}
+
+.jumbotron__subheader--about {
+  padding-left: 0;
+}
+
+.jumbotron__img {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 600px; /*same height as jumbotron */
+  margin: 0;  
+}
+
+.jumbotron__img--faculty {
+  background: url('../img/books.png') no-repeat center center;
+}
+
+.jumbotron__img--parents {
+  background: url('../img/parents.png') no-repeat center center;
+}
+
+.jumbotron__img--aboutus {
+  background: url('../img/aboutus.png') no-repeat center center;
+}
+
+.jumbotron__img--IIT_JEE {
+  background: url('../img/IIT_JEE.png') no-repeat center center;
+}
+
+.jumbotron__img--pricing {
+  background: url('../img/pricing_jumbo.png') no-repeat center center;
+}
+
+.jumbotron__img--faq {
+  background-color: #006695;
+}
+
+.jumbotron {
+  height: 503px;
+  margin: 0;
+  color: white;
+  background:transparent;
+}
+
+/*
+* Pricing table and their details
+*/
+
+.pricing_details {
+  height: 700px;
+  background-color: #E4EEF0;
+}
+
+
+/*
+* Features of the Embibe
+*/
+.feature {
+	padding: 20px 200px;
+  color: #4D4D4F;
+}
+
+.feature__header {
+	font-size: 40px;
+  text-align: center;
+}
+
+.feature__subheader {
+  margin-top: -20px;
+  padding: 0 250px;
+	text-align: center;
+}
+
+.core-values__subheader {
+  padding: 0 180px;
+}
+
+.feature__first,
+.feature__second {
+	width: 100%;
+}
+
+.feature__first--personal,
+.feature__first--track,
+.feature__first--time,
+.feature__second--manage,
+.feature__second--parent,
+.feature__second--potential {
+	width: 33%;
+  height: 300px;
+  padding: 0 1.5%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.feature__first--personal,
+.feature__first--track,
+.feature__first--time {
+  display: inline-block;
+}
+
+.feature__second--manage,
+.feature__second--parent,
+.feature__second--potential {
+  display: inline-block;
+}
+
+.core-values__exce {
+  font-size: 20px;
+  color: #006696;
+}
+
+.core-values__empathy {
+  font-size: 20px;
+  color:#00B1EC;
+}
+
+.core-values__integrity {
+  font-size: 20px;
+  color: #D7006A;
+}
+
+.core-values__leadership {
+  font-size: 20px;
+  color: #00E567;
+}
+
+.core-values__passion {
+  font-size: 20px;
+  color: #FF4949;
+}
+
+.core-values__fun {
+  font-size: 20px;
+  color: #B100FE;
+}
+
+/*
+* Details of the Indiaviduals in the aboutus page.
+*/
+
+.indiaviduals {
+  height: 800px;
+  background-color: #F2F5F6;
+}
+
+/*
+* Faculty page
+* Details of the faculties
+* And Form for intrested Student
+*/
+
+.faculties {
+  max-height: 1000px;
+  padding:20px 200px;
+  color: #3f3f3f;
+  background-color: #F2F5F6;
+}
+
+.faculties__header,
+.faculties__subheader {
+  text-align: center;
+}
+
+.faculty__image {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/professors.png");
+}
+
+.faculty__image--left,
+.faculty__image--right {
+  background-position: 600px 0;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  background-image: none;
+  float: left;
+}
+
+.faculty__image--right {
+  float: right;
+}
+
+.faculties__header {
+  font-size: 40px;
+}
+
+.faculties__subheader {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  padding: 0 200px;
+}
+
+.faculties__images {
+  height: 400px;
+  width: 100%;
+  margin : 50px 0;
+}
+
+.faculties__images ul {
+  list-style: none;
+}
+
+.faculties__images--one,
+.faculties__images--two,
+.faculties__images--three {
+  width: 33%;
+  height: 400px;
+  display: inline-block;
+}
+
+.faculties__images--one {
+  background-color: red;
+}
+
+.faculties__images--two {
+  background-color: blue; 
+}
+
+.faculties__images--three {  
+  background-color: green;
+}
+.signup {
+  margin-bottom: 50px;
+  padding: 25px;
+  padding-bottom: 45px;
+  color: white;
+  background-color: #00B1EC;
+  border-radius: 5px;
+}
+
+.signup__header {
+  margin-top: -10px;
+  font-size: 25px;
+}
+
+.signup__name,
+.signup__phone,
+.signup__submit {
+  width: 30%;
+  display: inline-block;
+}
+
+.input {
+  height: 35px;
+  width: 220px;
+  padding: 5px;
+  padding-left: 15px;
+  font-family: 'apercu';
+  background-color: #ABF7FF;
+  border:0px;
+  border-radius: 25px;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 500;
+  color: #000033;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-weight: 500;
+  color: #000033;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-weight: 500;
+  color: #000033;
+}
+
+:-ms-input-placeholder {  
+  font-weight: 500;
+  color: #000033;
+}
+
+.btn {
+  height: 40px;
+  width: 220px;
+  margin-left: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  border:1px solid white;
+  border-radius:40px;
+}
+
+.btn:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: none;
+  background: white;
+}
+
+/*
+*Video of the Embibe Practice
+*/
+
+.video {
+  z-index: -1;
+  height: 600px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+/*
+* Pricing Quote image
+*/
+.quote {
+  position: relative;
+  height: 257px;
+  margin: 0;
+  color: white;
+}
+
+.quote__quote-image {
+  position: absolute;
+  width: 100%;  
+}
+
+.quote__quote {
+  position: absolute;
+  padding-top: 75px;
+  padding-left: 40%;
+  padding-right: 30%;
+  text-align: right;
+  line-height: 25px;
+  font-size: 22px;
+}
+
+.quote__name {
+  position: absolute;
+  padding-top: 140px;
+  padding-left: 42%;
+  text-align: right;
+  width: 70%;
+  font-size: 17px;
+}
+
+/*
+* FAQs for embibe
+*/
+
+.faq {
+  height: 480px;
+  padding: 20px 200px;
+  outline: 0;
+}
+
+.add-feature {
+  height: 400px;
+}
+
+.faq__header {
+  margin-left: 50px;
+  font-size: 23px;
+}
+
+.faq__questions--header {
+  margin:0;
+}
+
+.faq__questions--header a {
+  margin: 0;
+  padding: 10px;
+  padding-left: 40px;
+  display: block;
+  color: #4E4E50;
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  background: url("../img/sprite1.png") 15px 13px no-repeat;
+}
+
+.faq__questions--header a:link {
+  outline: none;
+}
+
+.faq__questions--header.open a {
+  background-position-x: 13px;
+  background-position-y: -25px; 
+}
+
+.faq__question--answer {
+  padding-left: 40px;
+}
+
+/*
+* wedo images in about us page
+*/
+.wedo {
+  height: 900px;
+  padding: 20px 200px;
+  background-color: #F2F5F6;
+}
+
+.wedo__header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.wedo__subheader {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 25%;
+}
+
+.wedo__album {
+  list-style-type: none;
+}
+.wedo__album--image {
+  width: 33.33%;  
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/*
+* Carousel
+*/
+
+.carousel {
+  height: 250px;
+  background-color: #006696;
+}
+
+/*
+* Investors for embibe
+*/
+
+.investors {
+  height: 400px;
+  padding: 20px 200px;
+  background-color: #F2F5F6;
+}
+
+.investors__header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.investors__details--image {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.investors__details--about {
+  padding: 0 10%;
+}
+
+/*
+* Embibe in the news--aboutus page
+*/
+
+.in-news {
+  width: 100%;
+  padding: 0 200px;
+  height: 300px;
+}
+
+.in-news__header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.in-news__subheader {
+  text-align: center;
+  margin-top: -15px;
+  font-size: 17px;
+}
+
+.in-news__logo {
+  margin-top: 70px;
+}
+
+.in-news__logo--image {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+* Android application link of embibe
+*/
+
+.android-app {
+  height: 202px;
+  padding: 20px 200px;
+  background-color: #E4EEF0;
+}
+
+.android-app__mobile {
+  width: 25%;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+}
+
+.android-app__detail {
+  vertical-align: top;
+  width: 40%;
+  padding-top: 30px;
+  display: inline-block;
+  color:  #434D56;
+  font-size: 18px;
+}
+
+.android-app__playstore {
+  vertical-align: top;
+  width: 30%;
+  padding-top: 50px;
+  padding-left: 5px;
+  display: inline-block;
+}
+
+/*
+*News of the embibe.com
+*/
+
+.news {
+  padding: 20px 200px;
+  font-size: 17px;
+  color: white;
+  background-color: #90A9B2;
+}
+
+.news__first,
+.news__second,
+.news__third {  
+  width: 32%;
+  padding: 0 1.4%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.news__first--date,
+.news__second--date,
+.news__third--date {
+  font-size: 12px;
+}
+
+/*
+*Contact details and the cources list
+*/
+
+.contact {
+  height: 220px;
+  padding: 0 200px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  line-height: 25px;
+  font-size: 17px;
+  background-color: #4D4D4F;
+}
+
+.contact__prepare--one,
+.contact__prepare--two,
+.contact__about,
+.contact__info {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact__prepare--one_link,
+.contact__prepare--one_list,
+.contact__prepare--two_link, 
+.contact__prepare--two_list,
+.contact__about--link,
+.contact__about--list,
+.contact__info--list {
+  padding: 2px;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.contact__info--list {
+  list-style-type: none;
+  line-height: 18px;
+}
+
+.contact__prepare--two_list {
+  padding-top: 27px;
+}
+
+.contact__prepare--one_child {
+  padding-top: 8px;
+  font-size: 16px;
+  color: #a8a8a8;
+}
+
+.contact__info--second-list {
+  margin-top: -3px;
+  font-size: 10px;
+  color: #a8a8a8;
+}
+
+/*
+* Footer styles
+*/
+
+.footer {
+  max-height: 70px;
+  padding: 0 200px;
+  font-size: 15px;
+  background-color: #363637;
+}
+
+.footer__ul {
+  margin:0;
+  padding: 20px 0;
+}
+
+.footer__list {
+  display: inline-block;
+}
+
+.footer__link,
+.footer__ul {
+  color: #767677;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer__link { 
+  color: #A6A8AB; 
+}
+
+/*
+* Terms styles
+*/
+
+#terms {
+  padding-left: 50px;
+  padding-right: 30px;
+}
