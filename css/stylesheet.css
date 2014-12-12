@@ -39,13 +39,6 @@ body {
   margin: 0 auto;
 }
 
-.header__nav {
-  display: inline-block;
-  text-align: right;
-  width: 1100px;
-  margin-left: -5px;
-}
-
 /*
 *Navbar of the page
 */
@@ -59,8 +52,14 @@ body {
 .navbar__menu {
   float: right;
   width: 100%;
-  margin: 0;
-  padding-right: 50px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: inline-block;
+  text-align: right;
+  width: 1200px;
+  margin-left: -5px;
 }
 
 .navbar__menu--link {
@@ -106,7 +105,7 @@ body {
 .navbar__signin {
   margin: 10px;
   width: 8em;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
   font-size: 15px;
   color: white;
   text-decoration: none;
@@ -137,29 +136,42 @@ body {
 */
 
 .jumbotron__header {
-  padding-top: 130px;
+  padding-top: 125px;
   font-size: 70px;
   text-align: center;
 }
 
 .jumbotron__header--faq{
   padding-top: 130px;
-  padding-left: 200px;
-  padding-right: 200px;
+  font-size: 70px;
+  text-align: left;
+}
+
+.jumbotron__header--tos ,
+.jumbotron__header--privacy {
+  padding-top: 130px;
   font-size: 70px;
   text-align: left;
 }
 
 .jumbotron__subheader {
   height: 100px;
-  padding-left: 200px;
   margin-top: -25px;
+  padding: 0 300px;
   text-align: center;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 26px;
 }
 
-.jumbotron__subheader--faq {
+.jumbotron__subheader--faq ,
+.jumbotron__subheader--tos {
+  padding: 0;
+  width: 50%;
+  text-align: left;
+}
+
+.jumbotron__subheader--privacy {
+  padding: 0;
   text-align: left;
 }
 
@@ -201,11 +213,53 @@ body {
   background-color: #006695;
 }
 
+.jumbotron__img--tos {
+  background-color: #009858;
+}
+
+.jumbotron__img--privacy {
+  background-color: #FF9600;
+}
+
 .jumbotron {
   height: 503px;
   margin: 0;
   color: white;
   background:transparent;
+}
+
+.jumbotron__container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.jumbotron__free-signup {
+  margin-left: 41%;
+  width: 200px;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: grey;
+  text-decoration: none;
+  background: white;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  border: 0px;
+  -moz-transition: background-color 0.5s ease;
+     -o-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+     -o-transition: color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease;
+}
+
+.jumbotron__free-signup:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background: #00B1EC;
 }
 
 /*
@@ -222,12 +276,18 @@ body {
 * Features of the Embibe
 */
 .feature {
-	padding: 20px 200px;
+  padding: 20px 0;
   color: #4D4D4F;
+  margin-bottom: 50px;
+}
+
+.feature__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .feature__header {
-	font-size: 40px;
+	font-size: 50px;
   text-align: center;
 }
 
@@ -237,68 +297,101 @@ body {
 	text-align: center;
 }
 
-.core-values__subheader {
-  padding: 0 180px;
-}
-
-.feature__first,
-.feature__second {
-	width: 100%;
-}
-
-.feature__first--personal,
-.feature__first--track,
-.feature__first--time,
-.feature__second--manage,
-.feature__second--parent,
-.feature__second--potential {
-	width: 33%;
+.feature__detail {
+	width: 33.33%;
   height: 300px;
-  padding: 0 1.5%;
-  vertical-align: top;
+  vertical-align: bottom;
   text-align: center;
 }
 
-.feature__first--personal,
-.feature__first--track,
-.feature__first--time {
+.feature__detail {
   display: inline-block;
+  vertical-align: middle;
 }
 
-.feature__second--manage,
-.feature__second--parent,
-.feature__second--potential {
+.feature__detail--header {
+  font-size: 20px;
+}
+
+.feature__detail--image {
+  height: 110px;
+}
+
+/*
+* We know jee IIT_JEE  page.
+*/
+.know-jee {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 700px;
+  background-color: #F2F5F6;
+}
+
+.know-jee__container {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.know-jee__header {
+  font-size :50px;
+}
+.know-jee__subheader {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.know-jee__sub {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.know-jee__subject {
+  position: relative;
   display: inline-block;
+  width: 33.33%;
 }
 
-.core-values__exce {
-  font-size: 20px;
-  color: #006696;
+.know-jee__subject--precentage {
+  position: absolute;
+  margin-top: 22%;
+  left: 45%;
 }
 
-.core-values__empathy {
-  font-size: 20px;
-  color:#00B1EC;
+.know-jee__subject--std {
+  display: inline-block;
+  width: 49%;
 }
 
-.core-values__integrity {
-  font-size: 20px;
-  color: #D7006A;
+/*
+* Past year papers from iit_jee page
+*/
+
+.paper {
+  height: 500px;
+  text-align: center;
 }
 
-.core-values__leadership {
-  font-size: 20px;
-  color: #00E567;
+.paper__container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
-.core-values__passion {
-  font-size: 20px;
-  color: #FF4949;
+.paper__header {
+  font-size: 50px;
 }
 
-.core-values__fun {
-  font-size: 20px;
-  color: #B100FE;
+/*
+* Pricing on the iit_jee page.
+*/
+.series-price {
+  height: 500px;
+  background-color: #E4EEF0;
+}
+
+.series-price__container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 /*
@@ -310,6 +403,40 @@ body {
   background-color: #F2F5F6;
 }
 
+.indiaviduals__container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.indiaviduals__header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.indiaviduals__subheader {
+  text-align: center;
+}
+/*
+* All in a days work.
+*/
+.days-work__header {
+  font-size: 50px;
+}
+
+.days-work__subheader {
+  font-size: 20px;
+}
+
+.days-work__container {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.days-work__image {
+  margin:70px 0;
+}
+
 /*
 * Faculty page
 * Details of the faculties
@@ -318,9 +445,14 @@ body {
 
 .faculties {
   max-height: 1000px;
-  padding:20px 200px;
+  padding:20px 0;
   color: #3f3f3f;
   background-color: #F2F5F6;
+}
+
+.faculties__images--container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .faculties__header,
@@ -335,18 +467,26 @@ body {
   background-image: url("../img/professors.png");
 }
 
-.faculty__image--left,
 .faculty__image--right {
+  float: right;
   background-position: 600px 0;
   width: 300px;
   height: 300px;
   background-color: red;
-  background-image: none;
+}
+.faculty__image--left {
   float: left;
+  background-position: 600px 0;
+  width: 300px;
+  height: 300px;
+  background-color: red; 
 }
 
 .faculty__image--right {
   float: right;
+}
+.faculty__image--left {
+  float: left;
 }
 
 .faculties__header {
@@ -356,7 +496,6 @@ body {
 .faculties__subheader {
   margin-top: -20px;
   margin-bottom: 10px;
-  padding: 0 200px;
 }
 
 .faculties__images {
@@ -389,12 +528,17 @@ body {
   background-color: green;
 }
 .signup {
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   padding: 25px;
-  padding-bottom: 45px;
   color: white;
   background-color: #00B1EC;
   border-radius: 5px;
+}
+
+.signup__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .signup__header {
@@ -411,7 +555,7 @@ body {
 
 .input {
   height: 35px;
-  width: 220px;
+  width: 320px;
   padding: 5px;
   padding-left: 15px;
   font-family: 'apercu';
@@ -443,8 +587,8 @@ body {
 
 .btn {
   height: 40px;
-  width: 220px;
-  margin-left: 100px;
+  width: 260px;
+  margin-left: 150px;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -466,7 +610,7 @@ body {
 
 .video {
   z-index: -1;
-  height: 600px;
+  height: 500px;
   overflow-x:hidden;
   overflow-y:hidden;
 }
@@ -476,14 +620,14 @@ body {
 */
 .quote {
   position: relative;
-  height: 257px;
+  height: 241px;
   margin: 0;
   color: white;
 }
 
 .quote__quote-image {
   position: absolute;
-  width: 100%;  
+  width: 100%;
 }
 
 .quote__quote {
@@ -511,8 +655,11 @@ body {
 
 .faq {
   height: 480px;
-  padding: 20px 200px;
   outline: 0;
+}
+.faq__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .add-feature {
@@ -521,7 +668,7 @@ body {
 
 .faq__header {
   margin-left: 50px;
-  font-size: 23px;
+  font-size:20px;
 }
 
 .faq__questions--header {
@@ -557,9 +704,15 @@ body {
 * wedo images in about us page
 */
 .wedo {
-  height: 900px;
-  padding: 20px 200px;
+  height: 1100px;
+  padding: 20px 0;
   background-color: #F2F5F6;
+}
+
+.wedo__container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 50px 100px;
 }
 
 .wedo__header {
@@ -597,8 +750,13 @@ body {
 
 .investors {
   height: 400px;
-  padding: 20px 200px;
+  padding: 20px 0;
   background-color: #F2F5F6;
+}
+
+.investors__container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .investors__header {
@@ -622,8 +780,12 @@ body {
 
 .in-news {
   width: 100%;
-  padding: 0 200px;
   height: 300px;
+}
+
+.in-news__container {
+  margin : 0 auto;
+  width: 1200px;
 }
 
 .in-news__header {
@@ -648,14 +810,28 @@ body {
   vertical-align: middle;
 }
 
+
+/*
+* Privacy policy section
+*/
+
+.info-setion {
+
+}
+
 /*
 * Android application link of embibe
 */
 
 .android-app {
   height: 202px;
-  padding: 20px 200px;
+  padding: 20px 0;
   background-color: #E4EEF0;
+}
+
+.android-app__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .android-app__mobile {
@@ -671,7 +847,7 @@ body {
   padding-top: 30px;
   display: inline-block;
   color:  #434D56;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .android-app__playstore {
@@ -687,25 +863,32 @@ body {
 */
 
 .news {
-  padding: 20px 200px;
+  padding: 20px 0;
   font-size: 17px;
   color: white;
   background-color: #90A9B2;
 }
 
-.news__first,
-.news__second,
-.news__third {  
-  width: 32%;
-  padding: 0 1.4%;
+.news__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.news__detail {  
+  width: 33.33%;
   display: inline-block;
   vertical-align: top;
 }
 
-.news__first--date,
-.news__second--date,
-.news__third--date {
+.news__detail--date {
   font-size: 12px;
+}
+
+.news__details--info,
+.news__detail--date {
+  margin: 0;
+  padding: 0;
+  padding-right: 120px;
 }
 
 /*
@@ -713,56 +896,54 @@ body {
 */
 
 .contact {
-  height: 220px;
-  padding: 0 200px;
   padding-top: 10px;
   padding-bottom: 30px;
-  line-height: 25px;
   font-size: 17px;
+  line-height: 25px;
   background-color: #4D4D4F;
 }
 
-.contact__prepare--one,
-.contact__prepare--two,
-.contact__about,
-.contact__info {
-  width: 24.5%;
+.contact__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact__part {
+  width: 33.33%;
   display: inline-block;
   vertical-align: top;
 }
 
-.contact__prepare--one_link,
-.contact__prepare--one_list,
-.contact__prepare--two_link, 
-.contact__prepare--two_list,
-.contact__about--link,
-.contact__about--list,
-.contact__info--list {
-  padding: 2px;
+.contact__list--link {
   list-style-type: none;
   color: white;
   text-decoration: none;
   letter-spacing: 1px;
 }
 
-.contact__info--list {
+.contact__list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  line-height: 18px;
 }
 
-.contact__prepare--two_list {
-  padding-top: 27px;
-}
-
-.contact__prepare--one_child {
-  padding-top: 8px;
+.contact__list-header {
+  padding-top: 15px;
   font-size: 16px;
   color: #a8a8a8;
 }
 
-.contact__info--second-list {
-  margin-top: -3px;
-  font-size: 10px;
+ .contact__list--page {
+  line-height: 40px;
+ }
+
+.contact__list-contact {
+  color: white;
+}
+
+.contact__list--subheader {
+  margin-top: -5px;
+  font-size: 11px;
   color: #a8a8a8;
 }
 
@@ -772,9 +953,13 @@ body {
 
 .footer {
   max-height: 70px;
-  padding: 0 200px;
   font-size: 15px;
   background-color: #363637;
+}
+
+.footer__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer__ul {

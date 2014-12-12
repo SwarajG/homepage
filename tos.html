@@ -24,19 +24,17 @@
       </div>
     </header>
     
-    <div class="jumbotron">
-      <div class="jumbotron__img"></div>
-      <h1 class="jumbotron__header">SUCCESS STORIES</h1>
-      <p class="jumbotron__subheader">
-        Embibe has helped students at all levels of exam preparation realise their dream
-        of getting into IITs,BITSATs,AIIMS,AIPMTs and all other top ranked Indian Institute.<br><br><br>
-        What will you achive?
-      </p>
-      <p>
-        
-      </p>
-    </div>
-    <!-- Main footer starts from here -->
+    <section class="jumbotron">
+      <div class="jumbotron__container">
+        <div class="jumbotron__img jumbotron__img--tos"></div>
+        <h1 class="jumbotron__header jumbotron__header--tos">TERMS OF SERVICE</h1>
+        <p class="jumbotron__subheader jumbotron__subheader--tos">
+          www.embibe.com s a website oparated by indiavidual Learning Private Limited (here in after reffered to as "We","Us").We are a company registreted in the state of Haryana and have our office located at Mumbai.
+        </p>
+      </div>
+    </section>
+
+    
     <section class="android-app">
       <div class="android-app__container">
         <div class="android-app__mobile">
@@ -131,5 +129,16 @@
          </ul>
      </div>
     </footer>
+
+    <script>
+        new jQueryCollapse($("#custom-show-hide-example"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+      </script>
   </body>
 </html>
