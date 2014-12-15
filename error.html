@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Faculty</title>
+    <title>Parents</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <script src="js/jquery-1.9.1.js"></script>
@@ -26,16 +26,16 @@
     
     <section class="jumbotron">
       <div class="jumbotron__container">
-        <div class="jumbotron__img jumbotron__img--stories"></div>
-        <h1 class="jumbotron__header">IIT JEE</h1>
-        <p class="jumbotron__subheader">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+        <div class="jumbotron__img jumbotron__img--error"></div>
+        <p class="jumbotron__subheader jumbotron__subheader--error">
+          Sorry, the page you are looking for cannot be found.
         </p>
-        <button class="jumbotron__free-signup">Sign Up for Free</button>
+        <button class="">
+          Home page
+        </button>
       </div>
     </section>
 
-    <!-- Main footer starts from here -->
     <section class="android-app">
       <div class="android-app__container">
         <div class="android-app__mobile">
@@ -130,5 +130,15 @@
          </ul>
      </div>
     </footer>
+    <script>
+        new jQueryCollapse($("#custom-show-hide-example"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+    </script>
   </body>
 </html>

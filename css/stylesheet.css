@@ -179,6 +179,11 @@ body {
   padding-left: 0;
 }
 
+.jumbotron__subheader--error {
+  text-align: left;
+  padding-top: 32%;
+}
+
 .jumbotron__img {
   position: absolute;
   top:0;
@@ -207,6 +212,14 @@ body {
 
 .jumbotron__img--pricing {
   background: url('../img/pricing_jumbo.png') no-repeat center center;
+}
+
+.jumbotron__img--error {
+ background: url('../img/error.png') no-repeat center center; 
+}
+
+.jumbotron__img--stories {
+ background: url('../img/stories.png') no-repeat center center; 
 }
 
 .jumbotron__img--faq {
