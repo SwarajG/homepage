@@ -23,7 +23,7 @@ body {
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 /*
@@ -79,7 +79,7 @@ body {
 }
 
 .navbar__menu--link:hover {
-	border-bottom: 5px solid white;   
+  border-bottom: 5px solid white;
 }
 
 .navbar__menu--logo {
@@ -95,9 +95,9 @@ body {
 }
 
 .navbar__header {
-	position: absolute;
+  position: absolute;
   margin-top: -10px;
-	padding-left: 400px;
+  padding-left: 400px;
   outline: none;
   font-size: 25px;
 }
@@ -192,7 +192,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 600px; /*same height as jumbotron */
-  margin: 0;  
+  margin: 0;
 }
 
 .jumbotron__img--home {
@@ -220,7 +220,7 @@ body {
 }
 
 .jumbotron__img--error {
- background: url('../img/error.png') no-repeat center center; 
+ background: url('../img/error.png') no-repeat center center;
 }
 
 .jumbotron__img--stories {
@@ -297,68 +297,64 @@ body {
 /*
 * Embibe is for everyone.
 */
-.for-everyone {
+.successful-student {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.for-everyone__container {
+.successful-student__container {
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.for-everyone__header {
+.successful-student__header {
   font-size: 50px;
 }
 
-.for-everyone__subheader {
+.successful-student__subheader {
   font-size: 18px;
 }
 
-.for-everyone__blocks {
+.successful-student__blocks {
   position: relative;
   width: 100%;
   vertical-align: bottom;
+  height: 500px;
+  overflow: hidden;
 }
 
-.for-everyone__ref {
+.successful-student__brick {
+  position: absolute;
+  bottom: 500px;
+  display: inline-block;
+  width: 25%;
+  height: 20px;
+  background: red;
+  opacity: 0;
+}
+
+.successful-student__ref {
   width: 12%;
   display: inline-block;
 }
 
-.for-everyone__block {
-  width: 21%;
+.successful-student__block {
+  position: relative;
+  width: 20%;
   display: inline-block;
+  height: 100%;
+  margin: 0 5%;
 }
 
-.for-everyone__block--std1 {
-  height: 300px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
+.successful-student__student {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: whitesmoke;
+  height: 200px;
 }
 
-.for-everyone__block--std2 {
-  height: 210px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
-}
-
-.for-everyone__block--std3 {
-  height: 180px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
-}
-
-.for-everyone__block--std4 {
-  height: 150px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
-}
 
 /*
 * Features of the Embibe
@@ -375,18 +371,18 @@ body {
 }
 
 .feature__header {
-	font-size: 50px;
+  font-size: 50px;
   text-align: center;
 }
 
 .feature__subheader {
   margin-top: -20px;
   padding: 0 250px;
-	text-align: center;
+  text-align: center;
 }
 
 .feature__detail {
-	width: 33.33%;
+  width: 33.33%;
   height: 350px;
   vertical-align: bottom;
   text-align: center;
@@ -564,7 +560,7 @@ body {
   background-position: 600px 0;
   width: 300px;
   height: 300px;
-  background-color: red; 
+  background-color: red;
 }
 
 .faculty__image--right {
@@ -606,10 +602,10 @@ body {
 }
 
 .faculties__images--two {
-  background-color: blue; 
+  background-color: blue;
 }
 
-.faculties__images--three {  
+.faculties__images--three {
   background-color: green;
 }
 .signup {
@@ -665,7 +661,7 @@ body {
   color: #000033;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
   font-weight: 500;
   color: #000033;
 }
@@ -818,7 +814,7 @@ body {
   list-style-type: none;
 }
 .wedo__album--image {
-  width: 33.33%;  
+  width: 33.33%;
   margin-top: 15px;
   display: inline-block;
 }
@@ -1018,7 +1014,7 @@ body {
   margin: 0 auto;
 }
 
-.news__detail {  
+.news__detail {
   width: 33.33%;
   display: inline-block;
   vertical-align: top;
@@ -1122,8 +1118,8 @@ body {
   list-style-type: none;
 }
 
-.footer__link { 
-  color: #A6A8AB; 
+.footer__link {
+  color: #A6A8AB;
 }
 
 /*
