@@ -86,8 +86,7 @@ body {
   position:  absolute;
   color: white;
   text-decoration: none;
-  font-size: 30px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .navbar__menu--list {
@@ -297,67 +296,65 @@ body {
 /*
 * Embibe is for everyone.
 */
-.for-everyone {
+.successful-student {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.for-everyone__container {
+.successful-student__container {
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.for-everyone__header {
+.successful-student__header {
   font-size: 50px;
 }
 
-.for-everyone__subheader {
+.successful-student__subheader {
   font-size: 18px;
 }
 
-.for-everyone__blocks {
+.successful-student__blocks {
   position: relative;
   width: 100%;
   vertical-align: bottom;
 }
 
-.for-everyone__ref {
+.successful-student__ref {
   width: 12%;
   display: inline-block;
 }
 
-.for-everyone__block {
+.successful-student__block {
   width: 21%;
   display: inline-block;
 }
 
-.for-everyone__block--std1 {
+.successful-student__block--std1,
+.successful-student__block--std2,
+.successful-student__block--std3,
+.successful-student__block--std4 {
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  background-color: #E4EEF0;
+}
+
+.successful-student__block--std1 {
   height: 300px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
 }
 
-.for-everyone__block--std2 {
+.successful-student__block--std2 {
   height: 210px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
 }
 
-.for-everyone__block--std3 {
+.successful-student__block--std3 {
   height: 180px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
 }
 
-.for-everyone__block--std4 {
+.successful-student__block--std4 {
   height: 150px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #E4EEF0;
 }
 
 /*
