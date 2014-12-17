@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/jquery.collapse.js"></script>
+    <script src="js/home.js"></script>
   </head>
   <body>
     <header class="header">
@@ -23,7 +23,7 @@
         </nav>
       </div>
     </header>
-    
+
     <section class="jumbotron">
       <div class="jumbotron__container">
         <div class="jumbotron__img jumbotron__img--IIT_JEE"></div>
@@ -42,27 +42,48 @@
           their rank through our inteligent, adaptive and focused system.
         </h4>
         <div class="successful-student__blocks">
-          <div class="successful-student__ref">
-            
-          </div>
-          <div class="successful-student__block" style="margin-left:-5px">
-            <div class="successful-student__block--std1">
-              
+          <div class="successful-student__block" style="margin-left:-5px" data-rows="2">
+            <div class="successful-student__student" style="height:300px">
+              <div class="successful-student__image">
+                <img src="img/boy.png" width="114px" height="114px">
+              </div>
+              <div class="successful-student__detail">
+                AIR <span class="air">978</span><br>
+                Sachin<br>Tendulkar
+              </div>
             </div>
           </div>
-          <div class="successful-student__block" style="margin-left:-5px">
-            <div class="successful-student__block--std2">
-              
+          <div class="successful-student__block" style="margin-left:-5px" data-rows="3">
+            <div class="successful-student__student" style="height:210px;">
+              <div class="successful-student__image">
+                <img src="img/boy.png" width="114px" height="114px">
+              </div>
+              <div class="successful-student__detail">
+                AIR <span class="air">1234</span><br>
+                Sachin<br>Tendulkar
+              </div>
             </div>
           </div>
-          <div class="successful-student__block" style="margin-left:-5px">
-            <div class="successful-student__block--std3">
-              
+          <div class="successful-student__block" style="margin-left:-5px" data-rows="4">
+            <div class="successful-student__student" style="height:180px">
+              <div class="successful-student__image">
+                <img src="img/boy.png" width="114px" height="114px">
+              </div>
+              <div class="successful-student__detail">
+                AIR <span class="air">3578</span><br>
+                Sachin<br>Tendulkar
+              </div>
             </div>
           </div>
-          <div class="successful-student__block" style="margin-left:-5px">
-            <div class="successful-student__block--std4">
-              
+          <div class="successful-student__block" style="margin-left:-5px" data-rows="4">
+            <div class="successful-student__student" style="height:150px">
+              <div class="successful-student__image">
+                <img src="img/boy.png" width="114px" height="114px">
+              </div>
+              <div class="successful-student__detail">
+                AIR <span class="air">9130</span><br>
+                Sachin<br>Tendulkar
+              </div>
             </div>
           </div>
         </div>
@@ -70,7 +91,7 @@
     </section>
     <!-- Quote -->
     <section class="quote">
-      <img src="img/stories.png" class="quote__quote-image">      
+      <img src="img/stories.png" class="quote__quote-image">
       <h2 class="quote__quote">
         I'm seeing myself improve in different ways that I didn't know I could.
       </h2>
@@ -78,6 +99,13 @@
         Shubham Prasad,Mp<br>
         239 JEE Main Score
       </p>
+    </section>
+    
+    <!-- Rankers -->
+    <section class="rankers">
+      <div class="rankers__container">
+        
+      </div>
     </section>
 
     <!-- Main footer starts from here -->
@@ -89,7 +117,7 @@
         <div class="android-app__detail">
             <p>
               Our Android app lets you Practice<br> and revise concepts on the go.
-            </p>  
+            </p>
         </div>
         <div class="android-app__playstore">
           <a href="https://play.google.com/store/apps/details?id=com.embibe.android">
@@ -153,7 +181,7 @@
             <li class="contact__list-contact">
               Mumbai, India<br>
               <p class="contact__list--subheader">Get directions</p>
-            </li>            
+            </li>
             <li class="contact__list-contact">
               iwant@embibe.com
               <p class="contact__list--subheader">Email us</p>

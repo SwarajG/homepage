@@ -23,7 +23,7 @@ body {
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 /*
@@ -79,14 +79,15 @@ body {
 }
 
 .navbar__menu--link:hover {
-	border-bottom: 5px solid white;   
+  border-bottom: 5px solid white;
 }
 
 .navbar__menu--logo {
   position:  absolute;
   color: white;
   text-decoration: none;
-  margin-top: 8px;
+  font-size: 30px;
+  margin-top: 5px;
 }
 
 .navbar__menu--list {
@@ -94,9 +95,9 @@ body {
 }
 
 .navbar__header {
-	position: absolute;
+  position: absolute;
   margin-top: -10px;
-	padding-left: 400px;
+  padding-left: 400px;
   outline: none;
   font-size: 25px;
 }
@@ -191,7 +192,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 600px; /*same height as jumbotron */
-  margin: 0;  
+  margin: 0;
 }
 
 .jumbotron__img--home {
@@ -219,7 +220,7 @@ body {
 }
 
 .jumbotron__img--error {
- background: url('../img/error.png') no-repeat center center; 
+ background: url('../img/error.png') no-repeat center center;
 }
 
 .jumbotron__img--stories {
@@ -319,6 +320,28 @@ body {
   position: relative;
   width: 100%;
   vertical-align: bottom;
+  height: 500px;
+  overflow: hidden;
+}
+
+.successful-student__brick {
+  position: absolute;
+  bottom: 500px;
+  display: inline-block;
+  width: 25%;
+  height: 30px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  background: rgb(0, 177, 236);
+  opacity: 0;
+  color: #fff;
+  transition: 0.5s background-color ease
+}
+
+.successful-student__brick--dark {
+  background-color: #166b94;
+  text-align: center;
+  padding: 5px;
 }
 
 .successful-student__ref {
@@ -327,35 +350,45 @@ body {
 }
 
 .successful-student__block {
-  width: 21%;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  margin: 0 5%;
   display: inline-block;
 }
 
-.successful-student__block--std1,
-.successful-student__block--std2,
-.successful-student__block--std3,
-.successful-student__block--std4 {
-  margin-right: 10px;
-  margin-left: 10px;
+.successful-student__student {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  background:#E3EDEF;
+  border-right: 1px solid white;
+}
+
+.successful-student__image ,
+.successful-student__detail {
+  position:absolute;
+  bottom:0;
+  display: inline-block;
+}
+
+.successful-student__image {
+  width: 113px;
+  height: 113px;
+  border-radius: 58px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   overflow: hidden;
-  background-color: #E4EEF0;
 }
 
-.successful-student__block--std1 {
-  height: 300px;
+.successful-student__detail--minus {
+  -webkit-transform: translate(0 , -30px);
+     -moz-transform: translate(0 , -30px);
+       -o-transform: translate(0 , -30px);
+      -ms-transform: translate(0 , -30px);
 }
 
-.successful-student__block--std2 {
-  height: 210px;
-}
-
-.successful-student__block--std3 {
-  height: 180px;
-}
-
-.successful-student__block--std4 {
-  height: 150px;
-}
 
 /*
 * Features of the Embibe
@@ -372,18 +405,18 @@ body {
 }
 
 .feature__header {
-	font-size: 50px;
+  font-size: 50px;
   text-align: center;
 }
 
 .feature__subheader {
   margin-top: -20px;
   padding: 0 250px;
-	text-align: center;
+  text-align: center;
 }
 
 .feature__detail {
-	width: 33.33%;
+  width: 33.33%;
   height: 350px;
   vertical-align: bottom;
   text-align: center;
@@ -398,6 +431,19 @@ body {
 .feature__detail--image {
   height: 110px;
 }
+/*
+* Rankers from success stories.
+*/
+
+.rankers {
+  height: 1000px;
+}
+
+.rankers__container {
+  margin : 0 auto;
+  max-width: 1200px;
+}
+
 
 /*
 * We know jee IIT_JEE  page.
@@ -561,7 +607,7 @@ body {
   background-position: 600px 0;
   width: 300px;
   height: 300px;
-  background-color: red; 
+  background-color: red;
 }
 
 .faculty__image--right {
@@ -603,10 +649,10 @@ body {
 }
 
 .faculties__images--two {
-  background-color: blue; 
+  background-color: blue;
 }
 
-.faculties__images--three {  
+.faculties__images--three {
   background-color: green;
 }
 .signup {
@@ -662,7 +708,7 @@ body {
   color: #000033;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
   font-weight: 500;
   color: #000033;
 }
@@ -815,7 +861,7 @@ body {
   list-style-type: none;
 }
 .wedo__album--image {
-  width: 33.33%;  
+  width: 33.33%;
   margin-top: 15px;
   display: inline-block;
 }
@@ -1015,7 +1061,7 @@ body {
   margin: 0 auto;
 }
 
-.news__detail {  
+.news__detail {
   width: 33.33%;
   display: inline-block;
   vertical-align: top;
@@ -1119,8 +1165,8 @@ body {
   list-style-type: none;
 }
 
-.footer__link { 
-  color: #A6A8AB; 
+.footer__link {
+  color: #A6A8AB;
 }
 
 /*
