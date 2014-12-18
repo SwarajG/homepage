@@ -28,6 +28,12 @@ var successStories = function successStories() {
   $('.successful-student__block').each(function(){
     var $this = $(this);
     var i = 0;
+    var studentHeight = $this.find('.successful-student__student').height();
+    var randomInterval = 600 + Math.random() * 300;
+    var randomNumber =  Math.ceil(Math.random()*10);
+    var rows = $this.data('rows');
+    var air = $this.find('.air');
+    var AIR = parseInt(air.text());
     var anim = setInterval(function(){
       var brick = $('<div>')
         .addClass('successful-student__brick')
@@ -36,15 +42,23 @@ var successStories = function successStories() {
         });
       $this.append(brick);
       brick.animate({
-          bottom: (200 + Math.floor(i/4)*20),
+          bottom: (studentHeight + Math.floor(i/4)*30),
           opacity: 1
-        }, 700, function(){
-          brick.css('background', 'blue');
+        }, 1200, function(){
+          brick.addClass('successful-student__brick--dark')
+            .html('+' + randomNumber*10);
+          setTimeout(function(){
+            brick.removeClass('successful-student__brick--dark')
+              .html('');
+            air.addClass('successful-student__detail--minus');
+            AIR = AIR - randomNumber*10;
+            air.html(AIR+'<br>');
+          }, 500);
         });
       i++;
-      if(i == 15) {
+      if(i == 4*rows) {
         clearInterval(anim);
       }
-    }, 600);
+    }, randomInterval);
   })
 }
