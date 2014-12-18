@@ -370,14 +370,14 @@ body {
   font-size: 20px;
 }
 
-.home-work__practice {
-  background: url('../img/home_image1.png') no-repeat center center;
-  background-size: cover;
-}
-
 .home-work__container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.home-work__practice {
+  background: url('../img/home_image1.png') no-repeat center center;
+  background-size: cover;
 }
 
 .home-work__analysis {
