@@ -40,6 +40,144 @@ body {
 }
 
 /*
+* Sign in style
+*/
+
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+}
+
+.popupContainer{
+  position:absolute;
+  width:600px;
+  height: auto;
+  left:45%;
+  top:80px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.popupBody {
+  margin-top: -150px;
+  padding:20px;
+  background-color: #E3E6E7;
+  border-radius: 5px;
+}
+
+.popup__header {
+  font-size: 26px;
+  text-align: center;
+}
+
+.popup-fb {
+  width: 100%;
+  height: 94px;
+  margin: 0;
+  padding: 20px;
+}
+
+.popup-fb__fb-logo {
+  width: 15%;
+  display: inline-block;
+}
+
+.popup-fb__fb-login {
+  width: 85%;
+  display: inline-block;
+  margin-left: -5px;
+  vertical-align: top;
+}
+
+.fb-login {
+  display: block;
+  width: 420px;
+  height: 54px;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  border: 0px;
+  background-color: #2F4C9A;
+}
+
+.form {
+  padding-left: 20px;
+  padding-right: 2px;
+  padding-bottom: 20px;
+}
+
+.form_part {
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-part__image {
+  display: inline-block;
+  width: 8%;
+  vertical-align: bottom;
+}
+
+.form-part__input {
+  display: inline-block;
+  width: 92%;
+  margin-left: -5px;
+  vertical-align: top;
+}
+
+.signup_input {
+  height: 50px;
+  width: 420px;
+  margin-left: 30px;
+  vertical-align: top;
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+}
+
+.t_p {
+  margin-top: 20px;
+  color: black;
+  font-size: 15px;
+}
+
+.agree {
+  color:#AEB1B2;
+  font-size:;  
+}
+
+.popup--signup {
+  float: left;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: #00B1EC;
+}
+
+.already-member {
+  text-align: center;
+  font-size: 18px;
+}
+
+/*
 *Navbar of the page
 */
 
@@ -114,6 +252,7 @@ body {
   -moz-border-radius: 18px;
   border-radius: 18px;
   border:1px solid white;
+  outline: none;
   -moz-transition: background-color 0.5s ease;
      -o-transition: background-color 0.5s ease;
     -ms-transition: background-color 0.5s ease;
@@ -129,6 +268,11 @@ body {
   text-decoration: none;
   cursor: pointer;
   background: white;
+  outline: none;
+}
+
+.navbar__signin:active , .navbar__signin:visited {
+  outline: none; 
 }
 
 /*
@@ -186,7 +330,7 @@ body {
 }
 
 .jumbotron {
-  height: 550px;
+  height: 600px;
   color: white;
 }
 
@@ -260,6 +404,7 @@ body {
   -moz-border-radius: 18px;
   border-radius: 18px;
   border: 0px;
+  outline: none;
   -moz-transition:  background-color 0.5s ease;
      -o-transition: background-color 0.5s ease;
     -ms-transition: background-color 0.5s ease;
@@ -295,6 +440,11 @@ body {
   text-decoration: none;
   cursor: pointer;
   background:white;
+  outline: none;
+}
+
+.jumbotron__free-signup:active , .jumbotron__free-signup:visited {
+  outline: none;
 }
 
 .jumbotron__home {
@@ -407,14 +557,6 @@ body {
   -moz-border-radius: 18px;
   border-radius: 18px;
   border: 0px;
-  -moz-transition:  background-color 0.5s ease;
-     -o-transition: background-color 0.5s ease;
-    -ms-transition: background-color 0.5s ease;
-        transition: background-color 0.5s ease;
-  -moz-transition: color 0.5s ease;
-     -o-transition: color 0.5s ease;
-    -ms-transition: background-color 0.5s ease;
-        transition: background-color 0.5s ease;
 }
 
 .home__practice-button {
@@ -455,14 +597,14 @@ body {
 * Embibe is for everyone.
 */
 .successful-student {
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .successful-student__container {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .successful-student__header {
@@ -549,12 +691,14 @@ body {
   overflow: hidden;
 }
 
+/*
 .successful-student__detail--minus {
   -webkit-transform: translate(0 , -30px);
      -moz-transform: translate(0 , -30px);
        -o-transform: translate(0 , -30px);
       -ms-transform: translate(0 , -30px);
 }
+*/
 
 
 /*

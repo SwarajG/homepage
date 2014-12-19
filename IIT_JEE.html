@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <script src="js/jquery-1.9.1.js"></script>
     <script src="js/jquery.collapse.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
   </head>
   <body>
     <section class="jumbotron jumbotron__img-IIT_JEE">
@@ -29,9 +31,60 @@
         <p class="jumbotron__subheader">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
         </p>
-        <button class="jumbotron__free-signup">Sign Up for Free</button>
+        <button id ="modal_trigger" href ="#modal" class="jumbotron__free-signup">Sign Up for Free</button>
       </div>
     </section>
+    <!-- Sign up button model -->
+    <div class="popup__container">
+      <div id="modal" class="popupContainer" style="display:none;">
+        <section class="popupBody">
+          <h2 class="popup__header">REGISTER FOR FREE</h2>
+          <div class="popup-fb">
+            <div class="popup-fb__fb-logo">
+              <img src="img/facebook.png">
+            </div>
+            <div class="popup-fb__fb-login">
+              <button class="fb-login">Sign up with Facebook</button>
+            </div>
+          </div>
+          <div class="horizontal-line">
+            <hr width="43%" style="display:inline-block;vertical-align:middle;padding-left:20px;">
+              <sapn style="display:inline-block;">or</sapn>
+            <hr width="43%" style="display:inline-block;vertical-align:middle;padding-right:20px;">
+          </div>
+          <form class="form">
+            <div class="form_part">
+              <div class="form-part__image">
+                <img src="img/email_logo.png">
+              </div>
+              <div class="form-part__input">
+                <input type = "text" placeholder="Email Address" class="signup_input">
+              </div>
+            </div>
+            <div class="form_part">
+              <div class="form-part__image">
+                <img src="img/phone_logo.png">
+              </div>
+              <div class="form-part__input">
+                <input type = "text" placeholder="Mobile Number" class="signup_input">
+              </div>
+            </div>
+            <div class="form_part">
+              <div class="form-part__image">
+                <img src="img/password_logo.png">  
+              </div>
+              <div class="form-part__input">
+                <input type = "password" placeholder="Password" class="signup_input">
+              </div>
+            </div>
+            <p class="t_p"><span class="agree">Click Sign Up to agree to our</span> Terms and Conditions <span class="agree">and</span> Privacy Policy</p>
+            <button class="fb-login popup--signup">Sign Up</button>
+          </form>
+          <p class="already-member">Already a member? <a href="#" style="text-decoration:none;"><span style="color:#00B1EC;">Sign in</span></a></p>
+        </section>
+      </div>
+    </div>
+    <!-- End to model box -->
 
     <section class="feature">
       <div class="feature__container">
@@ -355,6 +408,36 @@
             this.slideUp(150);
           }
         });
+    </script>
+    <script type="text/javascript">
+      $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+      $(function(){
+        // Calling Login Form
+        $("#login_form").click(function(){
+          $(".social_login").hide();
+          $(".user_login").show();
+          return false;
+        });
+
+        // Calling Register Form
+        $("#register_form").click(function(){
+          $(".social_login").hide();
+          $(".user_register").show();
+          $(".header_title").text('Register');
+          return false;
+        });
+
+        // Going back to Social Forms
+        $(".back_btn").click(function(){
+          $(".user_login").hide();
+          $(".user_register").hide();
+          $(".social_login").show();
+          $(".header_title").text('Login');
+          return false;
+        });
+
+      })
     </script>
   </body>
 </html>

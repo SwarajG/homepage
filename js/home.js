@@ -50,11 +50,15 @@ var successStories = function successStories() {
           setTimeout(function(){
             brick.removeClass('successful-student__brick--dark')
               .html('');
-            air.addClass('successful-student__detail--minus');
             AIR = AIR - randomNumber*10;
-            air.html(AIR+'<br>');
+            air.html(AIR);
           }, 500);
         });
+        air.animate({
+            color: '#00B1EC',
+            bottom: '400px',
+            fontsize:'20px'
+        } , 2000);
       i++;
       if(i == 4*rows) {
         clearInterval(anim);
