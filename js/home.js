@@ -1,9 +1,12 @@
+"use strict";
+
 $(document).ready(function() {
   carousel();
   successStories();
   iitpricing();
   pricing();
   paper();
+  practiceAnim();
 });
 
 var carousel = function carousel(){
@@ -71,7 +74,7 @@ var successStories = function successStories() {
 }
 
 var iitpricing = function iitpricing(){
-  $("#tab-content__all-exams").click(function(){    
+  $("#tab-content__all-exams").click(function(){
     $("#pricing_details__pserise").html('Rs. 11,999');
     $("#pricing_details__combo").html('Rs. 13,999');
     $("#pricing_details__testserise").html('Rs. 7,999');
@@ -148,39 +151,49 @@ var paper = function paper() {
     $(this).addClass('paper__list-year--active').siblings().removeClass('paper__list-year--active');
   })
 }
-//for Sign up form
-/*
-var model = function model(){
-  $("#modal_trigger").leanModal({
-    top : 200,
-    overlay : 0.6, 
-    closeButton: ".modal_close" 
+
+var practiceAnim = function(){
+  var path = document.getElementById('fillpath');
+  var totalLength = path.getTotalLength();
+  var anchorPoints = [1580, 1272, 1068, 1000, 946, 887, 830, 785, 440];
+  var fillpath = Snap('#fillpath');
+  fillpath.attr({
+    "stroke-dasharray": ""+totalLength+" "+totalLength+"",
+    "stroke-dashoffset": totalLength
   });
-  $(function(){
-    // Calling Login Form
-    $("#login_form").click(function(){
-      $(".social_login").hide();
-      $(".user_login").show();
-      return false;
-    });
 
-    // Calling Register Form
-    $("#register_form").click(function(){
-      $(".social_login").hide();
-      $(".user_register").show();
-      $(".header_title").text('Register');
-      return false;
-    });
+  nextStep(fillpath, anchorPoints, 0, practiceAnimations);
 
-    // Going back to Social Forms
-    $(".back_btn").click(function(){
-      $(".user_login").hide();
-      $(".user_register").hide();
-      $(".social_login").show();
-      $(".header_title").text('Login');
-      return false;
-    });
+}
 
-  })  
-};
-*/
+var practiceAnimations = function practiceAnimations(fillpath, anchorPoints, index){
+  index++;
+  if (index == 1) {
+    var i = 1;
+    var tickInterval = setInterval(function() {
+      Snap('#calendar #tick'+i).attr("display", "inline");
+      i++;
+      if(i > 6) {
+        Snap('#tooltip2').attr({'display':'inline'});
+        clearInterval(tickInterval);
+      }
+    }, 100);
+    setTimeout(function(){
+      Snap('#tooltip2').attr({'display':'none'});
+      nextStep(fillpath, anchorPoints, 1, practiceAnimations)
+    }, 600)
+  }
+
+  if (index == 2) {
+    var hand = Snap('#hand1');
+    hand.animate({transform: 'r'+[45, [355.4, 291]]}, 1000);
+  }
+}
+
+var nextStep = function(fillpath, anchorPoints, index, practiceAnimations) {
+  fillpath.animate({
+    "stroke-dashoffset": anchorPoints[index]
+  }, 1000, null, function(){
+    practiceAnimations(fillpath, anchorPoints, index);
+  });
+}

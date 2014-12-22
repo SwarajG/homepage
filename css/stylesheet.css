@@ -166,7 +166,7 @@ body {
 
 .agree {
   color:#AEB1B2;
-  font-size:;  
+  font-size:;
 }
 
 .popup--signup {
@@ -286,7 +286,7 @@ body {
 }
 
 .navbar__signin:active , .navbar__signin:visited {
-  outline: none; 
+  outline: none;
 }
 
 /*
@@ -344,7 +344,7 @@ body {
 
 .jumbotron__img-home {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/home_jumbo.png') no-repeat center center;
   background-size: cover;
@@ -352,7 +352,7 @@ body {
 
 .jumbotron__img-faculty {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/books.png') no-repeat center center;
   background-size: cover;
@@ -360,7 +360,7 @@ body {
 
 .jumbotron__img-parents {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/parents.png') no-repeat center center;
   background-size: cover;
@@ -368,7 +368,7 @@ body {
 
 .jumbotron__img-aboutus {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/aboutus.png') no-repeat center center;
   background-size: cover;
@@ -376,7 +376,7 @@ body {
 
 .jumbotron__img-IIT_JEE {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/IIT_JEE.png') no-repeat center center;
   background-size: cover;
@@ -384,7 +384,7 @@ body {
 
 .jumbotron__img-pricing {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/pricing_jumbo.png') no-repeat center center;
   background-size: cover;
@@ -397,7 +397,7 @@ body {
 
 .jumbotron__img-stories {
  background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/stories.png') no-repeat center center;
  background-size: cover;
@@ -538,7 +538,7 @@ body {
 
 .home-work__practice {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/home_image1.png') no-repeat center center;
   background-size: cover;
@@ -546,7 +546,7 @@ body {
 
 .home-work__analysis {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/home_image2.png') no-repeat center center;
   background-size: cover;
@@ -554,7 +554,7 @@ body {
 
 .home-work__revise {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/home_image3.png') no-repeat center center;
   background-size: cover;
@@ -562,7 +562,7 @@ body {
 
 .home-work__test {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url('../img/home_image4.png') no-repeat center center;
   background-size: cover;
@@ -577,13 +577,20 @@ body {
 */
 
 .home-method {
-  position: relative;  
+  position: relative;
   height: 650px;
 }
 .home-method__test-part {
   display: inline-block;
-  width: 50%;  
+  width: 50%;
   font-size: 18px;
+  vertical-align: top;
+}
+
+.home-method__test-part svg {
+	height: 621px;
+	position: relative;
+	top: -72px
 }
 
 .home-method__part-container {
@@ -656,7 +663,7 @@ body {
   width:100%;
   display:inline-block;
 }
- 
+
 /*----- Tab Links -----*/
 /* Clearfix */
 .tab-links:after {
@@ -668,9 +675,9 @@ body {
 .tab-links li {
   margin: 1px;
   float:left;
-  list-style:none;  
+  list-style:none;
 }
- 
+
 .tab-links a {
   padding: 30px 100px;
   text-align: center;
@@ -682,7 +689,7 @@ body {
   text-decoration: none;
   transition:all linear 0.15s;
 }
- 
+
 .tab-links a:hover {
   background:white;
   text-decoration:none;
@@ -692,7 +699,7 @@ li.active a, li.active a:hover {
   background:#fff;
   outline: none;
 }
- 
+
 /*----- Content of Tabs -----*/
 .tab-content__container {
   margin: 0 auto;
@@ -729,7 +736,7 @@ li.active a, li.active a:hover {
 .tab-content__link:hover {
   cursor: pointer;
 }
- 
+
 .tab {
   display:none;
   height: 800px;
@@ -761,7 +768,7 @@ li.active a, li.active a:hover {
   padding: 8px;
   font-size:18px;
   color: white;
-  text-align: center;  
+  text-align: center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #00E564;
@@ -769,7 +776,7 @@ li.active a, li.active a:hover {
 
 .price-detail-box__box-list {
   padding: 0 20px;
-  list-style-type: none;  
+  list-style-type: none;
 }
 
 .price-detail-box__rs {
@@ -1104,7 +1111,7 @@ li.active a, li.active a:hover {
 .paper__list-year--active .paper__list-year-bullet { display: none; }
 .paper__list-year--active .paper__list-year-bullet--active { display: flex; }
 
-.paper__list-year-bullet {  
+.paper__list-year-bullet {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -1147,7 +1154,7 @@ li.active a, li.active a:hover {
   margin: 0;
 }
 
-.paper__box-iit-header{  
+.paper__box-iit-header{
   margin:0px;
   font-size: 60px;
   display: inline-block;
@@ -1188,13 +1195,13 @@ li.active a, li.active a:hover {
 }
 
 .paper__box-button:active , .paper__box-button:visited {
-  outline: none; 
+  outline: none;
 }
 /*
 *  on the iit_jee page.
 */
 .series-price {
-  height: 800px;  
+  height: 800px;
   background-color: #E4EEF0;
 }
 
@@ -1535,7 +1542,7 @@ li.active a, li.active a:hover {
   overflow-x: hidden;
   overflow-y:hidden;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url("../img/video.png") no-repeat center center;
   background-size: cover;
@@ -1552,7 +1559,7 @@ li.active a, li.active a:hover {
 }
 .quote--pricing{
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url("../img/pricing.png") no-repeat center center;
   background-size:cover;
@@ -1560,7 +1567,7 @@ li.active a, li.active a:hover {
 
 .quote--IIT_JEE{
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url("../img/pricing.png") no-repeat center center;
   background-size:cover;
@@ -1568,10 +1575,10 @@ li.active a, li.active a:hover {
 
 .quote--stories {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),url("../img/stories.png") no-repeat center center;
-  background-size:cover; 
+  background-size:cover;
 }
 
 .quote__quote {
@@ -1586,7 +1593,7 @@ li.active a, li.active a:hover {
 }
 
 .quote__name {
-  position: absolute;  
+  position: absolute;
   top: 50%;
   width: 45%;
   left: 50%;
