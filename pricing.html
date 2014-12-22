@@ -2,11 +2,13 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Parents</title>
+    <title>Pricing</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery-1.9.1.js"></script>
     <script src="js/jquery.collapse.js"></script>
+    <script src="js/home.js"></script>
   </head>
   <body>
     <section class="jumbotron jumbotron__img-pricing">
@@ -31,8 +33,98 @@
         </p>
       </div>
     </section>
-    <section class="pricing_details">      
-      
+    <section class="pricing_details">
+      <div class="tabs">
+        <ul class="tab-links">
+            <li class="active"><a href="#tab1">Engineering</a></li>
+            <li><a href="#tab2">Medical</a></li>
+        </ul>
+        <div class="tab-content__container">
+          <div class="tab-content">
+              <div id="tab1" class="tab active">
+              <p style="font-size:32px; padding:20px 0;margin:0;font-weight:400; color:#747475;">Value Packs</p>
+                <div class="price-detail-box__boxes">
+                  <div class="price-detail-box__box price-detail-box__box--side">
+                    <div class="price-detail-box__box-header">
+                      <h3>Practice Series</h3>
+                    </div>
+                    <div class="price-detail-box__detail-container">
+                      <h1 class="price-detail-box__rs" id="price-detail-box__pserise">Rs. 11,999</h1>
+                      <ul class="price-detail-box__list">
+                        <li class="price-detail-box__list-link price-detail-box__list-link--active" id="price-detail-box__list-link-practice-2" style="margin-left:-10px;">2 years</li>
+                        <li class="price-detail-box__list-link" id="price-detail-box__list-link-practice-1" style="margin-left:20px;">1 year</li>
+                      </ul>
+                      <ul class="price-detail-box__box-list">
+                        <li class="price-detail-box__box-feature">5 Subjects</li>
+                        <li class="price-detail-box__box-feature">45,000 Questions</li>
+                        <li class="price-detail-box__box-feature">36 Past year Papers with Solutions</li>
+                      </ul>
+                      <div class="price-detail-box__buy">
+                        <button class="price-detail-box__buy-button">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price-detail-box__box price-detail-box__box--middle">
+                    <div class="price-detail-box__box-header">
+                      <h3 style="padding-top:0px;">Practice +Test<br>Combo</h3>
+                    </div>
+                    <div class="price-detail-box__detail-container">
+                      <h1 class="price-detail-box__rs" id="price-detail-box__combo">Rs. 13,999</h1>
+                      <ul class="price-detail-box__list">
+                        <li class="price-detail-box__list-link price-detail-box__list-link--active" id="price-detail-box__list-link-combo-2" style="margin-left:0px;">2 years</li>
+                        <li class="price-detail-box__list-link" id="price-detail-box__list-link-combo-1" style="margin-left:20px;">1 year</li>
+                      </ul>
+                      <ul class="price-detail-box__box-list">
+                        <li class="price-detail-box__box-feature">5 Subjects</li>
+                        <li class="price-detail-box__box-feature">45,000 Questions</li>
+                        <li class="price-detail-box__box-feature">36 Past year Papers with Solutions</li>
+                        <li class="price-detail-box__box-feature">24 Full Mock Tests</li>
+                      </ul>
+                      <div class="price-detail-box__buy">
+                        <button class="price-detail-box__buy-button">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price-detail-box__box price-detail-box__box--side" style="margin-left:-5px;">
+                    <div class="price-detail-box__box-header price-detail-box__box-header--three">
+                      <h3>Test Series</h3>
+                    </div>
+                    <div class="price-detail-box__detail-container">
+                      <h1 class="price-detail-box__rs" id="price-detail-box__testserise">Rs. 7,999</h1>
+                      <ul class="price-detail-box__list">
+                        <li class="price-detail-box__list-link price-detail-box__list-link--active" id="price-detail-box__list-link-test-2" style="margin-left:0;">2 years</li>
+                        <li class="price-detail-box__list-link" id="price-detail-box__list-link-test-1" style="margin-left:20px;">1 year</li>
+                      </ul>
+                      <ul class="price-detail-box__box-list">
+                        <li class="price-detail-box__box-feature">24 Full Mock Tests</li>
+                        <li class="price-detail-box__box-feature">42 Part and Chapter Tests</li>
+                        <li class="price-detail-box__box-feature">36 Past year Papers with Solutions</li>
+                      </ul>
+                      <div class="price-detail-box__buy">
+                        <button class="price-detail-box__buy-button">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing-cart">
+                  <div class="pricing-cart__container">
+                    <p class="pricing-cart__header">Go A-La-Carte</p>  
+                  </div>
+                  <div>
+                    
+                  </div>
+                </div>
+                
+              </div>
+       
+              <div id="tab2" class="tab">
+                  <p>Tab #2 content goes here!</p>
+                  <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+              </div>
+
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--pricing Quotes  -->
@@ -220,12 +312,15 @@
     <footer class="footer">
       <div class="footer__container">
         <ul class="footer__ul">
-          <li class="footer__list"><span style="color: #696969">Copyright &copy; 2014 The Indiavidual</sapn></li>
-          <li class="footer__list" id="terms"><a href="terms.html" class="footer__link">Terms of Services</a></li>
+          <li class="footer__list"><span style="color: #696969;font-size:12px;">Copyright &copy; 2014 The Indiavidual</sapn></li>
+          <li class="footer__list" id="terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
           <li class="footer__list"><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
          </ul>
      </div>
     </footer>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.collapse.js"></script>
+    <script src="js/home.js"></script>
     <script>
         new jQueryCollapse($("#custom-show-hide-example1"), {
           open: function() {
@@ -245,6 +340,21 @@
           this.slideUp(150);
         }
       });
+    </script>
+    <script>
+    jQuery(document).ready(function() {
+      jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+        e.preventDefault();
+      });
+    });
     </script>
   </body>
 </html>
