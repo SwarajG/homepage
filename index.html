@@ -5,9 +5,6 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/home.js"></script>
-    <script src="js/jquery.collapse.js"></script>
   </head>
   <body>
     <section class="jumbotron jumbotron__img-home">
@@ -51,10 +48,20 @@
         </div> 
     </section>
 
-    <section class="home-work home-work__practice">
-      <div class="home-work__container">
+    <!-- parallax list layers -->
+    <section class="home-work">
+      <div class="home-work home-work__practice" id="home-work__layer1">
         
       </div>
+      <div class="home-work home-work__quote" id="home-work__layer2">
+          <h1 class="home-work__quote-header">Embibe helps you <span style="color:#FFB800;">practice</span> what you should and when.</h1>
+          <p class="home-work__quote-p">
+            <i>
+              Prof Nipun Tandon,Mumbai<br>
+              BTech,MTech, IIT
+            </i>
+          </p>
+        </div>
     </section>
 
     <section class="home-method">
@@ -74,6 +81,32 @@
       </div>
     </section>
 
+    <!-- End of the layer -->
+
+    <!--
+    <section class="home-work home-work__practice">
+      <div class="home-work__container">
+      </div>
+    </section>
+
+    <section class="home-method">
+      <div class="home-method__container">
+        <div class="home-method__test-part">
+          <div class="home-method__part-container">
+            <h1 class="home-method__detail-header" style="color:#FFB800;">PRACTICE</h1>
+            <p class="home-details__header">
+              Embibe intelligence brings you the most important chapters.Develop a focused study plan and practice efficiently.
+            </p>
+            <button class="home__button home__practice-button">Start Practicing</button>
+          </div>
+        </div>
+        <div class="home-method__test-part" style="margin-left:-5px;">
+          
+        </div>
+      </div>
+    </section>
+    -->
+    <!--
     <section class="home-work home-work__analysis">
       <div class="home-work__container">
         
@@ -187,6 +220,7 @@
         </div>
       </div>
     </section>
+    -->
 
     <section class="android-app">
       <div class="android-app__container">
@@ -276,21 +310,14 @@
     <footer class="footer">
       <div class="footer__container">
         <ul class="footer__ul">
-          <li class="footer__list"><span style="color: #696969">Copyright &copy; 2014 The Indiavidual</sapn></li>
-          <li class="footer__list" id="terms"><a href="terms.html" class="footer__link">Terms of Services</a></li>
+          <li class="footer__list"><span style="color: #696969;font-size:12px;">Copyright &copy; 2014 The Indiavidual</sapn></li>
+          <li class="footer__list" id="terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
           <li class="footer__list"><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
          </ul>
      </div>
     </footer>
-    <script>
-        new jQueryCollapse($("#custom-show-hide-example"), {
-          open: function() {
-            this.slideDown(150);
-          },
-          close: function() {
-            this.slideUp(150);
-          }
-        });
-    </script>
   </body>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+  <script src="js/home.js"></script>
 </html>
