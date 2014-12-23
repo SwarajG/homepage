@@ -187,7 +187,46 @@ var practiceAnimations = function practiceAnimations(fillpath, anchorPoints, ind
   if (index == 2) {
     var hand = Snap('#hand1');
     hand.animate({transform: 'r'+[45, [355.4, 291]]}, 1000);
+    setTimeout(function(){
+      Snap("#clockticks").attr({"display" : "inline" });
+      nextStep(fillpath, anchorPoints, 2, practiceAnimations)
+    } , 800)
   }
+  if(index == 3){
+    Snap("#glow").attr({"display" : "inline"});
+    nextStep(fillpath, anchorPoints, 3, practiceAnimations);
+  }
+  if(index == 4){
+    var index_circle = 1;
+    setInterval(function(){
+      if(index_circle < 6){
+        colorCircle(index_circle);
+      }
+      index_circle++;
+      index++;
+      if(index == 8){
+        setInterval(function(){
+          Snap("#bubble2_1_").attr({"display":"inline"});
+        } , 800);
+        setInterval(function(){
+          Snap("#bubble1").attr({"display":"inline"});
+        } , 800);
+        setInterval(function(){
+          Snap("#tooltip").attr({"display":"inline"});
+        } , 800);
+      }
+      nextStep(fillpath, anchorPoints, index, practiceAnimations)
+    } , 800)
+  }
+}
+
+
+var colorCircle = function colorCircle(index_circle){
+  if(index_circle == 3){
+    Snap("#circle"+index_circle).attr({fill:'#F15F54'});
+  }else {
+    Snap("#circle"+index_circle).attr({fill:'#29D366'});
+  }  
 }
 
 var nextStep = function(fillpath, anchorPoints, index, practiceAnimations) {
