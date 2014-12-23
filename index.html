@@ -135,30 +135,6 @@
 
     <!-- End of the layer -->
 
-    <!--
-    <section class="home-work home-work__practice">
-      <div class="home-work__container">
-      </div>
-    </section>
-
-    <section class="home-method">
-      <div class="home-method__container">
-        <div class="home-method__test-part">
-          <div class="home-method__part-container">
-            <h1 class="home-method__detail-header" style="color:#FFB800;">PRACTICE</h1>
-            <p class="home-details__header">
-              Embibe intelligence brings you the most important chapters.Develop a focused study plan and practice efficiently.
-            </p>
-            <button class="home__button home__practice-button">Start Practicing</button>
-          </div>
-        </div>
-        <div class="home-method__test-part" style="margin-left:-5px;">
-
-        </div>
-      </div>
-    </section>
-    -->
-    <!--
     <section class="home-work home-work__analysis">
       <div class="home-work__container">
 
@@ -190,9 +166,9 @@
             </ul>
             <button class="home__button home__analys-button">Start Analysing</button>
           </div>
-        <div class="home-method__test-part" style="margin-left:-5px;">
-
         </div>
+        <div class="home-method__test-part" style="margin-left:-5px;">
+          <img src="img/analyse.svg">  
         </div>
       </div>
     </section>
@@ -230,7 +206,19 @@
           </div>
         </div>
         <div class="home-method__test-part" style="margin-left:-5px;">
-
+          <figure class="revise"></figure>
+          <script type="text/javascript">
+            var xhr = new XMLHttpRequest;
+            xhr.open('get','img/revise.svg',false);
+            xhr.onreadystatechange = function(){
+              if (xhr.readyState != 4) return;
+              window.x = xhr;
+              var svg = xhr.responseXML.documentElement;
+              //svg = document.importNode(svg,true); // surprisingly optional in these browsers
+              $('figure.revise').append(svg);
+            };
+            xhr.send();
+          </script>
         </div>
       </div>
     </section>
@@ -268,11 +256,22 @@
           </div>
         </div>
         <div class="home-method__test-part" style="margin-left:-5px;">
-
+            <figure class="test"></figure>
+            <script type="text/javascript">
+              var xhr = new XMLHttpRequest;
+              xhr.open('get','img/test.svg',false);
+              xhr.onreadystatechange = function(){
+                if (xhr.readyState != 4) return;
+                window.x = xhr;
+                var svg = xhr.responseXML.documentElement;
+                //svg = document.importNode(svg,true); // surprisingly optional in these browsers
+                $('figure.test').append(svg);
+              };
+              xhr.send();
+            </script>
         </div>
       </div>
     </section>
-    -->
 
     <section class="android-app">
       <div class="android-app__container">

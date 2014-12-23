@@ -6,7 +6,7 @@ $(document).ready(function() {
   iitpricing();
   pricing();
   paper();
-  practiceAnim();
+  //practiceAnim();
 });
 
 var carousel = function carousel(){
