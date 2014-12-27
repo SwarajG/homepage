@@ -148,18 +148,18 @@
             <h1 class="home-method__detail-header" style="color:#8300CE;">ANALYSE</h1>
             <p class="home-details__header">Embibe understand your strengths and weeknesses, Measure efforts,not just outcomes.</p>
             <ul>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--analyse">
+                <p class="home-method__p">
                   Plan your best attempt strategy.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--analyse">
+                <p class="home-method__p">
                   Master time management.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--analyse">
+                <p class="home-method__p">
                   Get concept level feedback.
                 </p>
               </li>
@@ -168,7 +168,18 @@
           </div>
         </div>
         <div class="home-method__test-part" style="margin-left:-5px;">
-          <img src="img/analyse.svg">  
+          <figure class="analyse"></figure>
+          <script type="text/javascript">
+            var xhr = new XMLHttpRequest;
+            xhr.open('get','img/analyse.svg',false);
+            xhr.onreadystatechange = function(){
+              if (xhr.readyState != 4) return;
+              var svg = xhr.responseXML.documentElement;
+              svg = document.importNode(svg,true); // surprisingly optional in these browsers
+              $('figure.analyse').append(svg);
+            };
+            xhr.send();
+          </script>
         </div>
       </div>
     </section>
@@ -183,21 +194,21 @@
       <div class="home-method__container">
         <div class="home-method__test-part">
           <div class="home-method__part-container">
-            <h1 class="home-method__detail-header" style="color:#009858;">REVICE</h1>
+            <h1 class="home-method__detail-header" style="color:#009858;">REVISE</h1>
             <p class="home-details__header">Make your notes and revision materials highly organized.</p>
             <ul>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--revise">
+                <p class="home-method__p">
                   Bookmark your questions and revise on-th-go.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--revise">
+                <p class="home-method__p">
                   13,675 hits,key concepts,formulae and speedtips.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--revise">
+                <p class="home-method__p">
                   250 solved examples.
                 </p>
               </li>
@@ -212,9 +223,8 @@
             xhr.open('get','img/revise.svg',false);
             xhr.onreadystatechange = function(){
               if (xhr.readyState != 4) return;
-              window.x = xhr;
               var svg = xhr.responseXML.documentElement;
-              //svg = document.importNode(svg,true); // surprisingly optional in these browsers
+              svg = document.importNode(svg,true); // surprisingly optional in these browsers
               $('figure.revise').append(svg);
             };
             xhr.send();
@@ -236,18 +246,18 @@
             <h1 class="home-method__detail-header">MOCK TEST</h1>
             <p class="home-details__header">Prepare for you competitive examinations with India's best test analysis.</p>
             <ul>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--test">
+                <p class="home-method__p">
                   22 challenging tests with video solutions &amp; speed tips.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--test">
+                <p class="home-method__p">
                   Experience the best rank predictor in the industry.
                 </p>
               </li>
-              <li>
-                <p>
+              <li class="home-method__list home-method__list--test">
+                <p class="home-method__p">
                   Get concept level feedback to improve your score.
                 </p>
               </li>
@@ -262,9 +272,8 @@
               xhr.open('get','img/test.svg',false);
               xhr.onreadystatechange = function(){
                 if (xhr.readyState != 4) return;
-                window.x = xhr;
                 var svg = xhr.responseXML.documentElement;
-                //svg = document.importNode(svg,true); // surprisingly optional in these browsers
+                svg = document.importNode(svg,true); // surprisingly optional in these browsers
                 $('figure.test').append(svg);
               };
               xhr.send();
@@ -370,6 +379,10 @@
   </body>
   <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
   <script src="js/snap.svg.js"></script>
+  <script src="js/practice.js"></script>
+  <script src="js/analyse.js"></script>
+  <script src="js/revise.js"></script>
+  <script src="js/test.js"></script>
   <script src="js/home.js"></script>
   <script type="text/javascript">
     $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
