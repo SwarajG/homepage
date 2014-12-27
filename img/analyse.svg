@@ -1,766 +1,801 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 400 750" enable-background="new 0 0 400 750" xml:space="preserve">
-<path fill="none" stroke="#CCCCCC" stroke-width="3" stroke-miterlimit="10" d="M74.7,9.9v227.1c0,5.5,2.5,10.9,6.8,14.4l0,0
-	c3.4,2.8,7.5,4.2,11.8,4.2h231.6c5.9,0,11.5,2.5,15.6,6.9l0,0c3.6,3.9,5.5,9,5.5,14.3v92.5c0,3.7-1.4,7.2-3.9,10l0,0
-	c-2.8,3-6.6,4.6-10.8,4.6h-73.5c-3.7,0-7.3-1-10.5-2.8l0,0c-6.7-3.8-11-11-11-18.7l0,0c0-6.3-3.4-12.1-8.9-15.2l-2.5-1.4
-	c-3.5-2-7.4-3-11.4-3l-138.4,0.3c-6.6,0.1-12.7,5.2-16.8,10.3l0,0c-2.9,3.9-4.5,8.7-4.5,13.6v106.3c0,8.3,4,16,10.9,20.6l0,0
-	c4.1,2.9,9.1,4.3,14.1,4.3h203.9c3.3,0,6.4,1,9.1,2.9l0,0c3.8,2.8,6.3,7.2,6.6,11.9l-0.1,52.5c0.4,6.5,1,12.9-3.4,17.7l0,0
-	c-4.5,4.9-11,7.7-17.7,7.7h-108c-4.4,0-8.8,1.2-12.6,3.5l0,0c-7.4,4.4-11.9,12.4-11.9,21v124.6"/>
-<path id="fillpath" fill="none" stroke="#29B8EB" stroke-width="3" stroke-miterlimit="10" d="M74.7,9.9v227.1
-	c0,5.5,2.5,10.9,6.8,14.4l0,0c3.4,2.8,7.5,4.2,11.8,4.2h231.6c5.9,0,11.5,2.5,15.6,6.9l0,0c3.6,3.9,5.5,9,5.5,14.3v92.5
-	c0,3.7-1.4,7.2-3.9,10l0,0c-2.8,3-6.6,4.6-10.8,4.6h-73.5c-3.7,0-7.3-1-10.5-2.8l0,0c-6.7-3.8-11-11-11-18.7l0,0
-	c0-6.3-3.4-12.1-8.9-15.2l-2.5-1.4c-3.5-2-7.4-3-11.4-3l-138.4,0.3c-6.6,0.1-12.7,5.2-16.8,10.3l0,0c-2.9,3.9-4.5,8.7-4.5,13.6
-	v106.3c0,8.3,4,16,10.9,20.6l0,0c4.1,2.9,9.1,4.3,14.1,4.3h203.9c3.3,0,6.4,1,9.1,2.9l0,0c3.8,2.8,6.3,7.2,6.6,11.9l-0.1,52.5
-	c0.4,6.5,1,12.9-3.4,17.7l0,0c-4.5,4.9-11,7.7-17.7,7.7h-108c-4.4,0-8.8,1.2-12.6,3.5l0,0c-7.4,4.4-11.9,12.4-11.9,21v124.6"/>
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<path fill="none" stroke="#CCCCCC" stroke-width="3" stroke-miterlimit="10" d="M173.7,10.4v239.8c0,5.8,2.6,11.5,7.1,15.2l0,0
+	c3.6,2.9,7.9,4.5,12.4,4.5h244.6c6.2,0,12.1,2.6,16.5,7.3l0,0c3.8,4.1,5.8,9.5,5.8,15v97.7c0,4-1.5,7.7-4.1,10.6l0,0
+	c-2.9,3.2-7,4.9-11.4,4.9h-77.6c-4,0-7.7-1.1-11.1-2.9l0,0c-7.1-4-11.6-11.6-11.6-19.8l0,0c0-6.6-3.6-12.8-9.4-16.1l-2.6-1.5
+	c-3.7-2.1-7.8-3.2-12-3.2l-146.1,0.3c-7,0.1-13.5,5.5-17.7,10.8l0,0c-3,4.1-4.8,9.2-4.8,14.4v112.2c0,8.7,4.2,16.9,11.5,21.8l0,0
+	c4.4,3,9.6,4.5,14.9,4.5h215.3c3.4,0,6.7,1.1,9.6,3l0,0c4,2.9,6.6,7.7,7,12.5l-0.1,55.4c0.4,6.9,1.1,13.6-3.6,18.7l0,0
+	c-4.8,5.1-11.6,8.2-18.7,8.2h-114c-4.6,0-9.2,1.3-13.3,3.7l0,0c-7.8,4.6-12.5,13.1-12.5,22.2v131.7"/>
+<path id="fillpath" fill="none" stroke="#29B8EB" stroke-width="3" stroke-miterlimit="10" d="M173.7,10.4v239.8
+	c0,5.8,2.6,11.5,7.1,15.2l0,0c3.6,2.9,7.9,4.5,12.4,4.5h244.6c6.2,0,12.1,2.6,16.5,7.3l0,0c3.8,4.1,5.8,9.5,5.8,15v97.7
+	c0,4-1.5,7.7-4.1,10.6l0,0c-2.9,3.2-7,4.9-11.4,4.9h-77.6c-4,0-7.7-1.1-11.1-2.9l0,0c-7.1-4-11.6-11.6-11.6-19.8l0,0
+	c0-6.6-3.6-12.8-9.4-16.1l-2.6-1.5c-3.7-2.1-7.8-3.2-12-3.2l-146.1,0.3c-7,0.1-13.5,5.5-17.7,10.8l0,0c-3,4.1-4.8,9.2-4.8,14.4
+	v112.2c0,8.7,4.2,16.9,11.5,21.8l0,0c4.4,3,9.6,4.5,14.9,4.5h215.3c3.4,0,6.7,1.1,9.6,3l0,0c4,2.9,6.6,7.7,7,12.5l-0.1,55.4
+	c0.4,6.9,1.1,13.6-3.6,18.7l0,0c-4.8,5.1-11.6,8.2-18.7,8.2h-114c-4.6,0-9.2,1.3-13.3,3.7l0,0c-7.8,4.6-12.5,13.1-12.5,22.2v131.7"
+	/>
 <g>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_1_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_2_)" fill="#E5E8E8" d="M185.7,259.6c0,1.4-1.1,2.5-2.5,2.5h-93c-1.4,0-2.5-1.1-2.5-2.5v-7.9
-				c0-1.4,1.1-2.5,2.5-2.5h93c1.4,0,2.5,1.1,2.5,2.5V259.6z"/>
+			<g>
+				<path fill="#E5E8E8" d="M291,274.2c0,1.5-1.2,2.6-2.6,2.6h-98.2c-1.5,0-2.6-1.2-2.6-2.6v-8.3c0-1.5,1.2-2.6,2.6-2.6h98.2
+					c1.5,0,2.6,1.2,2.6,2.6V274.2z"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_3_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_4_)" fill="none" stroke="#96A8B0" stroke-width="2" stroke-miterlimit="10" d="M145.7,249.3v12.9
-				 M126.4,249.3v12.9 M107,249.3v12.9"/>
+			<g>
+				<path fill="none" stroke="#96A8B0" stroke-width="2" stroke-miterlimit="10" d="M248.7,263.2v13.6 M228.3,263.2v13.6
+					 M207.8,263.2v13.6"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_5_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_6_">
-				<use xlink:href="#SVGID_5_"  overflow="visible"/>
-			</clipPath>
-			
-				<line clip-path="url(#SVGID_6_)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="165.1" y1="249.3" x2="165.1" y2="262.1"/>
-		</g>
-		<g>
-			<defs>
-				<rect id="SVGID_7_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_7_"  overflow="visible"/>
-			</clipPath>
-		</g>
-		<g>
-			<defs>
-				<rect id="SVGID_9_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_10_">
-				<use xlink:href="#SVGID_9_"  overflow="visible"/>
-			</clipPath>
+			<g>
+				<rect x="187.5" y="194.4" fill="none" width="103.5" height="82.6"/>
+				<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="269.2" y1="263.2" x2="269.2" y2="276.8"/>
+			</g>
 		</g>
 	</g>
-	<rect x="170.4" y="230.1" fill="#176B94" width="10.1" height="8.5"/>
-	<rect x="165.4" y="225.9" fill="#29B8EB" width="10.1" height="8.5"/>
-	<rect x="164.9" y="224.7" fill="#4D4D4F" width="0.9" height="37.5"/>
-	<polygon fill="#BFF5FF" points="170.4,238.6 170.4,234.4 175.4,234.4 	"/>
+	<rect x="274.7" y="243" fill="#176B94" width="10.7" height="9"/>
+	<rect x="269.4" y="238.5" fill="#29B8EB" width="10.7" height="9"/>
+	<rect x="268.9" y="237.3" fill="#4D4D4F" width="0.9" height="39.6"/>
+	<polygon fill="#BFF5FF" points="274.7,252 274.7,247.5 280,247.5 	"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_11_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_12_">
-				<use xlink:href="#SVGID_11_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_12_)" fill="none" stroke="#B0BFC4" stroke-width="7" stroke-miterlimit="10" d="M133.7,226.6
-				l7.6,17.9 M104.9,233.2c1.6,2,4,3.2,6.8,3.2c4.8,0,8.8-3.9,8.8-8.8v-13.6"/>
+			<g>
+				<path fill="#4D636E" d="M244,254.9c-1.6,0.7-2.4,2.5-1.7,4l5.7-2.4C247.3,255,245.5,254.2,244,254.9"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_13_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_14_">
-				<use xlink:href="#SVGID_13_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_14_)" fill="#4D636E" d="M141.2,241.4c-1.5,0.6-2.2,2.4-1.6,3.8l5.4-2.3
-				C144.4,241.5,142.7,240.8,141.2,241.4"/>
+			<g>
+				<path fill="#4D636E" d="M206.3,249.1c1.3-1.1,1.7-2.9,0.8-4.2l-5,3.6C202.9,249.6,204.9,250,206.3,249.1"/>
+			</g>
 		</g>
+		<path fill="none" stroke="#B0BFC4" stroke-width="4" stroke-miterlimit="10" d="M236,239.3l8.1,18.9 M205.5,246.3
+			c1.7,2.1,4.2,3.4,7.1,3.4c5,0,9.2-4.1,9.2-9.2v-14.4 M242.2,212.5c1.1,0.8,1.8,1.8,2.4,3.4c0.9,3.3-0.9,6.6-4.1,7.4
+			c-3.3,0.9-6.6-0.9-7.4-4.1 M215.1,229.4c-1.7-0.3-3.3-1.5-4-3.2c-1.6-3-0.5-6.6,2.4-8.2c2.9-1.6,6.6-0.5,8.2,2.5"/>
 		<g>
-			<defs>
-				<rect id="SVGID_15_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_16_">
-				<use xlink:href="#SVGID_15_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_16_)" fill="#4D636E" d="M105.6,235.9c1.3-1,1.6-2.8,0.7-4l-4.7,3.4
-				C102.4,236.4,104.3,236.7,105.6,235.9"/>
-		</g>
-		<g>
-			<defs>
-				<rect id="SVGID_17_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_18_">
-				<use xlink:href="#SVGID_17_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_18_)" fill="none" stroke="#96A8B0" stroke-width="7" stroke-miterlimit="10" d="M139.6,201.2
-				c1,0.7,1.8,1.8,2.2,3.2c0.9,3.1-0.9,6.2-3.9,7c-3.1,0.9-6.2-0.9-7-3.9"/>
-		</g>
-		<g>
-			<defs>
-				<rect id="SVGID_19_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_20_">
-				<use xlink:href="#SVGID_19_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_20_)" fill="none" stroke="#B0BFC4" stroke-width="7" stroke-miterlimit="10" d="M113.9,217.3
-				c-1.6-0.3-3.1-1.4-3.8-3c-1.5-2.9-0.5-6.3,2.3-7.8c2.8-1.5,6.2-0.5,7.7,2.4"/>
-		</g>
-		<g>
-			<defs>
-				<rect id="SVGID_21_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_22_">
-				<use xlink:href="#SVGID_21_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_22_)" fill="#29B8EB" d="M135.6,212.2c0,5-4,9.1-9.1,9.1c-5,0-9.1-4-9.1-9.1s4-9.1,9.1-9.1
-				C131.5,203.1,135.6,207.1,135.6,212.2"/>
+			<g>
+				<path fill="#29B8EB" d="M238,224.1c0,5.3-4.2,9.6-9.6,9.6c-5.3,0-9.6-4.2-9.6-9.6c0-5.4,4.2-9.6,9.6-9.6
+					C233.7,214.5,238,218.7,238,224.1"/>
+			</g>
 		</g>
 	</g>
-	<rect x="117.5" y="212.2" fill="#29B8EB" width="18.1" height="9.1"/>
+	<rect x="218.9" y="224.1" fill="#29B8EB" width="19.1" height="9.6"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_23_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_24_">
-				<use xlink:href="#SVGID_23_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_24_)" fill="#176B94" d="M130.1,229.8l8.2-3l-2.8-6.6h-18.1l-1.8,6.8l8.8,2.9l0.7-2.9
-				c0.2-0.9,1-1.5,1.9-1.5c0.8,0,1.5,0.5,1.8,1.2L130.1,229.8z"/>
+			<g>
+				<path fill="#176B94" d="M232.2,242.6l8.7-3.2l-2.9-7h-19.3l-1.8,7.1l9.2,3l0.8-3c0.3-0.9,1.1-1.6,2-1.6c0.8,0,1.6,0.5,1.8,1.3
+					L232.2,242.6z"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_25_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_26_">
-				<use xlink:href="#SVGID_25_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_26_)" fill="#42C9F0" d="M118.6,211.1c-1.7-0.5-2.6-2.3-2.1-3.9s2.3-2.7,3.8-2.2
-				c1.7,0.5,2.6,2.3,2.1,3.9S120.2,211.6,118.6,211.1"/>
+			<g>
+				<rect x="187.5" y="194.4" fill="none" width="103.5" height="82.6"/>
+				<path fill="#42C9F0" d="M220.1,222.9c-1.8-0.5-2.8-2.4-2.2-4.1s2.4-2.9,4-2.4c1.8,0.5,2.8,2.4,2.2,4.1S221.8,223.5,220.1,222.9"
+					/>
+			</g>
 		</g>
 	</g>
-	<polygon fill="#42C9F0" points="115.4,210.1 117.2,204 120.4,205 118.6,211.1 	"/>
+	<polygon fill="#42C9F0" points="216.6,221.9 218.6,215.4 221.9,216.5 220.1,222.9 	"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_27_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_28_">
-				<use xlink:href="#SVGID_27_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_28_)" fill="#B0BFC4" d="M116.3,216.4c0.2,1.1-0.6,2.2-1.7,2.4c-1.1,0.2-2.2-0.6-2.3-1.7
-				c-0.2-1.1,0.6-2.2,1.7-2.4C115,214.6,116.1,215.3,116.3,216.4"/>
+			<g>
+				<path fill="#B0BFC4" d="M217.6,228.5c0.3,1.2-0.7,2.4-1.8,2.5s-2.4-0.7-2.4-1.8c-0.3-1.2,0.7-2.4,1.8-2.5
+					C216.2,226.6,217.4,227.3,217.6,228.5"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_29_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_30_">
-				<use xlink:href="#SVGID_29_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_30_)" fill="#96A8B0" d="M137.2,201.5c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S137.2,202.7,137.2,201.5
-				"/>
+			<g>
+				<path fill="#96A8B0" d="M239.7,212.8c0-1.2,0.9-2.1,2.1-2.1s2.1,0.9,2.1,2.1c0,1.2-0.9,2.1-2.1,2.1S239.7,214.1,239.7,212.8"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_31_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_32_">
-				<use xlink:href="#SVGID_31_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_32_)" fill="#96A8B0" d="M126.1,204.5c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5
-				S126.1,203.7,126.1,204.5"/>
+			<g>
+				<path fill="#96A8B0" d="M228,216c0,0.8,0.8,1.6,1.6,1.6c0.8,0,1.6-0.8,1.6-1.6c0-0.8-0.8-1.6-1.6-1.6
+					C228.6,214.4,228,215.2,228,216"/>
+			</g>
 		</g>
 	</g>
-	<rect x="126.1" y="202" fill="#96A8B0" width="3.1" height="2.5"/>
-	<rect x="127.7" y="184.1" fill="#454F54" width="7.6" height="4.1"/>
-	<rect x="132.4" y="187" fill="#454F54" width="2.9" height="4.6"/>
+	<rect x="228" y="213.3" fill="#96A8B0" width="3.3" height="2.6"/>
+	<rect x="229.7" y="194.4" fill="#454F54" width="8.1" height="4.4"/>
+	<rect x="234.6" y="197.5" fill="#454F54" width="3" height="4.9"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_33_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_34_">
-				<use xlink:href="#SVGID_33_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_34_)" fill="#454F54" d="M135.3,191.7c0,4.1-3.4,7.6-7.6,7.6c-4.1,0-7.6-3.4-7.6-7.6
-				c0-4.1,3.4-7.6,7.6-7.6C131.9,184.1,135.3,187.5,135.3,191.7"/>
+			<g>
+				<path fill="#454F54" d="M237.6,202.5c0,4.4-3.6,8.1-8.1,8.1c-4.4,0-8.1-3.6-8.1-8.1c0-4.4,3.6-8.1,8.1-8.1
+					C234.1,194.4,237.6,198,237.6,202.5"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_35_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_36_">
-				<use xlink:href="#SVGID_35_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_36_)" fill="#B0BFC4" d="M135.3,195.1c0,4.1-3.4,7.6-7.6,7.6c-4.1,0-7.6-3.4-7.6-7.6
-				c0-4.1,3.4-7.6,7.6-7.6C131.9,187.5,135.3,191,135.3,195.1"/>
+			<g>
+				<path fill="#B0BFC4" d="M237.6,206.1c0,4.4-3.6,8.1-8.1,8.1c-4.4,0-8.1-3.6-8.1-8.1c0-4.4,3.6-8.1,8.1-8.1
+					C234.1,198,237.6,201.7,237.6,206.1"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_37_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_38_">
-				<use xlink:href="#SVGID_37_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_38_)" fill="#B0BFC4" d="M121.1,195.2c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5
-				C120.5,193.7,121.1,194.4,121.1,195.2"/>
+			<g>
+				<path fill="#B0BFC4" d="M222.7,206.2c0,0.8-0.8,1.6-1.6,1.6s-1.6-0.8-1.6-1.6s0.8-1.6,1.6-1.6
+					C222,204.6,222.7,205.3,222.7,206.2"/>
+			</g>
 		</g>
 	</g>
-	<polygon fill="#263036" points="122,189.4 120.3,191.7 120.3,193.7 122,193.7 	"/>
-	<polygon fill="#454F54" points="133.4,189.4 135.2,191.7 135.2,193.7 133.4,193.7 	"/>
-	<polygon fill="#454F54" points="133.9,192.5 121.5,192.5 121.5,189 127.7,186.6 133.9,189 	"/>
+	<polygon fill="#263036" points="223.6,200 221.8,202.5 221.8,204.6 223.6,204.6 	"/>
+	<polygon fill="#454F54" points="235.6,200 237.6,202.5 237.6,204.6 235.6,204.6 	"/>
+	<polygon fill="#454F54" points="236.2,203.3 223.1,203.3 223.1,199.6 229.7,197.1 236.2,199.6 	"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_39_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_40_">
-				<use xlink:href="#SVGID_39_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_40_)" fill="#263036" d="M133.4,189.5c0,2.1-1.7,3.8-3.8,3.8s-3.8-1.7-3.8-3.8s1.7-3.8,3.8-3.8
-				C131.7,185.7,133.4,187.4,133.4,189.5"/>
+			<g>
+				<path fill="#263036" d="M235.6,200.1c0,2.2-1.8,4-4,4c-2.2,0-4-1.8-4-4c0-2.1,1.8-4,4-4C233.9,196.2,235.6,197.9,235.6,200.1"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_41_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_42_">
-				<use xlink:href="#SVGID_41_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_42_)" fill="#263036" d="M128,188.5c0,1.1-0.9,2.1-2.1,2.1c-1.1,0-2.1-0.9-2.1-2.1
-				c0-1.1,0.9-2.1,2.1-2.1C127.1,186.4,128,187.3,128,188.5"/>
+			<g>
+				<path fill="#263036" d="M230,199.1c0,1.2-0.9,2.2-2.2,2.2c-1.2,0-2.2-0.9-2.2-2.2c0-1.2,0.9-2.2,2.2-2.2
+					C229,196.8,230,197.7,230,199.1"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_43_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_44_">
-				<use xlink:href="#SVGID_43_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_44_)" fill="#454F54" d="M126.8,189.4c0,1.1-0.9,2.1-2.1,2.1c-1.1,0-2.1-0.9-2.1-2.1
-				c0-1.1,0.9-2.1,2.1-2.1C125.8,187.3,126.8,188.2,126.8,189.4"/>
+			<g>
+				<path fill="#454F54" d="M228.6,200c0,1.2-0.9,2.2-2.2,2.2c-1.2,0-2.2-0.9-2.2-2.2c0-1.2,0.9-2.2,2.2-2.2
+					C227.6,197.7,228.6,198.8,228.6,200"/>
+			</g>
 		</g>
 	</g>
-	<rect x="132.7" y="189.4" fill="#263036" width="0.7" height="2.2"/>
+	<rect x="235" y="200" fill="#263036" width="0.8" height="2.4"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_45_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_46_">
-				<use xlink:href="#SVGID_45_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_46_)" fill="#96A8B0" d="M133.4,191.1c0,2-2.6,3.6-5.7,3.6c-3.2,0-5.7-1.6-5.7-3.6
-				c0-2,2.6-3.6,5.7-3.6C130.8,187.5,133.4,189.1,133.4,191.1"/>
+			<rect x="187.5" y="194.4" fill="none" width="103.5" height="82.6"/>
+			<path fill="#96A8B0" d="M235.6,201.8c0,2.1-2.8,3.8-6.1,3.8c-3.4,0-6.1-1.7-6.1-3.8c0-2.1,2.8-3.8,6.1-3.8
+				C232.9,198,235.6,199.7,235.6,201.8"/>
 		</g>
 	</g>
-	<rect x="122" y="191.1" fill="#96A8B0" width="11.3" height="1.4"/>
+	<rect x="223.6" y="201.8" fill="#96A8B0" width="11.9" height="1.5"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_47_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_48_">
-				<use xlink:href="#SVGID_47_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_48_)" fill="#B0BFC4" d="M133.4,192.4c0,2-2.6,3.6-5.7,3.6c-3.2,0-5.7-1.6-5.7-3.6
-				c0-2,2.6-3.6,5.7-3.6C130.8,188.9,133.4,190.5,133.4,192.4"/>
+			<g>
+				<path fill="#B0BFC4" d="M235.6,203.1c0,2.1-2.8,3.8-6.1,3.8c-3.4,0-6.1-1.7-6.1-3.8c0-2.1,2.8-3.8,6.1-3.8
+					C232.9,199.5,235.6,201.2,235.6,203.1"/>
+			</g>
 		</g>
 	</g>
-	<polygon fill="#E5EDF0" points="126.4,195.5 127.7,192.5 129,195.5 	"/>
+	<polygon fill="#E5EDF0" points="228.3,206.4 229.7,203.3 231,206.4 	"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_49_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_50_">
-				<use xlink:href="#SVGID_49_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_50_)" fill="#263036" d="M125.7,193.6c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2
-				c0-0.7,0.5-1.2,1.2-1.2C125.2,192.4,125.7,192.9,125.7,193.6"/>
+			<g>
+				<path fill="#263036" d="M227.6,204.5c0,0.8-0.5,1.3-1.3,1.3c-0.8,0-1.3-0.5-1.3-1.3s0.5-1.3,1.3-1.3
+					C227.1,203.1,227.6,203.7,227.6,204.5"/>
+			</g>
 		</g>
 	</g>
-	<rect x="119.6" y="193.7" fill="#B0BFC4" width="2.4" height="1.6"/>
+	<rect x="221.1" y="204.6" fill="#B0BFC4" width="2.5" height="1.7"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_51_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_52_">
-				<use xlink:href="#SVGID_51_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_52_)" fill="#B0BFC4" d="M134.3,195.2c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5
-				S134.3,194.4,134.3,195.2"/>
+			<g>
+				<path fill="#B0BFC4" d="M236.6,206.2c0,0.8,0.8,1.6,1.6,1.6c0.8,0,1.6-0.8,1.6-1.6s-0.8-1.6-1.6-1.6
+					C237.4,204.6,236.6,205.3,236.6,206.2"/>
+			</g>
 		</g>
 	</g>
-	<rect x="134.5" y="191.7" fill="#454F54" width="0.9" height="2.1"/>
-	<rect x="133.4" y="193.7" fill="#B0BFC4" width="2.4" height="1.6"/>
-	<rect x="122.5" y="193.7" fill="#B0BFC4" width="3.3" height="1.6"/>
+	<rect x="236.8" y="202.5" fill="#454F54" width="0.9" height="2.2"/>
+	<rect x="235.6" y="204.6" fill="#B0BFC4" width="2.5" height="1.7"/>
+	<rect x="224.2" y="204.6" fill="#B0BFC4" width="3.4" height="1.7"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_53_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_54_">
-				<use xlink:href="#SVGID_53_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_54_)" fill="#96A8B0" d="M128.8,201.3c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2
-				c0-0.7,0.5-1.2,1.2-1.2C128.4,200.1,128.8,200.6,128.8,201.3"/>
+			<g>
+				<path fill="#96A8B0" d="M230.8,212.5c0,0.8-0.5,1.3-1.3,1.3s-1.3-0.5-1.3-1.3s0.5-1.3,1.3-1.3
+					C230.4,211.3,230.8,211.9,230.8,212.5"/>
+			</g>
 		</g>
 	</g>
-	<polygon fill="#B0BFC4" points="129.3,202.1 127.7,202.6 126.1,202.1 126.1,201.3 129.3,201.3 	"/>
+	<polygon fill="#B0BFC4" points="231.3,213.4 229.7,214 228,213.4 228,212.5 231.3,212.5 	"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_55_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_56_">
-				<use xlink:href="#SVGID_55_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_56_)" fill="#263036" d="M129.7,193.6c0,0.7,0.5,1.2,1.2,1.2c0.7,0,1.2-0.5,1.2-1.2
-				c0-0.7-0.5-1.2-1.2-1.2C130.2,192.4,129.7,192.9,129.7,193.6"/>
+			<g>
+				<path fill="#263036" d="M231.8,204.5c0,0.8,0.5,1.3,1.3,1.3c0.8,0,1.3-0.5,1.3-1.3s-0.5-1.3-1.3-1.3S231.8,203.7,231.8,204.5"/>
+			</g>
 		</g>
 	</g>
-	<rect x="129.5" y="193.7" fill="#B0BFC4" width="3.3" height="1.6"/>
+	<rect x="231.6" y="204.6" fill="#B0BFC4" width="3.4" height="1.7"/>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_57_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_58_">
-				<use xlink:href="#SVGID_57_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_58_)" fill="#96A8B0" d="M127.7,196.8c0.7,0,1.3-0.6,1.3-1.3h-2.6C126.4,196.2,127,196.8,127.7,196.8
-				"/>
+			<g>
+				<path fill="#96A8B0" d="M229.7,207.8c0.8,0,1.3-0.7,1.3-1.3h-2.8C228.3,207.2,228.9,207.8,229.7,207.8"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_59_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_60_">
-				<use xlink:href="#SVGID_59_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_60_)" fill="#FFFFFF" d="M123.9,197.7c0.6,1.5,2.1,2.5,3.8,2.5c1.7,0,3.2-1,3.8-2.5H123.9z"/>
+			<g>
+				<path fill="#FFFFFF" d="M225.6,208.8c0.7,1.6,2.2,2.6,4,2.6c1.8,0,3.4-1.1,4-2.6H225.6z"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_61_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_62_">
-				<use xlink:href="#SVGID_61_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_62_)" fill="#E5EDF0" d="M123.7,195.2h1.6c0.1,0,0.3-0.1,0.3-0.3c0-0.1-0.1-0.3-0.3-0.3h-1.6
-				c-0.1,0-0.3,0.1-0.3,0.3C123.5,195.1,123.6,195.2,123.7,195.2"/>
+			<g>
+				<path fill="#E5EDF0" d="M225.5,206.2h1.7c0.1,0,0.3-0.1,0.3-0.3c0-0.1-0.1-0.3-0.3-0.3h-1.7c-0.1,0-0.3,0.1-0.3,0.3
+					C225.2,206.1,225.3,206.2,225.5,206.2"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_63_" x="87.8" y="184.1" width="98" height="78.2"/>
-			</defs>
-			<clipPath id="SVGID_64_">
-				<use xlink:href="#SVGID_63_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_64_)" fill="#E5EDF0" d="M131.6,194.7H130c-0.1,0-0.3,0.1-0.3,0.3c0,0.1,0.1,0.3,0.3,0.3h1.6
-				c0.1,0,0.3-0.1,0.3-0.3S131.8,194.7,131.6,194.7"/>
+			<g>
+				<path fill="#E5EDF0" d="M233.8,205.7h-1.7c-0.1,0-0.3,0.1-0.3,0.3c0,0.1,0.1,0.3,0.3,0.3h1.7c0.1,0,0.3-0.1,0.3-0.3
+					C234.1,205.7,233.9,205.7,233.8,205.7"/>
+			</g>
 		</g>
 	</g>
-	<rect x="120.1" y="187" fill="#454F54" width="1.9" height="6.7"/>
-	<path fill="#FFCF4A" d="M109.9,262H90.9c-1.7,0-3.1-1.4-3.1-3.1v-6.4c0-1.7,1.4-3.1,3.1-3.1h18.9c1.7,0,3.1,1.4,3.1,3.1v6.4
-		C113,260.6,111.6,262,109.9,262z"/>
-	<path fill="#FF9600" d="M109.3,262H90.2c-1.1,0-2-0.9-2-2v-4.8h24.5v3.5C112.7,260.5,111.2,262,109.3,262z"/>
+	<rect x="221.7" y="197.5" fill="#454F54" width="2" height="7.1"/>
+	<path fill="#FFCF4A" d="M210.8,276.7h-20.1c-1.8,0-3.3-1.5-3.3-3.3v-6.7c0-1.8,1.5-3.3,3.3-3.3h19.9c1.8,0,3.3,1.5,3.3,3.3v6.7
+		C214.1,275.2,212.7,276.7,210.8,276.7z"/>
+	<path fill="#FF9600" d="M210.2,276.7h-20.1c-1.2,0-2.1-0.9-2.1-2.1v-5h25.9v3.7C213.9,275.1,212.3,276.7,210.2,276.7z"/>
 </g>
 <g>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_65_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_66_">
-				<use xlink:href="#SVGID_65_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_66_)" fill="#E5E8E8" d="M176.3,318.8V362l-10.6,10.4h-30.4c-1.3,0-2.7-1.5-2.7-2.8v-50.8
-				c0-1.3,1.3-2.8,2.7-2.8h38.3C174.9,316.1,176.3,317.6,176.3,318.8"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#E5E8E8" d="M281.1,334.5v45.7l-11.2,11h-32.1c-1.3,0-2.9-1.6-2.9-2.9v-53.7c0-1.3,1.3-2.9,2.9-2.9h40.4
+				C279.6,331.8,281.1,333.3,281.1,334.5"/>
 		</g>
 	</g>
 	<path fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M140.5,349.9h28.3 M140.5,344h28.3 M140.5,338.3h28.3 M140.5,332.5h28.3 M140.5,326.7h28.3"/>
-	<polygon fill="#96A8B0" points="165.6,362 165.6,372 176.2,362 	"/>
-	<polygon fill="#D9D9DB" points="155.5,372 165.8,372 165.8,362 	"/>
-	<g>
+		M243.3,367.4h29.8 M243.3,361.2h29.8 M243.3,355.1h29.8 M243.3,349.1h29.8 M243.3,343h29.8"/>
+	<polygon fill="#96A8B0" points="269.8,380.2 269.8,390.8 281.1,380.2 	"/>
+	<polygon fill="#D9D9DB" points="259.1,390.8 270,390.8 270,380.2 	"/>
+	<g id="glass1">
 		<g>
-			<defs>
-				<rect id="SVGID_67_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_68_">
-				<use xlink:href="#SVGID_67_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_68_)" fill="#4D4D4F" d="M192.8,337.1c-5.9-3.3-8.1-10.7-4.8-16.6c3.3-5.9,10.7-8.1,16.6-4.8
-				s8.1,10.7,4.8,16.6C206.1,338.2,198.6,340.4,192.8,337.1 M200.5,358.3l-0.4-16.1c5-0.5,9.8-3.4,12.4-8.2
-				c4.2-7.7,1.4-17.4-6.3-21.5c-7.7-4.2-17.4-1.4-21.5,6.3c-4.2,7.7-1.4,17.4,6.3,21.5c2.2,1.2,4.5,1.8,6.9,1.9l0.4,16.2
-				L200.5,358.3z"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#4D4D4F" d="M298.5,353.9c-6.2-3.4-8.6-11.4-5-17.6c3.4-6.2,11.4-8.6,17.6-5c6.2,3.6,8.6,11.4,5,17.6
+				C312.6,355.1,304.7,357.4,298.5,353.9 M306.7,376.2l-0.4-17c5.3-0.5,10.3-3.6,13.1-8.7c4.5-8.2,1.5-18.3-6.6-22.7
+				c-8.2-4.5-18.3-1.5-22.7,6.6c-4.5,8.2-1.5,18.3,6.6,22.7c2.4,1.3,4.8,1.8,7.3,2l0.4,17.2H306.7z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_69_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_70_">
-				<use xlink:href="#SVGID_69_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_70_)" fill="#9E59FF" d="M200.9,368.4c1,0,1.8-0.9,1.8-1.9l-0.2-18.8c0-1-0.9-1.9-1.9-1.8l-1.5,0.1
-				l0.2,22.4L200.9,368.4z"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#9E59FF" d="M307.1,386.9c1.1,0,1.8-0.9,1.8-2l-0.3-19.8c0-1.1-0.9-2-2-1.8l-1.6,0.1l0.3,23.6L307.1,386.9z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_71_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_72_">
-				<use xlink:href="#SVGID_71_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_72_)" fill="#783DC4" d="M199.1,346.1l-1.5,0.1c-1,0-1.8,0.9-1.8,1.9l0.2,18.8c0,1,0.9,1.9,1.9,1.8
-				l1.5-0.1L199.1,346.1z"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#783DC4" d="M305.2,363.4l-1.6,0.1c-1.1,0-1.8,0.9-1.8,2l0.3,19.8c0,1.1,0.9,2,2,1.8l1.6-0.1L305.2,363.4z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_73_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_74_">
-				<use xlink:href="#SVGID_73_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_74_)" fill="#C9EDFA" d="M198.6,338.7c-2.1,0-4-0.5-5.8-1.5c-5.9-3.3-8.1-10.8-4.9-16.7
-				c2.2-3.9,6.3-6.4,10.8-6.4c2.1,0,4,0.5,5.8,1.5c5.9,3.3,8.1,10.8,4.9,16.7C207.2,336.3,203.1,338.7,198.6,338.7L198.6,338.7z"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#C9EDFA" d="M304.7,355.7c-2.2,0-4.2-0.5-6.1-1.6c-6.2-3.4-8.6-11.4-5.1-17.7c2.4-4.1,6.6-6.7,11.4-6.7
+				c2.2,0,4.2,0.5,6.1,1.6c6.2,3.4,8.6,11.4,5.1,17.7C313.8,353,309.4,355.7,304.7,355.7L304.7,355.7z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_75_" x="132.7" y="310.6" width="81.7" height="61.9"/>
-			</defs>
-			<clipPath id="SVGID_76_">
-				<use xlink:href="#SVGID_75_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_76_)" fill="#FFFFFF" d="M198.6,313.6c-4.5,0-9,2.5-11.3,6.7c-3.4,6.2-1.1,14,5.1,17.5
-				c2,1.1,4,1.6,6.1,1.6c4.5,0,9-2.5,11.3-6.7c3.4-6.2,1.1-14-5.1-17.5C202.9,314.1,200.7,313.6,198.6,313.6 M198.6,314.7
-				c2,0,3.8,0.5,5.6,1.5c2.8,1.5,4.7,3.9,5.6,7c0.9,3,0.5,6.2-1,8.9c-2.1,3.8-6,6.1-10.3,6.1c-2,0-3.8-0.5-5.6-1.5
-				c-2.8-1.5-4.7-3.9-5.6-7c-0.9-3-0.5-6.2,1-8.9C190.4,317.1,194.4,314.7,198.6,314.7"/>
+			<rect x="235.1" y="326" fill="none" width="86.3" height="65.3"/>
+			<path fill="#FFFFFF" d="M304.7,329.1c-4.8,0-9.5,2.6-11.9,7.1c-3.6,6.6-1.2,14.8,5.4,18.5c2.1,1.2,4.2,1.7,6.5,1.7
+				c4.8,0,9.5-2.6,11.9-7.1c3.6-6.6,1.2-14.8-5.4-18.5C309.2,329.7,306.9,329.1,304.7,329.1 M304.7,330.3c2.1,0,4,0.5,5.9,1.6
+				c2.9,1.6,5,4.1,5.9,7.4c0.9,3.2,0.5,6.6-1.1,9.4c-2.2,4-6.3,6.5-10.8,6.5c-2.1,0-4-0.5-5.9-1.6c-2.9-1.6-5-4.1-5.9-7.4
+				c-0.9-3.2-0.5-6.6,1.1-9.4C296,332.8,300.2,330.3,304.7,330.3"/>
 		</g>
-	</g>
-	<g id="glass" display="none">
-		<path display="inline" fill="#FF6E00" d="M199,339c-5.2,0-9.9-3.2-11.6-8.2c-1.1-3.1-0.9-6.4,0.5-9.4c1.4-3,3.9-5.2,7-6.3
-			c1.3-0.5,2.7-0.7,4.1-0.7c5.2,0,9.9,3.3,11.6,8.2c2.3,6.4-1.1,13.4-7.5,15.7C201.8,338.8,200.4,339,199,339L199,339z"/>
-		<path display="inline" fill="#FFFFFF" d="M199,313.8c-1.4,0-2.9,0.2-4.3,0.7c-6.7,2.4-10.2,9.8-7.9,16.5c1.9,5.3,6.9,8.6,12.2,8.6
-			c1.4,0,2.9-0.2,4.3-0.7c6.7-2.4,10.2-9.8,7.9-16.5C209.3,317.1,204.3,313.8,199,313.8 M199,315c5,0,9.4,3.2,11.1,7.8
-			c1,3,0.9,6.1-0.5,9c-1.4,2.8-3.7,5-6.7,6c-1.3,0.4-2.6,0.7-3.9,0.7c-5,0-9.4-3.2-11.1-7.8c-1-3-0.9-6.1,0.5-9c1.4-2.8,3.7-5,6.7-6
-			C196.3,315.2,197.7,315,199,315"/>
-		<path display="inline" fill="#FFFFFF" d="M197.4,319.5h3.3l-0.5,9.6h-2.3L197.4,319.5z M197.3,332.4c0-0.5,0.2-0.9,0.5-1.2
-			c0.3-0.3,0.7-0.5,1.2-0.5c0.5,0,0.9,0.2,1.2,0.5c0.3,0.3,0.4,0.7,0.4,1.2c0,0.5-0.1,0.8-0.4,1.2c-0.3,0.3-0.7,0.5-1.2,0.5
-			c-0.5,0-0.9-0.2-1.2-0.5C197.5,333.2,197.3,332.9,197.3,332.4"/>
+		<g id="glass">
+			<path fill="#FF6E00" d="M305.1,355.9c-5.5,0-10.4-3.4-12.3-8.7c-1.2-3.3-0.9-6.7,0.5-9.9c1.5-3.2,4.1-5.5,7.4-6.6
+				c1.3-0.5,2.9-0.8,4.4-0.8c5.5,0,10.4,3.4,12.3,8.7c2.4,6.7-1.2,14.1-7.9,16.6C308,355.7,306.5,355.9,305.1,355.9L305.1,355.9z"/>
+			<circle display="none" fill="#FF6E00" cx="305" cy="342.7" r="11"/>
+			<path fill="#FFFFFF" d="M305.1,329.3c-1.5,0-3,0.3-4.5,0.8c-7.1,2.5-10.8,10.3-8.3,17.4c2,5.5,7.3,9.1,12.9,9.1
+				c1.5,0,3-0.3,4.5-0.8c7.1-2.5,10.8-10.3,8.3-17.4C315.9,332.8,310.6,329.3,305.1,329.3 M305.1,330.6c5.3,0,9.9,3.4,11.7,8.2
+				c1.1,3.2,0.9,6.5-0.5,9.5c-1.5,2.9-4,5.3-7.1,6.3c-1.3,0.4-2.8,0.8-4.1,0.8c-5.3,0-9.9-3.4-11.7-8.2c-1.1-3.2-0.9-6.5,0.5-9.5
+				c1.5-2.9,4-5.3,7.1-6.3C302.2,330.8,303.8,330.6,305.1,330.6"/>
+			<path fill="#FFFFFF" d="M303.4,335.3h3.4l-0.5,10.2h-2.4L303.4,335.3z M303.2,348.9c0-0.5,0.3-0.9,0.5-1.3
+				c0.3-0.3,0.8-0.5,1.3-0.5c0.5,0,0.9,0.3,1.3,0.5s0.4,0.8,0.4,1.3c0,0.5-0.1,0.8-0.4,1.3c-0.3,0.3-0.8,0.5-1.3,0.5
+				c-0.5,0-0.9-0.3-1.3-0.5C303.5,349.8,303.2,349.5,303.2,348.9"/>
+		</g>
 	</g>
 </g>
 <g>
 	<g>
-		<g>
-			<defs>
-				<rect id="SVGID_77_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_78_">
-				<use xlink:href="#SVGID_77_"  overflow="visible"/>
-			</clipPath>
+		<g id="weight_x5F_line">
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
 			
-				<path clip-path="url(#SVGID_78_)" fill="none" stroke="#783DC4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M31.8,451L76,440.1 M66.1,461.2l10.6-20.6l10.5,20.6 M20.8,472.8l10.5-20.6l10.5,20.6"/>
+				<path id="main-line" fill="none" stroke="#783DC4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M128.3,476.3l46.7-11.5 M164.6,487.1l11.2-21.8l11.1,21.8 M116.7,499.2l11.1-21.8l11.1,21.8"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_79_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_80_">
-				<use xlink:href="#SVGID_79_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_80_)" fill="#783DC4" d="M53.9,489.5c-1,0-1.9-0.9-1.9-2v-44.1c0-1.1,0.8-2,1.9-2c1,0,1.9,0.9,1.9,2
-				v44.1C55.8,488.6,54.9,489.5,53.9,489.5"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#783DC4" d="M151.7,516.9c-1.1,0-2-0.9-2-2.1v-46.6c0-1.2,0.8-2.1,2-2.1c1.1,0,2,0.9,2,2.1v46.6
+				C153.7,516,152.7,516.9,151.7,516.9"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_81_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_82_">
-				<use xlink:href="#SVGID_81_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_82_)" fill="#4D636E" d="M60.4,485.7H47.5c-0.9,0-1.7-0.8-1.7-1.8v-0.4c0-1,0.8-1.8,1.7-1.8h12.9
-				c0.9,0,1.7,0.8,1.7,1.8v0.5C62,484.9,61.3,485.7,60.4,485.7"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#4D636E" d="M158.6,513H145c-0.9,0-1.8-0.8-1.8-1.8v-0.4c0-1.1,0.8-1.8,1.8-1.8h13.6c0.9,0,1.8,0.8,1.8,1.8v0.5
+				C160.3,512,159.5,513,158.6,513"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_83_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_84_">
-				<use xlink:href="#SVGID_83_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_84_)" fill="#4D636E" d="M64.3,491.9H43.6c-1.5,0-2.7-1.3-2.7-2.8v-0.8c0-1.6,1.2-2.8,2.7-2.8h20.7
-				c1.5,0,2.7,1.3,2.7,2.8v0.8C67,490.7,65.8,491.9,64.3,491.9"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#4D636E" d="M162.6,519.4h-21.8c-1.6,0-2.9-1.3-2.9-2.9v-0.8c0-1.7,1.3-2.9,2.9-2.9h21.9c1.6,0,2.9,1.3,2.9,2.9v0.8
+				C165.6,518.2,164.2,519.4,162.6,519.4"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_85_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_86_">
-				<use xlink:href="#SVGID_85_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_86_)" fill="#D4A3FF" d="M31.3,472.6H19.8c0,6.6,5.1,11.9,11.4,11.9s11.4-5.3,11.4-11.9H31.3z"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#D4A3FF" d="M127.8,499.1h-12.1c0,7,5.4,12.5,12,12.5c6.6,0,12-5.5,12-12.5H127.8z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_87_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_88_">
-				<use xlink:href="#SVGID_87_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_88_)" fill="#B078ED" d="M31.3,472.6v11.9c6.3,0,11.4-5.3,11.4-11.9H31.3z"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#B078ED" d="M127.8,499.1v12.5c6.6,0,12-5.5,12-12.5H127.8z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_89_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_90_">
-				<use xlink:href="#SVGID_89_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_90_)" fill="#D4A3FF" d="M76.6,461.1H65.1c0,6.6,5.1,11.9,11.4,11.9c6.3,0,11.4-5.3,11.4-11.9H76.6z"
-				/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#D4A3FF" d="M175.7,486.9h-12.1c0,7,5.4,12.5,12,12.5c6.6,0,12-5.5,12-12.5H175.7z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_91_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_92_">
-				<use xlink:href="#SVGID_91_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_92_)" fill="#B078ED" d="M76.6,461.1V473c6.3,0,11.4-5.3,11.4-11.9H76.6z"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#B078ED" d="M175.7,486.9v12.5c6.6,0,12-5.5,12-12.5H175.7z"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_93_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_94_">
-				<use xlink:href="#SVGID_93_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_94_)" fill="#4D636E" d="M57.6,444.6c0,2.2-1.7,3.9-3.8,3.9s-3.8-1.8-3.8-3.9c0-2.2,1.7-3.9,3.8-3.9
-				S57.6,442.3,57.6,444.6"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path id="law" fill="#4D636E" d="M155.7,469.5c0,2.4-1.8,4.1-4,4.1c-2.2,0-4-1.8-4-4.1c0-2.4,1.8-4.1,4-4.1
+				S155.7,467,155.7,469.5"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_95_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_96_">
-				<use xlink:href="#SVGID_95_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_96_)" fill="#783DC4" d="M33.5,451.5c0,1.3-1,2.4-2.3,2.4c-1.2,0-2.3-1.1-2.3-2.4
-				c0-1.3,1-2.4,2.3-2.4S33.5,450.2,33.5,451.5"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#783DC4" d="M130.2,476.8c0,1.3-1.1,2.5-2.4,2.5s-2.4-1.2-2.4-2.5s1.1-2.5,2.4-2.5S130.2,475.5,130.2,476.8"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_97_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_98_">
-				<use xlink:href="#SVGID_97_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_98_)" fill="#783DC4" d="M78.8,439.9c0,1.3-1,2.4-2.3,2.4c-1.2,0-2.3-1.1-2.3-2.4
-				c0-1.3,1-2.4,2.3-2.4C77.8,437.6,78.8,438.7,78.8,439.9"/>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
+			<path fill="#783DC4" d="M178,464.5c0,1.3-1.1,2.5-2.4,2.5c-1.3,0-2.4-1.2-2.4-2.5c0-1.3,1.1-2.5,2.4-2.5
+				C176.9,462.1,178,463.3,178,464.5"/>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_99_" x="17.3" y="437.6" width="73.1" height="54.3"/>
-			</defs>
-			<clipPath id="SVGID_100_">
-				<use xlink:href="#SVGID_99_"  overflow="visible"/>
-			</clipPath>
+			<rect x="113" y="462.1" fill="none" width="77.2" height="57.3"/>
 			
-				<path clip-path="url(#SVGID_100_)" fill="none" stroke="#783DC4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M63.4,461.2h26.3 M18.1,472.8h26.3"/>
+				<path fill="none" stroke="#783DC4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M161.7,487.1h27.7 M113.9,499.2h27.7"/>
 		</g>
 	</g>
 </g>
 <g>
 	<g>
 		<g>
-			<defs>
-				<rect id="SVGID_101_" x="208.9" y="468.2" width="66" height="60.9"/>
-			</defs>
-			<clipPath id="SVGID_102_">
-				<use xlink:href="#SVGID_101_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_102_)" fill="#FF9600" d="M268,497.7c0,16.3-13.2,29.5-29.5,29.5s-29.6-13.2-29.6-29.5
-				c0-16.3,13.2-29.5,29.5-29.5S268,481.4,268,497.7"/>
+			<g>
+				<path fill="#FF9600" d="M377.8,525.6c0,17.2-14,31.2-31.2,31.2c-17.2,0-31.3-14-31.3-31.2c0-17.2,14-31.2,31.2-31.2
+					C363.8,494.5,377.8,508.3,377.8,525.6"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_103_" x="208.9" y="468.2" width="66" height="60.9"/>
-			</defs>
-			<clipPath id="SVGID_104_">
-				<use xlink:href="#SVGID_103_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_104_)" fill="#FFD987" d="M260.9,497.7c0,12.4-10.1,22.5-22.5,22.5c-12.4,0-22.5-10.1-22.5-22.5
-				c0-12.4,10.1-22.5,22.5-22.5C250.8,475.2,260.9,485.2,260.9,497.7"/>
+			<g>
+				<path fill="#FFD987" d="M370.3,525.6c0,13.1-10.7,23.8-23.8,23.8s-23.8-10.7-23.8-23.8s10.7-23.8,23.8-23.8
+					S370.3,512.4,370.3,525.6"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_105_" x="208.9" y="468.2" width="66" height="60.9"/>
-			</defs>
-			<clipPath id="SVGID_106_">
-				<use xlink:href="#SVGID_105_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_106_)" fill="#FF9600" d="M253.9,497.7c0,8.6-6.9,15.5-15.5,15.5s-15.5-6.9-15.5-15.5
-				s6.9-15.5,15.5-15.5C247,482.2,253.9,489.1,253.9,497.7"/>
+			<g>
+				<path fill="#FF9600" d="M362.9,525.6c0,9.1-7.3,16.4-16.4,16.4c-9.1,0-16.4-7.3-16.4-16.4c0-9.1,7.3-16.4,16.4-16.4
+					C355.6,509.3,362.9,516.5,362.9,525.6"/>
+			</g>
 		</g>
 		<g>
-			<defs>
-				<rect id="SVGID_107_" x="208.9" y="468.2" width="66" height="60.9"/>
-			</defs>
-			<clipPath id="SVGID_108_">
-				<use xlink:href="#SVGID_107_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_108_)" fill="#FFD987" d="M246.9,497.7c0,4.6-3.8,8.5-8.5,8.5c-4.6,0-8.5-3.8-8.5-8.5
-				c0-4.6,3.8-8.5,8.5-8.5C243.1,489.2,246.9,493,246.9,497.7"/>
+			<g>
+				<path fill="#FFD987" d="M355.5,525.6c0,4.9-4,9-9,9c-4.9,0-9-4-9-9c0-4.9,4-9,9-9C351.5,516.6,355.5,520.6,355.5,525.6"/>
+			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<defs>
-				<polygon id="SVGID_109_" points="221.6,528.9 274.9,528.9 267.9,482.7 				"/>
-			</defs>
-			<clipPath id="SVGID_110_">
-				<use xlink:href="#SVGID_109_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_110_)" fill="#FF6E00" d="M268,497.7c0,16.3-13.2,29.5-29.5,29.5s-29.6-13.2-29.6-29.5
-				c0-16.3,13.2-29.5,29.5-29.5S268,481.4,268,497.7"/>
+			<polygon fill="none" points="328.8,558.5 385.1,558.5 377.7,509.8 			"/>
+			<path fill="#FF6E00" d="M377.8,525.6c0,17.2-14,31.2-31.2,31.2c-17.2,0-31.3-14-31.3-31.2c0-17.2,14-31.2,31.2-31.2
+				C363.8,494.5,377.8,508.3,377.8,525.6"/>
 		</g>
 		<g>
-			<defs>
-				<polygon id="SVGID_111_" points="221.6,528.9 274.9,528.9 267.9,482.7 				"/>
-			</defs>
-			<clipPath id="SVGID_112_">
-				<use xlink:href="#SVGID_111_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_112_)" fill="#FF9600" d="M260.9,497.7c0,12.4-10.1,22.5-22.5,22.5c-12.4,0-22.5-10.1-22.5-22.5
-				c0-12.4,10.1-22.5,22.5-22.5C250.8,475.2,260.9,485.2,260.9,497.7"/>
+			<polygon fill="none" points="328.8,558.5 385.1,558.5 377.7,509.8 			"/>
+			<path fill="#FF9600" d="M370.3,525.6c0,13.1-10.7,23.8-23.8,23.8s-23.8-10.7-23.8-23.8s10.7-23.8,23.8-23.8
+				S370.3,512.4,370.3,525.6"/>
 		</g>
 		<g>
-			<defs>
-				<polygon id="SVGID_113_" points="221.6,528.9 274.9,528.9 267.9,482.7 				"/>
-			</defs>
-			<clipPath id="SVGID_114_">
-				<use xlink:href="#SVGID_113_"  overflow="visible"/>
-			</clipPath>
-			<path clip-path="url(#SVGID_114_)" fill="#FF6E00" d="M253.9,497.7c0,8.6-6.9,15.5-15.5,15.5s-15.5-6.9-15.5-15.5
-				s6.9-15.5,15.5-15.5C247,482.2,253.9,489.1,253.9,497.7"/>
+			<polygon fill="none" points="328.8,558.5 385.1,558.5 377.7,509.8 			"/>
+			<path fill="#FF6E00" d="M362.9,525.6c0,9.1-7.3,16.4-16.4,16.4c-9.1,0-16.4-7.3-16.4-16.4c0-9.1,7.3-16.4,16.4-16.4
+				C355.6,509.3,362.9,516.5,362.9,525.6"/>
 		</g>
 	</g>
 </g>
 <g id="tooltip1" display="none">
-	<text transform="matrix(1 0 0 1 67 130)" display="inline"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">chase the right target, just</tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">the right amount to get</tspan><tspan x="0" y="28.8" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">into your dream college</tspan></text>
-	<path display="inline" fill="#25B5E9" d="M207,170.1c0,1.1-0.5,1.9-1.6,1.9h-69.9l-6.3,7.9l-6.9-7.9H51c-1.1,0-2-0.8-2-1.9V116
-		c0-1.1,0.9-2,2-2h154.4c1.1,0,1.6,0.9,1.6,2V170.1z"/>
+	
+		<text transform="matrix(1 0 0 1 274.5673 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+	
+		<text transform="matrix(1 0 0 1 278.7245 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">,</text>
+	
+		<text transform="matrix(1 0 0 1 281.3466 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+	
+		<text transform="matrix(1 0 0 1 284.0331 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">j</text>
+	
+		<text transform="matrix(1 0 0 1 287.1128 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">u</text>
+	
+		<text transform="matrix(1 0 0 1 294.0947 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">s</text>
+	
+		<text transform="matrix(1 0 0 1 299.1127 137.2801)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+	
+		<text transform="matrix(1 0 0 1 165.5522 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+	
+		<text transform="matrix(1 0 0 1 169.747 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">h</text>
+	
+		<text transform="matrix(1 0 0 1 176.7792 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+	
+		<text transform="matrix(1 0 0 1 183.1278 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+	
+		<text transform="matrix(1 0 0 1 185.8145 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">r</text>
+	
+		<text transform="matrix(1 0 0 1 190.0088 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">i</text>
+	
+		<text transform="matrix(1 0 0 1 192.9736 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">g</text>
+	
+		<text transform="matrix(1 0 0 1 200.0575 152.4863)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">h</text>
+	<g display="inline">
+		<text transform="matrix(1 0 0 1 165.5522 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">c</text>
+		<text transform="matrix(1 0 0 1 171.2294 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">h</text>
+		<text transform="matrix(1 0 0 1 178.2627 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">a</text>
+		<text transform="matrix(1 0 0 1 184.37 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">s</text>
+		<text transform="matrix(1 0 0 1 189.3886 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+		<text transform="matrix(1 0 0 1 195.7363 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+		<text transform="matrix(1 0 0 1 198.4228 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+		<text transform="matrix(1 0 0 1 202.6172 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">h</text>
+		<text transform="matrix(1 0 0 1 209.6504 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+		<text transform="matrix(1 0 0 1 215.998 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+		<text transform="matrix(1 0 0 1 218.6845 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">r</text>
+		<text transform="matrix(1 0 0 1 222.8793 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">i</text>
+		<text transform="matrix(1 0 0 1 225.8441 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">g</text>
+		<text transform="matrix(1 0 0 1 232.9282 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">h</text>
+		<text transform="matrix(1 0 0 1 239.9105 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+		<text transform="matrix(1 0 0 1 244.1044 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+		<text transform="matrix(1 0 0 1 246.7909 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+		<text transform="matrix(1 0 0 1 250.9854 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">a</text>
+		<text transform="matrix(1 0 0 1 257.0932 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">r</text>
+		<text transform="matrix(1 0 0 1 261.1357 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">g</text>
+		<text transform="matrix(1 0 0 1 268.2187 137.2801)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+		<g>
+			<text transform="matrix(1 0 0 1 207.0394 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+			<text transform="matrix(1 0 0 1 211.2344 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+			<text transform="matrix(1 0 0 1 213.9203 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">a</text>
+			<text transform="matrix(1 0 0 1 220.0283 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">m</text>
+			<text transform="matrix(1 0 0 1 230.5966 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">o</text>
+			<text transform="matrix(1 0 0 1 237.5536 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">u</text>
+			<text transform="matrix(1 0 0 1 244.5355 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">n</text>
+			<text transform="matrix(1 0 0 1 251.5176 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+			<text transform="matrix(1 0 0 1 255.7128 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+			<text transform="matrix(1 0 0 1 258.3985 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+			<text transform="matrix(1 0 0 1 262.5166 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">o</text>
+			<text transform="matrix(1 0 0 1 269.4736 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+			<text transform="matrix(1 0 0 1 272.16 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">g</text>
+			<text transform="matrix(1 0 0 1 279.2436 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+			<text transform="matrix(1 0 0 1 285.5922 152.4863)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+			<text transform="matrix(1 0 0 1 165.5522 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">i</text>
+			<text transform="matrix(1 0 0 1 168.5176 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">n</text>
+			<text transform="matrix(1 0 0 1 175.4989 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">t</text>
+			<text transform="matrix(1 0 0 1 179.6182 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">o</text>
+			<text transform="matrix(1 0 0 1 186.5752 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+			<text transform="matrix(1 0 0 1 189.2616 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">y</text>
+			<text transform="matrix(1 0 0 1 195.1026 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">o</text>
+		</g>
+	</g>
+	<g display="inline">
+		<text transform="matrix(1 0 0 1 202.0595 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">u</text>
+		<text transform="matrix(1 0 0 1 209.0419 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">r</text>
+		<text transform="matrix(1 0 0 1 213.1854 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+		<text transform="matrix(1 0 0 1 215.872 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">d</text>
+		<text transform="matrix(1 0 0 1 223.0195 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">r</text>
+		<text transform="matrix(1 0 0 1 227.036 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+		<text transform="matrix(1 0 0 1 233.3847 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">a</text>
+		<text transform="matrix(1 0 0 1 239.4921 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">m</text>
+		<text transform="matrix(1 0 0 1 250.0604 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672"> </text>
+		<text transform="matrix(1 0 0 1 252.7471 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">c</text>
+		<text transform="matrix(1 0 0 1 258.3477 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">o</text>
+		<text transform="matrix(1 0 0 1 265.3051 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">l</text>
+		<text transform="matrix(1 0 0 1 268.2958 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">l</text>
+		<text transform="matrix(1 0 0 1 271.2861 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+		<text transform="matrix(1 0 0 1 277.6348 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">g</text>
+		<text transform="matrix(1 0 0 1 284.7187 167.6927)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.672">e</text>
+	</g>
+	<text id="chase" transform="matrix(1.1254 0 0 1 155.1255 134.0156)" display="inline"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">   Chase the right target,don’t</tspan><tspan x="0" y="12" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">   compete with avarages and max </tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">   score.Just the right amount to</tspan><tspan x="0" y="36" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">   get into your dream collage.</tspan></text>
+	<path display="inline" fill="#25B5E9" d="M303.6,176.9c0,1.2-0.5,2-1.6,2h-67.4l-6,8.4l-6.6-8.4h-70.5c-0.1,0-0.2-0.1-0.2-0.3
+		v-61.5c0-0.2,0.2-0.4,0.4-0.4h152.1v60.2H303.6z"/>
+	<text transform="matrix(1 0 0 1 159 134)" display="inline"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">Chase the right target , don’t </tspan><tspan x="0" y="12" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">compete with avarage and max</tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">score.Just the right amount to </tspan><tspan x="0" y="36" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">get into your dream collage.</tspan></text>
 </g>
 <g>
 	<g display="none">
-		<defs>
-			<rect id="SVGID_115_" x="286.6" y="327.1" width="109.4" height="79.7"/>
-		</defs>
-		<clipPath id="SVGID_116_" display="inline">
-			<use xlink:href="#SVGID_115_"  overflow="visible"/>
-		</clipPath>
-		<path id="sparkle3" display="inline" clip-path="url(#SVGID_116_)" fill="#26ADE0" d="M297.4,339.5c-0.7-2.5-2.6-5.1-4.4-5.9
-			c-0.2-0.1-0.2-0.3,0-0.4c1.8-0.7,3.8-3.4,4.4-5.9c0.1-0.2,0.4-0.2,0.4,0c0.7,2.5,2.6,5.1,4.4,5.9c0.2,0.1,0.2,0.3,0,0.4
-			c-1.8,0.7-3.8,3.4-4.4,5.9C297.8,339.7,297.4,339.7,297.4,339.5"/>
-		<path id="sparkle1" display="inline" clip-path="url(#SVGID_116_)" fill="#26ADE0" d="M393,366.9c-0.4-1.5-1.5-3-2.6-3.5
-			c-0.1,0-0.1-0.2,0-0.2c1.1-0.4,2.2-2,2.6-3.5c0-0.1,0.2-0.1,0.3,0c0.4,1.5,1.5,3,2.6,3.5c0.1,0,0.1,0.2,0,0.2
-			c-1.1,0.4-2.2,2-2.6,3.5C393.3,367,393.1,367,393,366.9"/>
-		<path id="sparkle2" display="inline" clip-path="url(#SVGID_116_)" fill="#B5EDFF" d="M381.8,354.2c-1.1-4-4.2-8.3-7.1-9.5
-			c-0.3-0.1-0.3-0.5,0-0.7c2.9-1.2,6.1-5.5,7.1-9.5c0.1-0.4,0.6-0.4,0.7,0c1.1,4,4.2,8.3,7.1,9.5c0.3,0.1,0.3,0.5,0,0.7
-			c-2.9,1.2-6.1,5.5-7.1,9.5C382.4,354.6,381.9,354.6,381.8,354.2"/>
+		<rect x="397.5" y="345.4" display="inline" fill="none" width="115.5" height="84.2"/>
+		<path id="sparkle3" display="inline" fill="#26ADE0" d="M408.8,358.5c-0.8-2.6-2.8-5.4-4.6-6.2c-0.3-0.1-0.3-0.3,0-0.4
+			c1.8-0.8,4-3.6,4.6-6.2c0.1-0.3,0.4-0.3,0.4,0c0.8,2.6,2.8,5.4,4.6,6.2c0.3,0.1,0.3,0.3,0,0.4c-1.8,0.8-4,3.6-4.6,6.2
+			C409.2,358.8,408.8,358.8,408.8,358.5"/>
+		<rect x="397.5" y="345.4" display="inline" fill="none" width="115.5" height="84.2"/>
+		<path id="sparkle1" display="inline" fill="#26ADE0" d="M509.8,387.4c-0.4-1.6-1.6-3.2-2.8-3.7c-0.1,0-0.1-0.3,0-0.3
+			c1.2-0.4,2.4-2.1,2.8-3.7c0-0.1,0.3-0.1,0.3,0c0.4,1.6,1.6,3.2,2.8,3.7c0.1,0,0.1,0.3,0,0.3c-1.2,0.4-2.4,2.1-2.8,3.7
+			C510.1,387.6,509.9,387.6,509.8,387.4"/>
+		<rect x="397.5" y="345.4" display="inline" fill="none" width="115.5" height="84.2"/>
+		<path id="sparkle2" display="inline" fill="#B5EDFF" d="M497.9,374.1c-1.2-4.2-4.5-8.7-7.5-10c-0.3-0.1-0.3-0.5,0-0.8
+			c3-1.3,6.5-5.8,7.5-10c0.1-0.4,0.7-0.4,0.8,0c1.2,4.2,4.5,8.7,7.5,10c0.3,0.1,0.3,0.5,0,0.8c-3,1.3-6.5,5.8-7.5,10
+			C498.6,374.5,498.1,374.5,497.9,374.1"/>
 	</g>
-	<rect x="304.8" y="344.4" fill="#BFF5FF" width="53.5" height="25"/>
-	<polygon fill="#DEFAFF" points="358.3,369.4 304.8,369.4 331.5,344.4 	"/>
-	<polygon fill="#69CFF2" points="286.6,369.4 304.8,369.4 304.8,344.4 	"/>
-	<polygon fill="#69CFF2" points="304.8,369.4 331.5,406.9 358.3,369.4 	"/>
-	<polygon fill="#29B8EB" points="286.6,369.4 331.5,406.9 304.8,369.4 	"/>
-	<polygon fill="#69CFF2" points="376.5,369.4 358.3,369.4 358.3,344.4 	"/>
-	<polygon fill="#29B8EB" points="358.3,369.4 331.5,406.9 376.5,369.4 	"/>
+	<rect x="416.6" y="363.7" fill="#BFF5FF" width="56.5" height="26.4"/>
+	<polygon fill="#DEFAFF" points="473.1,390.1 416.6,390.1 444.9,363.7 	"/>
+	<polygon fill="#69CFF2" points="397.5,390.1 416.6,390.1 416.6,363.7 	"/>
+	<polygon fill="#69CFF2" points="416.6,390.1 444.9,429.7 473.1,390.1 	"/>
+	<polygon fill="#29B8EB" points="397.5,390.1 444.9,429.7 416.6,390.1 	"/>
+	<polygon fill="#69CFF2" points="492.4,390.1 473.1,390.1 473.1,363.7 	"/>
+	<polygon fill="#29B8EB" points="473.1,390.1 444.9,429.7 492.4,390.1 	"/>
 	<g>
-		<defs>
-			<rect id="SVGID_117_" x="286.6" y="327.1" width="109.4" height="79.7"/>
-		</defs>
-		<clipPath id="SVGID_118_">
-			<use xlink:href="#SVGID_117_"  overflow="visible"/>
-		</clipPath>
-		<path clip-path="url(#SVGID_118_)" fill="#FFFFFF" d="M326.7,368.5h2.8c6.1,0,8-1.7,8-3.5c0-1.4-1.3-2.5-3.4-2.5
-			C330.9,362.4,328,364.8,326.7,368.5 M334.7,357.2c6,0,9.9,3.4,9.9,7.6c0,5.3-6.1,8.2-15.1,8.2h-3.6v0.3c0,4.3,1.9,6.1,5.5,6.1
-			c2.4,0,5.1-1,7.2-2.3l2.7,4.9c-3,2-6.6,3.3-10.8,3.3c-7.1,0-12-4.5-12-11.8C318.4,364.2,325.5,357.2,334.7,357.2"/>
-		<path clip-path="url(#SVGID_118_)" fill="#FFFFFF" d="M311.9,357.9c-3.1-1-5.6-3.5-6.6-6.6h-1.1c-1,3.1-3.5,5.6-6.6,6.6v1.1
-			c3.1,1,5.6,3.5,6.6,6.6h1.1c1-3.1,3.5-5.6,6.6-6.6V357.9z"/>
+		<rect x="397.5" y="345.4" fill="none" width="115.5" height="84.2"/>
+		<path fill="#FFFFFF" d="M439.8,389.1h2.9c6.5,0,8.4-1.8,8.4-3.7c0-1.5-1.3-2.6-3.6-2.6C444.2,382.7,441.2,385.2,439.8,389.1
+			 M448.3,377.3c6.3,0,10.4,3.6,10.4,8.1c0,5.5-6.5,8.7-16,8.7h-3.8v0.3c0,4.5,2,6.5,5.8,6.5c2.5,0,5.4-1.1,7.7-2.4l2.9,5.1
+			c-3.2,2.1-7,3.4-11.4,3.4c-7.5,0-12.7-4.8-12.7-12.4C431,384.6,438.5,377.3,448.3,377.3"/>
+		<rect x="397.5" y="345.4" fill="none" width="115.5" height="84.2"/>
+		<path fill="#FFFFFF" d="M424.1,377.9c-3.3-1.1-5.9-3.7-7-7H416c-1.1,3.3-3.7,5.9-7,7v1.2c3.3,1.1,5.9,3.7,7,7h1.2
+			c1.1-3.3,3.7-5.9,7-7V377.9z"/>
 	</g>
 </g>
 <path id="plus4" display="none" fill="none" stroke="#783DC4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M279.5,518.1v-6.8 M282.9,514.7h-6.8"/>
+	M390,547.1v-7.3 M393.5,543.6h-7.1"/>
 <g id="arrow">
-	<polygon fill="#96A8B0" points="265,454.7 263.2,447.6 255.7,459.2 257.5,466.2 264.6,465 272.1,453.4 	"/>
+	<polygon fill="#96A8B0" points="374.6,480.2 372.8,472.7 364.9,485 366.7,492.4 374.2,491 382.2,478.8 	"/>
 	<g>
-		<defs>
-			<rect id="SVGID_119_" x="195.9" y="441.3" width="104.8" height="95"/>
-		</defs>
-		<clipPath id="SVGID_120_">
-			<use xlink:href="#SVGID_119_"  overflow="visible"/>
-		</clipPath>
-		<path clip-path="url(#SVGID_120_)" fill="#4D636E" d="M273.3,453.3l-7.1,1.3l-0.5-1.9l-5.5,8.5l-2,3.1v0l-22,34.1
-			c-0.4,0.6-0.2,1.5,0.4,1.9c0.7,0.4,1.5,0.2,1.9-0.4l22-34.1l5.2-0.9L273.3,453.3z"/>
+		<rect x="301.6" y="466" fill="none" width="110.6" height="100.3"/>
+		<path fill="#4D636E" d="M383.4,478.6l-7.5,1.3l-0.5-2l-5.8,9l-2.1,3.3l0,0l-23.1,36c-0.4,0.7-0.3,1.6,0.4,2c0.8,0.4,1.6,0.3,2-0.4
+			l23.2-36l5.5-0.9L383.4,478.6z"/>
 	</g>
 </g>
 <g id="plus1" display="none">
 	
-		<line display="inline" fill="none" stroke="#783DC4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="195.9" y1="474.7" x2="195.9" y2="461.6"/>
+		<line display="inline" fill="none" stroke="#783DC4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="301.6" y1="501.3" x2="301.6" y2="487.5"/>
 	
-		<line display="inline" fill="none" stroke="#783DC4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="202.3" y1="468.2" x2="189.5" y2="468.2"/>
+		<line display="inline" fill="none" stroke="#783DC4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="308.4" y1="494.5" x2="294.9" y2="494.5"/>
 </g>
 <g id="plus3" display="none">
 	
-		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="263.9" y1="534.5" x2="263.9" y2="523.5"/>
+		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="373.5" y1="564.4" x2="373.5" y2="552.8"/>
 	
-		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="269.4" y1="529" x2="258.4" y2="529"/>
+		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="379.3" y1="558.6" x2="367.6" y2="558.6"/>
 </g>
 <g id="plus2" display="none">
 	
-		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="221.6" y1="462.4" x2="221.6" y2="451.4"/>
+		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="328.8" y1="488.3" x2="328.8" y2="476.7"/>
 	
-		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="227.1" y1="456.9" x2="216.1" y2="456.9"/>
+		<line display="inline" fill="none" stroke="#D4A3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="334.6" y1="482.5" x2="323" y2="482.5"/>
 </g>
 <g>
 	<g>
-		<circle fill="#2EB9EB" cx="75.6" cy="21.3" r="17.5"/>
+		<circle fill="#2EB9EB" cx="174.7" cy="22.4" r="18.5"/>
 		<g>
-			<path fill="#FFFFFF" d="M77.8,12c4,0,6.5,2.2,6.5,5c0,3.5-4,5.4-10,5.4h-2.4v0.2c0,2.8,1.3,4,3.6,4c1.6,0,3.3-0.7,4.8-1.5
-				l1.8,3.2c-2,1.3-4.3,2.2-7.1,2.2c-4.7,0-7.9-3-7.9-7.8C67,16.7,71.7,12,77.8,12z M72.5,19.5h1.8c4,0,5.3-1.1,5.3-2.3
-				c0-0.9-0.8-1.7-2.2-1.7C75.3,15.5,73.4,17.1,72.5,19.5z"/>
+			<path fill="#FFFFFF" d="M176.9,12.7c4.2,0,6.9,2.4,6.9,5.3c0,3.7-4.2,5.7-10.6,5.7h-2.5v0.3c0,2.9,1.3,4.2,3.8,4.2
+				c1.7,0,3.4-0.8,5-1.6l1.8,3.4c-2.1,1.3-4.5,2.4-7.5,2.4c-5,0-8.3-3.2-8.3-8.2C165.6,17.7,170.6,12.7,176.9,12.7z M171.4,20.6h1.8
+				c4.2,0,5.5-1.2,5.5-2.4c0-0.9-0.8-1.8-2.4-1.8C174.3,16.4,172.3,18.1,171.4,20.6z"/>
 		</g>
 	</g>
 </g>
 <g>
 	<g>
-		<circle fill="#2EB9EB" cx="144.7" cy="727.5" r="17.5"/>
+		<circle fill="#2EB9EB" cx="247.7" cy="768.2" r="18.5"/>
 		<g>
-			<path fill="#FFFFFF" d="M146.9,718.2c4,0,6.5,2.2,6.5,5c0,3.5-4,5.4-10,5.4H141v0.2c0,2.8,1.3,4,3.6,4c1.6,0,3.3-0.7,4.8-1.5
-				l1.8,3.2c-2,1.3-4.3,2.2-7.1,2.2c-4.7,0-7.9-3-7.9-7.8C136.1,722.9,140.8,718.2,146.9,718.2z M141.6,725.7h1.8
-				c4,0,5.3-1.1,5.3-2.3c0-0.9-0.8-1.7-2.2-1.7C144.4,721.7,142.5,723.3,141.6,725.7z"/>
+			<path fill="#FFFFFF" d="M249.9,758.5c4.2,0,6.9,2.4,6.9,5.3c0,3.7-4.2,5.7-10.6,5.7h-2.5v0.3c0,2.9,1.3,4.2,3.8,4.2
+				c1.7,0,3.4-0.8,5-1.6l1.8,3.4c-2.1,1.3-4.5,2.4-7.5,2.4c-5,0-8.3-3.2-8.3-8.2C238.5,763.4,243.4,758.5,249.9,758.5z M244.4,766.4
+				h1.8c4.2,0,5.5-1.2,5.5-2.4c0-0.9-0.8-1.8-2.4-1.8C247.3,762.2,245.3,763.8,244.4,766.4z"/>
 		</g>
 	</g>
 </g>
+<g id="tooltip5" display="none">
+	
+		<text transform="matrix(0.8468 0 0 1 299.2002 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">c</text>
+	
+		<text transform="matrix(0.8468 0 0 1 303.688 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">h</text>
+	
+		<text transform="matrix(0.8468 0 0 1 309.248 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">a</text>
+	
+		<text transform="matrix(0.8468 0 0 1 314.0752 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">s</text>
+	
+		<text transform="matrix(0.8468 0 0 1 318.043 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 323.0605 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 325.1855 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 328.5 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">h</text>
+	
+		<text transform="matrix(0.8468 0 0 1 334.0605 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 339.0781 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 341.2021 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">r</text>
+	
+		<text transform="matrix(0.8468 0 0 1 344.5176 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">i</text>
+	
+		<text transform="matrix(0.8468 0 0 1 346.8613 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">g</text>
+	
+		<text transform="matrix(0.8468 0 0 1 352.4609 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">h</text>
+	
+		<text transform="matrix(0.8468 0 0 1 357.9805 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 361.2959 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 363.4199 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 366.7354 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">a</text>
+	
+		<text transform="matrix(0.8468 0 0 1 371.5645 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">r</text>
+	
+		<text transform="matrix(0.8468 0 0 1 374.7598 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">g</text>
+	
+		<text transform="matrix(0.8468 0 0 1 380.3594 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 385.3779 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 388.6641 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">,</text>
+	
+		<text transform="matrix(0.8468 0 0 1 390.7373 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 392.8604 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">j</text>
+	
+		<text transform="matrix(0.8468 0 0 1 395.2949 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">u</text>
+	
+		<text transform="matrix(0.8468 0 0 1 400.8145 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">s</text>
+	
+		<text transform="matrix(0.8468 0 0 1 404.7813 431.9004)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 299.2002 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 302.5161 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">h</text>
+	
+		<text transform="matrix(0.8468 0 0 1 308.0752 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 313.0938 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 315.2178 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">r</text>
+	
+		<text transform="matrix(0.8468 0 0 1 318.5332 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">i</text>
+	
+		<text transform="matrix(0.8468 0 0 1 320.877 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">g</text>
+	
+		<text transform="matrix(0.8468 0 0 1 326.4766 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">h</text>
+	
+		<text transform="matrix(0.8468 0 0 1 331.9961 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 335.3125 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 337.4355 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">a</text>
+	
+		<text transform="matrix(0.8468 0 0 1 342.2637 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">m</text>
+	
+		<text transform="matrix(0.8468 0 0 1 350.6182 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">o</text>
+	
+		<text transform="matrix(0.8468 0 0 1 356.1182 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">u</text>
+	
+		<text transform="matrix(0.8468 0 0 1 361.6367 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">n</text>
+	
+		<text transform="matrix(0.8468 0 0 1 367.1563 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 370.4727 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 372.5967 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 375.8525 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">o</text>
+	
+		<text transform="matrix(0.8468 0 0 1 381.3506 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 383.4746 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">g</text>
+	
+		<text transform="matrix(0.8468 0 0 1 389.0742 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 394.0928 446.0947)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 299.2002 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">i</text>
+	
+		<text transform="matrix(0.8468 0 0 1 301.5444 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">n</text>
+	
+		<text transform="matrix(0.8468 0 0 1 307.0625 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">t</text>
+	
+		<text transform="matrix(0.8468 0 0 1 310.3193 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">o</text>
+	
+		<text transform="matrix(0.8468 0 0 1 315.8184 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 317.9424 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">y</text>
+	
+		<text transform="matrix(0.8468 0 0 1 322.5596 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">o</text>
+	
+		<text transform="matrix(0.8468 0 0 1 328.0596 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">u</text>
+	
+		<text transform="matrix(0.8468 0 0 1 333.5791 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">r</text>
+	
+		<text transform="matrix(0.8468 0 0 1 336.8545 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 338.9775 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">d</text>
+	
+		<text transform="matrix(0.8468 0 0 1 344.6279 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">r</text>
+	
+		<text transform="matrix(0.8468 0 0 1 347.8037 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 352.8223 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">a</text>
+	
+		<text transform="matrix(0.8468 0 0 1 357.6504 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">m</text>
+	
+		<text transform="matrix(0.8468 0 0 1 366.0049 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292"> </text>
+	
+		<text transform="matrix(0.8468 0 0 1 368.1289 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">c</text>
+	
+		<text transform="matrix(0.8468 0 0 1 372.5566 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">o</text>
+	
+		<text transform="matrix(0.8468 0 0 1 378.0557 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">l</text>
+	
+		<text transform="matrix(0.8468 0 0 1 380.4199 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">l</text>
+	
+		<text transform="matrix(0.8468 0 0 1 382.7842 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	
+		<text transform="matrix(0.8468 0 0 1 387.8027 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">g</text>
+	
+		<text transform="matrix(0.8468 0 0 1 393.4023 460.2891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.8292">e</text>
+	<path display="inline" fill="#25B5E9" d="M416.4,470c0,1.1-0.4,1.9-1.4,1.9h-58.5l-5.2,7.8l-5.8-7.8h-61.1c-0.1,0-0.2-0.1-0.2-0.2
+		v-56.7c0-0.2,0.1-0.4,0.3-0.4h132V470H416.4z"/>
+</g>
+<text id="careless-marks" transform="matrix(0.8329 0 0 1 304.9482 435.5566)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4301">Never lose marks because </tspan><tspan x="0" y="12.5" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4301"> of careless mistake again.</tspan><tspan x="0" y="25" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4301">       score consistently.</tspan></text>
+<g id="tooltip3">
+	<text transform="matrix(1.4976 0 0 1 213.5651 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">Noc</text>
+	<text transform="matrix(1.4976 0 0 1 218.7848 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">h</text>
+	<text transform="matrix(1.4976 0 0 1 225.2516 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">a</text>
+	<text transform="matrix(1.4976 0 0 1 230.8654 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">s</text>
+	<text transform="matrix(1.4976 0 0 1 235.4806 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 241.3166 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 243.7887 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 247.6437 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">h</text>
+	<text transform="matrix(1.4976 0 0 1 254.1105 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 259.9474 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 262.4176 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">r</text>
+	<text transform="matrix(1.4976 0 0 1 266.2731 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">i</text>
+	<text transform="matrix(1.4976 0 0 1 268.9997 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">g</text>
+	<text transform="matrix(1.4976 0 0 1 275.5119 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">h</text>
+	<text transform="matrix(1.4976 0 0 1 281.9328 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 285.7882 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 288.2585 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 292.1144 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">a</text>
+	<text transform="matrix(1.4976 0 0 1 297.7301 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">r</text>
+	<text transform="matrix(1.4976 0 0 1 301.4469 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">g</text>
+	<text transform="matrix(1.4976 0 0 1 307.9596 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 313.7965 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 317.6188 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">,</text>
+	<text transform="matrix(1.4976 0 0 1 320.0299 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 322.4997 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">j</text>
+	<text transform="matrix(1.4976 0 0 1 325.3307 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">u</text>
+	<text transform="matrix(1.4976 0 0 1 331.7516 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">s</text>
+	<text transform="matrix(1.4976 0 0 1 336.3659 296.9438)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 213.5651 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 217.4216 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">h</text>
+	<text transform="matrix(1.4976 0 0 1 223.8879 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 229.7253 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 232.1955 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">r</text>
+	<text transform="matrix(1.4976 0 0 1 236.0514 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">i</text>
+	<text transform="matrix(1.4976 0 0 1 238.7775 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">g</text>
+	<text transform="matrix(1.4976 0 0 1 245.2897 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">h</text>
+	<text transform="matrix(1.4976 0 0 1 251.7106 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 255.5676 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 258.0358 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">a</text>
+	<text transform="matrix(1.4976 0 0 1 263.6525 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">m</text>
+	<text transform="matrix(1.4976 0 0 1 273.3688 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">o</text>
+	<text transform="matrix(1.4976 0 0 1 279.7663 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">u</text>
+	<text transform="matrix(1.4976 0 0 1 286.1842 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">n</text>
+	<text transform="matrix(1.4976 0 0 1 292.6037 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 296.4606 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 298.9313 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 302.7174 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">o</text>
+	<text transform="matrix(1.4976 0 0 1 309.112 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 311.5836 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">g</text>
+	<text transform="matrix(1.4976 0 0 1 318.0954 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 323.9323 306.2793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 213.5651 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">i</text>
+	<text transform="matrix(1.4976 0 0 1 216.2922 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">n</text>
+	<text transform="matrix(1.4976 0 0 1 222.7101 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">t</text>
+	<text transform="matrix(1.4976 0 0 1 226.4982 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">o</text>
+	<text transform="matrix(1.4976 0 0 1 232.8937 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 235.3639 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">y</text>
+	<text transform="matrix(1.4976 0 0 1 240.7345 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">o</text>
+	<text transform="matrix(1.4976 0 0 1 247.132 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">u</text>
+	<text transform="matrix(1.4976 0 0 1 253.5505 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">r</text>
+	<text transform="matrix(1.4976 0 0 1 257.361 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 259.8302 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">d</text>
+	<text transform="matrix(1.4976 0 0 1 266.4015 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">r</text>
+	<text transform="matrix(1.4976 0 0 1 270.0954 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 275.9328 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">a</text>
+	<text transform="matrix(1.4976 0 0 1 281.5475 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">m</text>
+	<text transform="matrix(1.4976 0 0 1 291.2648 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799"> </text>
+	<text transform="matrix(1.4976 0 0 1 293.735 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">c</text>
+	<text transform="matrix(1.4976 0 0 1 298.8844 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">o</text>
+	<text transform="matrix(1.4976 0 0 1 305.2799 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">l</text>
+	<text transform="matrix(1.4976 0 0 1 308.0299 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">l</text>
+	<text transform="matrix(1.4976 0 0 1 310.7799 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<text transform="matrix(1.4976 0 0 1 316.6178 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">g</text>
+	<text transform="matrix(1.4976 0 0 1 323.1295 315.6147)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.7799">e</text>
+	<path fill="#25B5E9" d="M349.9,322c0,0.7-0.5,1.2-1.6,1.2h-68l-6.1,5.1l-6.7-5.1h-71.1c-0.1,0-0.2-0.1-0.2-0.2v-37.3
+		c0-0.1,0.2-0.2,0.4-0.2h153.5V322H349.9z"/>
+</g>
+<text transform="matrix(1 0 0 1 204.8756 294.9438)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">           No blind spots in your </tspan><tspan x="0" y="12" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">Preparations.Don’t leave anything </tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10">   behind. I wish i knew better.</tspan></text>
 </svg>

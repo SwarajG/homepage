@@ -6,9 +6,14 @@ $(document).ready(function() {
   iitpricing();
   pricing();
   paper();
-  //practiceAnim();
+  practiceAnim();
+  analyseAnim();
+  reviseAnim();
+  testAnim();
+  pricing_box();
 });
 
+//Carosusal in About us page
 var carousel = function carousel(){
   $('#carousel_ul li:first').before($('#carousel_ul li:last'));
   $('#right_scroll i').click(function(){
@@ -29,6 +34,7 @@ var carousel = function carousel(){
     });
   });
 }
+//Successful students bricks code
 
 var successStories = function successStories() {
   $('.successful-student__block').each(function(){
@@ -73,6 +79,7 @@ var successStories = function successStories() {
   })
 }
 
+//IIT page Tabs
 var iitpricing = function iitpricing(){
   $("#tab-content__all-exams").click(function(){
     $("#pricing_details__pserise").html('Rs. 11,999');
@@ -117,6 +124,8 @@ var iitpricing = function iitpricing(){
 
 }
 
+//2 year or 1 year tabs changing Pricing tables
+
 var pricing = function pricing(){
   $("#price-detail-box__list-link-practice-2").click(function(){
     $("#price-detail-box__list-link-practice-2").addClass("price-detail-box__list-link--active");
@@ -152,87 +161,28 @@ var paper = function paper() {
   })
 }
 
-var practiceAnim = function(){
-  var path = document.getElementById('fillpath');
-  var totalLength = path.getTotalLength();
-  var anchorPoints = [1580, 1272, 1068, 1000, 946, 887, 830, 785, 440];
-  var fillpath = Snap('#fillpath');
-  fillpath.attr({
-    "stroke-dasharray": ""+totalLength+" "+totalLength+"",
-    "stroke-dashoffset": totalLength
-  });
 
-  nextStep(fillpath, anchorPoints, 0, practiceAnimations);
-
-}
-
-var practiceAnimations = function practiceAnimations(fillpath, anchorPoints, index){
-  index++;
-  if (index == 1) {
-    var i = 1;
-    var tickInterval = setInterval(function() {
-      Snap('#calendar #tick'+i).attr("display", "inline");
-      i++;
-      if(i > 6) {
-        Snap('#tooltip2').attr({'display':'inline'});
-        clearInterval(tickInterval);
-      }
-    }, 100);
-    setTimeout(function(){
-      Snap('#tooltip2').attr({'display':'none'});
-      nextStep(fillpath, anchorPoints, 1, practiceAnimations)
-    }, 600)
+//Prcing page Price tables
+var pricing_box = function pricing_box(){
+ function close_accordion_section() {
+    $('.accordion .accordion-section-title').removeClass('active');
+    $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
   }
 
-  if (index == 2) {
-    var hand = Snap('#hand1');
-    hand.animate({transform: 'r'+[45, [355.4, 291]]}, 1000);
-    setTimeout(function(){
-      Snap("#clockticks").attr({"display" : "inline" });
-      nextStep(fillpath, anchorPoints, 2, practiceAnimations)
-    } , 800)
-  }
-  if(index == 3){
-    Snap("#glow").attr({"display" : "inline"});
-    nextStep(fillpath, anchorPoints, 3, practiceAnimations);
-  }
-  if(index == 4){
-    var index_circle = 1;
-    setInterval(function(){
-      if(index_circle < 6){
-        colorCircle(index_circle);
-      }
-      index_circle++;
-      index++;
-      if(index == 8){
-        setInterval(function(){
-          Snap("#bubble2_1_").attr({"display":"inline"});
-        } , 800);
-        setInterval(function(){
-          Snap("#bubble1").attr({"display":"inline"});
-        } , 800);
-        setInterval(function(){
-          Snap("#tooltip").attr({"display":"inline"});
-        } , 800);
-      }
-      nextStep(fillpath, anchorPoints, index, practiceAnimations)
-    } , 800)
-  }
-}
+  $('.accordion-section-title').click(function(e) {
+    // Grab current anchor value
+    var currentAttrValue = $(this).attr('href');
 
+    if($(e.target).is('.active')) {
+        close_accordion_section();
+    }else {
+        close_accordion_section();
 
-var colorCircle = function colorCircle(index_circle){
-  if(index_circle == 3){
-    Snap("#circle"+index_circle).attr({fill:'#F15F54'});
-  }else {
-    Snap("#circle"+index_circle).attr({fill:'#29D366'});
-  }  
-}
-
-var nextStep = function(fillpath, anchorPoints, index, practiceAnimations) {
-  fillpath.animate({
-    "stroke-dashoffset": anchorPoints[index]
-  }, 1000, null, function(){
-    practiceAnimations(fillpath, anchorPoints, index);
-  });
+        // Add active class to section title
+        $(this).addClass('active');
+        // Open up the hidden content panel
+        $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+    }
+    e.preventDefault();
+  }); 
 }
