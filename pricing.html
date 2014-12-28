@@ -5,9 +5,10 @@
     <title>Pricing</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <section class="jumbotron jumbotron__img-pricing">
+    <section class="jumbotron jumbotron__img--pricing">
       <header class="header">
         <div class="header__container">
           <a href="index.html" class="navbar__menu--logo">
@@ -29,7 +30,7 @@
         </p>
       </div>
     </section>
-    <!-- Sign up button model -->
+    <!-- Sign in button model -->
       <div id="modal" class="popup" style="display:none;">
         <section class="popup__body">
           <h2 class="popup__header">Login to Embibe</h2>
@@ -38,7 +39,7 @@
               <img src="img/facebook.png">
             </div>
             <div class="popup__fb-fb-login">
-              <button class="fb-login">Login with Facebook</button>
+              <button class="popup__fb-login">Login with Facebook</button>
             </div>
           </div>
           <hr width="43%" style="display:inline-block;vertical-align:middle;padding-left:20px;">
@@ -50,7 +51,7 @@
                 <img src="img/email_logo.png">
               </div>
               <div class="popup__form-part-input">
-                <input type = "text" placeholder="Email Address" class="signup_input">
+                <input type = "text" placeholder="Email Address" class="popup__signup_input">
               </div>
             </div>
             <div class="popup__form_part">
@@ -58,25 +59,25 @@
                 <img src="img/password_logo.png">  
               </div>
               <div class="popup__form-part-input">
-                <input type = "password" placeholder="Password" class="signup_input">
+                <input type = "password" placeholder="Password" class="popup__signup_input">
               </div>
             </div>
             <p class="popup__forgetpwd">Forget Password?</p>
-            <button class="fb-login popup--signup">Sign In</button>
+            <button class="popup__fb-login popup--signup">Sign In</button>
           </form>
           <p class="popup__already-member">Not a member yet? <a href="#" style="text-decoration:none;"><span style="color:#00B1EC;">Sign Up for free</span></a></p>
         </section>
       </div>
     <!-- End to model box -->
     <section class="pricing_details">
-      <div class="tabs">
-        <ul class="tab-links">
+      <div class="pricing_details__tabs">
+        <ul class="pricing_details__tab-links">
             <li class="active"><a href="#tab1">Engineering</a></li>
             <li><a href="#tab2">Medical</a></li>
         </ul>
-        <div class="tab-content__container">
-          <div class="tab-content">
-              <div id="tab1" class="tab active">
+        <div class="pricing_details__tab-content__container">
+          <div class="pricing_details__tab-content">
+              <div id="tab1" class="pricing_details__tab active">
               <p style="font-size:32px; padding:20px 0;margin:0;font-weight:400; color:#747475;">Value Packs</p>
                 <div class="price-detail-box__boxes">
                   <div class="price-detail-box__box price-detail-box__box--side">
@@ -155,45 +156,129 @@
                   <div class="pricing-cart__accordion">
                     <div class="pricing-cart__accordion-section">
                         <a class="pricing-cart__accordion-section-title" href="#accordion-1">PRACTICE SERISE</a>
-                        <div id="accordion-1" class="pricing-cart__accordion-section-content">
-                            <section class="faq" style="height:200px;">
-                              <div class="faq__container">
-                                <div class="faq__question">
-                                    <div id="custom-show-hide-example--cart">
-                                      <h3 class="faq__questions--header" style="background-color:#AFF6FF;color:#00ADEC;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h3>
-                                      <div class="faq__questions--answer" style="background:color:#E4EEF0;">  
-                                        <p class="faq__question--answer">
-                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                        </p>
-                                      </div>
-                                      <h3 class="faq__questions--header" style="background-color:#AFF6FF;color:#00ADEC;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h3>
-                                      <div class="faq__questions--answer" style="background:color:#E4EEF0;">
-                                        <p class="faq__question--answer">
-                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                        </p>
-                                      </div>
-                                    </div>
+                          <div id="accordion-1" class="pricing-cart__accordion-section-content">
+                            <section class="pricing-cart__subject">
+                              <div class="pricing-cart__subject-container">
+                                <div id="custom-show-hide-example--cart1">
+                                  <h3 class="pricing-cart__subject-product_header" style="margin-top:0;">Physics</h3>
+                                  <div class="pricing-cart__subject-product_detail">
+                                    <ul class="subject-product__ul subject-product__ul--header">
+                                      <li class="subject-product__li">PRODUCT</li>
+                                      <li class="subject-product__li">INFO</li>
+                                      <li class="subject-product__li">SKU</li>
+                                      <li class="subject-product__li">MRP(In Rs.)</li>
+                                      <li class="subject-product__li">OFFER</li>
+                                    </ul>
+                                    <ul class="subject-product__ul subject-product__ul--product">
+                                      <li class="subject-product__li subject-product__li--product" style="padding:0 20px;">
+                                        <div class="checkbox">
+                                          <input type="checkbox" value="None" id="checkbox" name="check"/><label class="checkbox__label" for="checkbox"></label>
+                                        </div>
+                                      </li>
+                                      <li class="subject-product__li subject-product__li--product">Ultimate Test Series - Full length Test</li>
+                                      <li class="subject-product__li subject-product__li--product"><i class="fa fa-info-circle"></i></li>
+                                      <li class="subject-product__li subject-product__li--product">Chapter-wise Test </li>
+                                      <li class="subject-product__li subject-product__li--product"><del>1150</del></li>
+                                      <li class="subject-product__li subject-product__li--product">1150</li>
+                                    </ul>
+                                    <ul class="subject-product__ul subject-product__ul--product">
+                                      <li class="subject-product__li subject-product__li--product" style="padding:0 20px;">
+                                        <div class="checkbox">
+                                          <input type="checkbox" value="None" id="checkbox" name="check"/><label for="checkbox"></label>
+                                        </div>
+                                      </li>
+                                      <li class="subject-product__li subject-product__li--product">Ultimate Test Series - Full length Test</li>
+                                      <li class="subject-product__li subject-product__li--product"><i class="fa fa-info-circle"></i></li>
+                                      <li class="subject-product__li subject-product__li--product">Chapter-wise Test </li>
+                                      <li class="subject-product__li subject-product__li--product"><del>1150</del></li>
+                                      <li class="subject-product__li subject-product__li--product">1150</li>
+                                    </ul>
+                                    <ul class="subject-product__ul subject-product__ul--product">
+                                      <li class="subject-product__li subject-product__li--product" style="padding:0 20px;">
+                                        <div class="checkbox">
+                                          <input type="checkbox" value="None" id="checkbox" name="check"/><label for="checkbox"></label>
+                                        </div>
+                                      </li>
+                                      <li class="subject-product__li subject-product__li--product">Ultimate Test Series - Full length Test</li>
+                                      <li class="subject-product__li subject-product__li--product"><i class="fa fa-info-circle"></i></li>
+                                      <li class="subject-product__li subject-product__li--product">Chapter-wise Test </li>
+                                      <li class="subject-product__li subject-product__li--product"><del>1150</del></li>
+                                      <li class="subject-product__li subject-product__li--product">1150</li>
+                                    </ul>
+                                    <ul class="subject-product__ul subject-product__ul--product">
+                                      <li class="subject-product__li subject-product__li--product" style="padding:0 20px;">
+                                        <div class="checkbox">
+                                          <input type="checkbox" value="None" id="checkbox" name="check"/><label for="checkbox"></label>
+                                        </div>
+                                      </li>
+                                      <li class="subject-product__li subject-product__li--product">Ultimate Test Series - Full length Test</li>
+                                      <li class="subject-product__li subject-product__li--product"><i class="fa fa-info-circle"></i></li>
+                                      <li class="subject-product__li subject-product__li--product">Chapter-wise Test </li>
+                                      <li class="subject-product__li subject-product__li--product"><del>1150</del></li>
+                                      <li class="subject-product__li subject-product__li--product">1150</li>
+                                    </ul>
+                                  </div>
+                                  <h3 class="pricing-cart__subject-product_header">Chemistry</h3>
+                                  <div class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </div>
+                                  <h3 class="pricing-cart__subject-product_header">Methematics</h3>
+                                  <div class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                   </div>
                                 </div>
-                              </section>
-                        </div><!--end .accordion-section-content-->
-                        <a class="pricing-cart__accordion-section-title" href="#accordion-2">TEST SERISE</a>
-                         
-                        <div id="accordion-2" class="pricing-cart__accordion-section-content">
-                            <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
-                        </div><!--end .accordion-section-content-->
+                              </div>
+                            </section>
+                          </div><!--end .accordion-section-content-->
+                        <a class="pricing-cart__accordion-section-title" href="#accordion-2">TEST SERIES</a>
+                          <div id="accordion-2" class="pricing-cart__accordion-section-content">
+                            <section class="pricing-cart__subject">
+                              <div class="pricing-cart__subject-container">
+                                <div id="custom-show-hide-example--cart2">
+                                  <h3 class="pricing-cart__subject-product_header">Physics</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                  <h3 class="pricing-cart__subject-product_header">Chemistry</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                  <h3 class="pricing-cart__subject-product_header">Methematics</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                </div>
+                              </div>
+                            </section>
+                          </div><!--end .accordion-section-content-->
                         <a class="pricing-cart__accordion-section-title" href="#accordion-3">REVISION ROCKET</a>
-                         
-                        <div id="accordion-3" class="pricing-cart__accordion-section-content">
-                            <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
-                        </div><!--end .accordion-section-content-->
+                          <div id="accordion-3" class="pricing-cart__accordion-section-content">
+                            <section class="pricing-cart__subject">
+                              <div class="pricing-cart__subject-container">
+                                <div id="custom-show-hide-example--cart3">
+                                  <h3 class="pricing-cart__subject-product_header">Physics</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                  <h3 class="pricing-cart__subject-product_header">Chemistry</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                  <h3 class="pricing-cart__subject-product_header">Methematics</h3>
+                                  <p class="pricing-cart__subject-product_detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                  </p>
+                                </div>
+                              </div>
+                            </section>
+                          </div><!--end .accordion-section-content-->
                     </div><!--end .accordion-section-->
                   </div><!--end .accordion-->
                 </div>
                 
               </div>
        
-              <div id="tab2" class="tab">
+              <div id="tab2" class="pricing_details__tab">
                   <p>Tab #2 content goes here!</p>
                   <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
               </div>
@@ -321,15 +406,15 @@
     <section class="news">
       <div class="news__container">
         <div class="news__detail">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
-          <p class="news__details--info">
+          <p class="news__details-info">
             Impact od Grading Schemes on Student's Grades.
           </p>
         </div>
         <div class="news__detail" style="margin-left:-5px;">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
           <p class="news__details--info">
@@ -337,10 +422,10 @@
           </p>
         </div>
         <div class="news__detail" style="margin-left:-5px;">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
-          <p class="news__details--info">
+          <p class="news__details-info">
             Impact od Grading Schemes on Student's Grades.
           </p>
         </div>
@@ -351,19 +436,19 @@
         <div class="contact__part">
           <ul class="contact__list">
             <li class="contact__list-header">Prepare</li>
-            <li class="contact__list--page" style="display:inline-block;width:25%;"><a href="IIT_JEE.html" class="contact__list--link">IIT JEE</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:73%;"><a href="#" class="contact__list--link">AIIMS/AIPMT</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:25%;"><a href="#" class="contact__list--link">BITSAT</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:73%;"><a href="#" class="contact__list--link">BANK PO</a></li>
-            <li class="contact__list--page"><a href="#" class="contact__list--link">VIT</a></li>
+            <li class="contact__list-page contact__list-page-one"><a href="IIT_JEE.html" class="contact__list-link">IIT JEE</a></li>
+            <li class="contact__list-page contact__list-page-two"><a href="#" class="contact__list-link">AIIMS/AIPMT</a></li>
+            <li class="contact__list-page contact__list-page-one"><a href="#" class="contact__list-link">BITSAT</a></li>
+            <li class="contact__list-page contact__list-page-two"><a href="#" class="contact__list-link">BANK PO</a></li>
+            <li class="contact__list-page"><a href="#" class="contact__list-link">VIT</a></li>
           </ul>
         </div>
         <div class="contact__part" style="margin-left:-5px">
           <ul class="contact__list">
             <li class="contact__list-header">Company</li>
-            <li class="contact__list--page"><a href="aboutus.html" class="contact__list--link">About Us</a></li>
-            <li class="contact__list--page"><a href="blog.html" class="contact__list--link">Blog</a></li>
-            <li class="contact__list--page"><a href="faq.html" class="contact__list--link">FAQs</a></li>
+            <li class="contact__list-page"><a href="aboutus.html" class="contact__list-link">About Us</a></li>
+            <li class="contact__list-page"><a href="blog.html" class="contact__list-link">Blog</a></li>
+            <li class="contact__list-page"><a href="faq.html" class="contact__list-link">FAQs</a></li>
           </ul>
         </div>
         <div class="contact__part" style="margin-left:-5px">
@@ -371,15 +456,15 @@
             <li class="contact__list-header" style="margin-bottom:9px;">Conatact Info</li>
             <li class="contact__list-contact">
               Mumbai, India<br>
-              <p class="contact__list--subheader">Get directions</p>
+              <p class="contact__list-subheader">Get directions</p>
             </li>            
             <li class="contact__list-contact">
               iwant@embibe.com
-              <p class="contact__list--subheader">Email us</p>
+              <p class="contact__list-subheader">Email us</p>
             </li>
             <li class="contact__list-contact">
               +91-766-695-7555
-              <p class="contact__list--subheader">Say Hi!</p>
+              <p class="contact__list-subheader">Say Hi!</p>
             </li>
           </ul>
         </div>
@@ -388,8 +473,8 @@
     <footer class="footer">
       <div class="footer__container">
         <ul class="footer__ul">
-          <li class="footer__list"><span style="color: #696969;font-size:12px;">Copyright &copy; 2014 The Indiavidual</sapn></li>
-          <li class="footer__list" id="terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
+          <li class="footer__list"><span class="footer__copyright">Copyright &copy; 2014 The Indiavidual</sapn></li>
+          <li class="footer__list footer__list--terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
           <li class="footer__list"><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
          </ul>
      </div>
@@ -443,7 +528,27 @@
       });
     </script>
     <script>
-      new jQueryCollapse($("#custom-show-hide-example--cart"), {
+      new jQueryCollapse($("#custom-show-hide-example--cart1"), {
+        open: function() {
+          this.slideDown(150);
+        },
+        close: function() {
+          this.slideUp(150);
+        }
+      });
+    </script>
+    <script>
+      new jQueryCollapse($("#custom-show-hide-example--cart2"), {
+        open: function() {
+          this.slideDown(150);
+        },
+        close: function() {
+          this.slideUp(150);
+        }
+      });
+    </script>
+    <script>
+      new jQueryCollapse($("#custom-show-hide-example--cart3"), {
         open: function() {
           this.slideDown(150);
         },
@@ -454,11 +559,11 @@
     </script>
     <script>
       jQuery(document).ready(function() {
-      jQuery('.tabs .tab-links a').on('click', function(e)  {
+      jQuery('.pricing_details__tabs .pricing_details__tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');
 
         // Show/Hide Tabs
-        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+        jQuery('.pricing_details__tabs ' + currentAttrValue).show().siblings().hide();
 
         // Change/remove current tab to active
         jQuery(this).parent('li').addClass('active').siblings().removeClass('active');

@@ -14,14 +14,14 @@ var analyseAnimations = function analyseAnimations(fillpath2 , anchorPoints2 , i
 	index2++;
 	if(index2 == 1){
     Snap("#tooltip1").attr({"display":"inline"});
+    Snap("#run").attr({"width":""});
     nextStep(fillpath2, anchorPoints2, index2, analyseAnimations);
 	}
 
 	if(index2 == 2){
     var x = 1;
-    Snap("#sparkle1").attr({"display":"inline"});
     var sparkle_interval = setInterval(function(){
-      Snap("#sparkle"+x).attr({"display":"inline"});
+      Snap("#sparkle_x5F_"+x).attr({"display":"inline"});
       x++;
       if(x > 3) {
         clearInterval(sparkle_interval);
@@ -40,10 +40,15 @@ var analyseAnimations = function analyseAnimations(fillpath2 , anchorPoints2 , i
     Snap("#tooltip3").attr({"display":"inline"});
     nextStep(fillpath2, anchorPoints2, index2, analyseAnimations);
 	}
+
 	if(index2 == 4){
-    var tula = Snap("#main-line").animate({transform:'r'+0+",151.69 , 466.02"} , 500);
+    var line = Snap("#s_x5F_line");
+    var left = Snap("#w_x5F_l");
+    var right= Snap("#w_x5F_r");
+    ro(line , left , right ,ro);
     nextStep(fillpath2, anchorPoints2, index2, analyseAnimations);
 	}
+
 	if(index2 == 5){
     var p = 1;
     var ab = setInterval(function(){
@@ -56,9 +61,12 @@ var analyseAnimations = function analyseAnimations(fillpath2 , anchorPoints2 , i
     } , 200);
     Snap("#tooltip5").attr({"display":"inline"});
 	}
-  if(index2 == 6){
+}
 
-  }
+var ro = function ro(line , left , right){
+  line.animate({transform:'r'+(25)+",151.7 , 469.4"} ,300);
+  left.animate({transform:'t0,-10'},300);
+  right.animate({transform:'t0,10'},300);
 }
 
 var nextStep = function(fillpath2, anchorPoints2, index2, analyseAnimations) {

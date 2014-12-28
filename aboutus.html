@@ -8,7 +8,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <section class="jumbotron jumbotron__img-aboutus">
+    <section class="jumbotron jumbotron__img--aboutus">
     <header class="header">
       <div class="header__container">
         <a href="index.html" class="navbar__menu--logo">
@@ -30,7 +30,7 @@
         </p>
       </div>
     </section>
-    <!-- Sign up button model -->
+    <!-- Sign in button model -->
       <div id="modal" class="popup" style="display:none;">
         <section class="popup__body">
           <h2 class="popup__header">Login to Embibe</h2>
@@ -39,7 +39,7 @@
               <img src="img/facebook.png">
             </div>
             <div class="popup__fb-fb-login">
-              <button class="fb-login">Login with Facebook</button>
+              <button class="popup__fb-login">Login with Facebook</button>
             </div>
           </div>
           <hr width="43%" style="display:inline-block;vertical-align:middle;padding-left:20px;">
@@ -51,7 +51,7 @@
                 <img src="img/email_logo.png">
               </div>
               <div class="popup__form-part-input">
-                <input type = "text" placeholder="Email Address" class="signup_input">
+                <input type = "text" placeholder="Email Address" class="popup__signup_input">
               </div>
             </div>
             <div class="popup__form_part">
@@ -59,16 +59,17 @@
                 <img src="img/password_logo.png">  
               </div>
               <div class="popup__form-part-input">
-                <input type = "password" placeholder="Password" class="signup_input">
+                <input type = "password" placeholder="Password" class="popup__signup_input">
               </div>
             </div>
             <p class="popup__forgetpwd">Forget Password?</p>
-            <button class="fb-login popup--signup">Sign In</button>
+            <button class="popup__fb-login popup--signup">Sign In</button>
           </form>
           <p class="popup__already-member">Not a member yet? <a href="#" style="text-decoration:none;"><span style="color:#00B1EC;">Sign Up for free</span></a></p>
         </section>
       </div>
     <!-- End to model box -->
+
     <!-- Here goes the content of the core values -->
     <section class="feature">
       <div class="feature__container">
@@ -185,29 +186,29 @@
           The work that we do for constantly inspires each of us just as much as our felllow indeiaviduals.
         </h4>
         <ul class="wedo__album">
-          <li class="wedo__album--image"><img src="img/lovedo1.png"></li>
-          <li class="wedo__album--image" style="margin-left:-5px"><img src="img/lovedo2.png"></li>
-          <li class="wedo__album--image" style="margin-left:-5px"><img src="img/lovedo3.png"></li>
-          <li class="wedo__album--image"><img src="img/lovedo4.png"></li>
-          <li class="wedo__album--image" style="margin-left:-5px"><img src="img/lovedo5.png"></li>
-          <li class="wedo__album--image" style="margin-left:-5px"><img src="img/lovedo6.png"></li>
+          <li class="wedo__album-image"><img src="img/lovedo1.png"></li>
+          <li class="wedo__album-image" style="margin-left:-5px"><img src="img/lovedo2.png"></li>
+          <li class="wedo__album-image" style="margin-left:-5px"><img src="img/lovedo3.png"></li>
+          <li class="wedo__album-image"><img src="img/lovedo4.png"></li>
+          <li class="wedo__album-image" style="margin-left:-5px"><img src="img/lovedo5.png"></li>
+          <li class="wedo__album-image" style="margin-left:-5px"><img src="img/lovedo6.png"></li>
         </ul>
       </div>
     </section>
     
     <!-- Carousal box -->
     <section class="carousel">
-      <div id='left_scroll'><i class="fa fa-angle-left"></i></div>
-        <div class='carousel_inner'>
-            <ul id='carousel_ul'>
-                <li><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
-                <li><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
-                <li><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
-                <li><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
-                <li><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
+      <div id='left_scroll' class="left__scroll"><i class="fa fa-angle-left" id="left__scroll-icon"></i></div>
+        <div class="carousel_inner">
+            <ul id='carousel_ul' class="carousel__ul">
+                <li class="carousel_ul-li"><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
+                <li class="carousel_ul-li"><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
+                <li class="carousel_ul-li"><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
+                <li class="carousel_ul-li"><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
+                <li class="carousel_ul-li"><div class="caoursel__content"><i class="fa fa-twitter"></i><br><p>Check out Times of India featuring Murdia AIR 1 JEE &amp;<br>embibe test analytics to boost scores.</p>@embibe - Jan 21</div></li>
             </ul>
         </div>
-      <div id='right_scroll'><i class="fa fa-angle-right"></i></div>
+      <div id='right_scroll' class="right__scroll"><i class="fa fa-angle-right" id="right__scroll-icon"></i></div>
     </section>
 
     <!-- Our Investors -->
@@ -217,16 +218,16 @@
           OUR INVESTORS
         </h1>
         <ul class="investors__details">
-          <li class="investors__details--image">
+          <li class="investors__details-image">
             <img src="img/lightbox.png">
-            <p class="investors__details--about">
+            <p class="investors__details-about">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
               typesetting industry. Lorem Ipsum has been the.
             </p>
           </li>
-          <li class="investors__details--image" style="margin-left:-5px;">
+          <li class="investors__details-image" style="margin-left:-5px;">
             <img src="img/kalan.png">
-            <p class="investors__details--about">
+            <p class="investors__details-about">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
               typesetting industry. Lorem Ipsum has been the.
             </p>
@@ -245,10 +246,10 @@
           keep a finnger on a pulse of what's happening with embibe in media.
         </h4>
         <ul class="in-news__logo">
-          <li class="in-news__logo--image"><img src="img/techcruntch.png"></li>
-          <li class="in-news__logo--image"><img src="img/timesofindia.png"></li>
-          <li class="in-news__logo--image"><img src="img/cnn.png"></li>
-          <li class="in-news__logo--image"><img src="img/gizmodo.png"></li>
+          <li class="in-news__logo-image"><img src="img/techcruntch.png"></li>
+          <li class="in-news__logo-image"><img src="img/timesofindia.png"></li>
+          <li class="in-news__logo-image"><img src="img/cnn.png"></li>
+          <li class="in-news__logo-image"><img src="img/gizmodo.png"></li>
         </ul>
       </div>
     </section>
@@ -274,15 +275,15 @@
     <section class="news">
       <div class="news__container">
         <div class="news__detail">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
-          <p class="news__details--info">
+          <p class="news__details-info">
             Impact od Grading Schemes on Student's Grades.
           </p>
         </div>
         <div class="news__detail" style="margin-left:-5px;">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
           <p class="news__details--info">
@@ -290,10 +291,10 @@
           </p>
         </div>
         <div class="news__detail" style="margin-left:-5px;">
-          <div class="news__detail--date">
+          <div class="news__detail-date">
             <p>August 11,2014</p>
           </div>
-          <p class="news__details--info">
+          <p class="news__details-info">
             Impact od Grading Schemes on Student's Grades.
           </p>
         </div>
@@ -304,19 +305,19 @@
         <div class="contact__part">
           <ul class="contact__list">
             <li class="contact__list-header">Prepare</li>
-            <li class="contact__list--page" style="display:inline-block;width:25%;"><a href="IIT_JEE.html" class="contact__list--link">IIT JEE</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:73%;"><a href="#" class="contact__list--link">AIIMS/AIPMT</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:25%;"><a href="#" class="contact__list--link">BITSAT</a></li>
-            <li class="contact__list--page" style="display:inline-block;width:73%;"><a href="#" class="contact__list--link">BANK PO</a></li>
-            <li class="contact__list--page"><a href="#" class="contact__list--link">VIT</a></li>
+            <li class="contact__list-page contact__list-page-one"><a href="IIT_JEE.html" class="contact__list-link">IIT JEE</a></li>
+            <li class="contact__list-page contact__list-page-two"><a href="#" class="contact__list-link">AIIMS/AIPMT</a></li>
+            <li class="contact__list-page contact__list-page-one"><a href="#" class="contact__list-link">BITSAT</a></li>
+            <li class="contact__list-page contact__list-page-two"><a href="#" class="contact__list-link">BANK PO</a></li>
+            <li class="contact__list-page"><a href="#" class="contact__list-link">VIT</a></li>
           </ul>
         </div>
         <div class="contact__part" style="margin-left:-5px">
           <ul class="contact__list">
             <li class="contact__list-header">Company</li>
-            <li class="contact__list--page"><a href="aboutus.html" class="contact__list--link">About Us</a></li>
-            <li class="contact__list--page"><a href="blog.html" class="contact__list--link">Blog</a></li>
-            <li class="contact__list--page"><a href="faq.html" class="contact__list--link">FAQs</a></li>
+            <li class="contact__list-page"><a href="aboutus.html" class="contact__list-link">About Us</a></li>
+            <li class="contact__list-page"><a href="blog.html" class="contact__list-link">Blog</a></li>
+            <li class="contact__list-page"><a href="faq.html" class="contact__list-link">FAQs</a></li>
           </ul>
         </div>
         <div class="contact__part" style="margin-left:-5px">
@@ -324,15 +325,15 @@
             <li class="contact__list-header" style="margin-bottom:9px;">Conatact Info</li>
             <li class="contact__list-contact">
               Mumbai, India<br>
-              <p class="contact__list--subheader">Get directions</p>
+              <p class="contact__list-subheader">Get directions</p>
             </li>            
             <li class="contact__list-contact">
               iwant@embibe.com
-              <p class="contact__list--subheader">Email us</p>
+              <p class="contact__list-subheader">Email us</p>
             </li>
             <li class="contact__list-contact">
               +91-766-695-7555
-              <p class="contact__list--subheader">Say Hi!</p>
+              <p class="contact__list-subheader">Say Hi!</p>
             </li>
           </ul>
         </div>
@@ -341,14 +342,15 @@
     <footer class="footer">
       <div class="footer__container">
         <ul class="footer__ul">
-          <li class="footer__list"><span style="color: #696969;font-size:12px;">Copyright &copy; 2014 The Indiavidual</sapn></li>
-          <li class="footer__list" id="terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
+          <li class="footer__list"><span class="footer__copyright">Copyright &copy; 2014 The Indiavidual</sapn></li>
+          <li class="footer__list footer__list--terms"><a href="tos.html" class="footer__link">Terms of Services</a></li>
           <li class="footer__list"><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
          </ul>
      </div>
     </footer>
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/carousel.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
     <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
     <script type="text/javascript">
       $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });

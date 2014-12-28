@@ -95,7 +95,7 @@ body {
   vertical-align: top;
 }
 
-.fb-login {
+.popup__fb-login {
   display: block;
   width: 420px;
   height: 54px;
@@ -111,9 +111,9 @@ body {
   background-color: #2F4C9A;
 }
 
-.fb-login:hover ,
-.fb-login:active ,
-.fb-login:visited {
+.popup__fb-login:hover ,
+.popup__fb-login:active ,
+.popup__fb-login:visited {
   outline: none;
 }
 
@@ -142,7 +142,7 @@ body {
   vertical-align: top;
 }
 
-.signup_input {
+.popup__signup_input {
   height: 50px;
   width: 420px;
   margin-left: 30px;
@@ -170,7 +170,7 @@ body {
   margin-right: 50px;
 }
 
-.agree {
+.popup__agree {
   color:#AEB1B2;
   font-size:;
 }
@@ -344,12 +344,7 @@ body {
   text-align: center;
 }
 
-.jumbotron {
-  height: 662px;
-  color: white;
-}
-
-.jumbotron__img-home {
+.jumbotron__img--home {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -357,7 +352,7 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-faculty {
+.jumbotron__img--faculty {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -365,7 +360,7 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-parents {
+.jumbotron__img--parents {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -373,7 +368,7 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-aboutus {
+.jumbotron__img--aboutus {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -381,7 +376,7 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-IIT_JEE {
+.jumbotron__img--IIT_JEE {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -389,7 +384,7 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-pricing {
+.jumbotron__img--pricing {
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -397,12 +392,12 @@ body {
   background-size: cover;
 }
 
-.jumbotron__img-error {
+.jumbotron__img--error {
  background: url('../img/error.png') no-repeat center center;
  background-size: cover;
 }
 
-.jumbotron__img-stories {
+.jumbotron__img--stories {
  background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -410,16 +405,21 @@ body {
  background-size: cover;
 }
 
-.jumbotron__img-faq {
+.jumbotron__img--faq {
   background-color: #006695;
 }
 
-.jumbotron__img-tos {
+.jumbotron__img--tos {
   background-color: #009858;
 }
 
-.jumbotron__img-privacy {
+.jumbotron__img--privacy {
   background-color: #FF9600;
+}
+
+.jumbotron {
+  height: 662px;
+  color: white;
 }
 
 .jumbotron__container {
@@ -596,9 +596,10 @@ body {
 }
 
 .home-method__test-part svg {
-	height: 621px;
-	position: relative;
-	top: -72px
+  position: relative;
+  z-index: 100;
+	height: 800px;
+	top: -72px;
 }
 
 .home-method__part-container {
@@ -675,7 +676,7 @@ body {
 
 
 /*
-* Pricing table and their details
+* Pricing pricing_details__table and their details
 */
 
 .pricing_details {
@@ -684,27 +685,27 @@ body {
   background-color: #E4EEF0;
 }
 
-/*----- Tabs -----*/
-.tabs {
+/*----- pricing_details__Tabs -----*/
+.pricing_details__pricing_details__tabs {
   width:100%;
   display:inline-block;
 }
 
-/*----- Tab Links -----*/
+/*----- pricing_details__Tab Links -----*/
 /* Clearfix */
-.tab-links:after {
+.pricing_details__tab-links:after {
   display:block;
   clear:both;
   content:'';
 }
 
-.tab-links li {
+.pricing_details__tab-links li {
   margin: 1px;
   float:left;
   list-style:none;
 }
 
-.tab-links a {
+.pricing_details__tab-links a {
   padding: 30px 100px;
   text-align: center;
   display:inline-block;
@@ -716,7 +717,7 @@ body {
   transition:all linear 0.15s;
 }
 
-.tab-links a:hover {
+.pricing_details__tab-links a:hover {
   background:white;
   text-decoration:none;
 }
@@ -726,13 +727,13 @@ li.active a, li.active a:hover {
   outline: none;
 }
 
-/*----- Content of Tabs -----*/
-.tab-content__container {
+/*----- Content of pricing_details__Tabs -----*/
+.pricing_details__tab-content__container {
   margin: 0 auto;
   width: 1200px;
 }
 
-.tab-content {
+.pricing_details__tab-content {
   position: relative;
   height: 1500px;
   margin-top: -17px;
@@ -742,33 +743,33 @@ li.active a, li.active a:hover {
   background:#fff;
 }
 
-.tab-content__list {
+.pricing_details__tab-content__list {
   margin-top: -20px;
   list-style-type: none;
   color: #00DDE1;
   text-align: right;
 }
 
-.tab-content__link {
+.pricing_details__tab-content__link {
   display: inline-block;
   padding: 5px 10px;
   border-bottom: 5px solid transparent;
 }
 
-.tab-content__link--active {
+.pricing_details__tab-content__link--active {
   border-bottom: 5px solid #00DDE1;
 }
 
-.tab-content__link:hover {
+.pricing_details__tab-content__link:hover {
   cursor: pointer;
 }
 
-.tab {
+.pricing_details__tab {
   display:none;
   height: 800px;
 }
 
-.tab.active {
+.pricing_details__tab.active {
   display:block;
   color: black;
 }
@@ -886,8 +887,8 @@ li.active a, li.active a:hover {
 
 .pricing-cart__accordion {
   overflow:hidden;
-  border-radius:5px;
-  background:#4E4E50;
+  border-radius:10px;
+  background:#E4EEF0;
 }
          
 /*----- Section Titles -----*/
@@ -906,7 +907,7 @@ li.active a, li.active a:hover {
 }
  
 .pricing-cart__accordion-section-title.active, .pricing-cart__accordion-section-title:hover {
-  background:#4c4c4c;
+  background-color:#4c4c4c;
   text-decoration:none;
 }
  
@@ -917,6 +918,121 @@ li.active a, li.active a:hover {
 /*----- Section Content -----*/
 .pricing-cart__accordion-section-content {
   display:none;
+}
+
+.pricing-cart__subject {
+  height: 100%;
+  outline: 0;
+}
+.pricing-cart__subject-container {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.pricing-cart__subject-product_header {
+  margin-bottom:0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 2px;
+  color:#00ADEC;
+  background-color:#AFF6FF;
+}
+
+.pricing-cart__subject-product_header a {
+  margin: 0;
+  padding: 10px;
+  padding-left: 40px;
+  display: block;
+  color: #00ADEC;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  background: url("../img/sprite1.png") 1100px 13px no-repeat;
+}
+
+.pricing-cart__subject-product_header a:link {
+  outline: none;
+}
+
+.pricing-cart__subject-product_header.open a {
+  background-position-x: 1100px;
+  background-position-y: -25px; 
+}
+
+.pricing-cart__subject-product_detail {
+  font-size: 18px;
+  background:#E4EEF0;
+}
+
+.subject-product__ul {
+  padding: 10px 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.subject-product__ul--product {
+  border-bottom: 1px solid white; 
+}
+
+.subject-product__ul--header {
+  background-color: #B6C5CA;
+}
+
+.subject-product__li {
+  width: auto;
+  padding: 5px 40px;
+  text-align: center;
+  color: #4E4E50;
+  display: inline-block;
+}
+
+.checkbox {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+
+.checkbox__label {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 4px;
+  top: 4px;
+  border: 2px solid #00ADEC;
+  border-radius: 2px;
+  background-color: #E4EEF0;
+}
+
+.checkbox__label:after {
+  filter: alpha(opacity=0);
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 2px;
+  left: 2px;
+  border: 3px solid #00ADEC;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.checkbox__label:hover::after {
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+}
+
+.checkbox input[type=checkbox]:checked + .checkbox__label:after {
+  filter: alpha(opacity=100);
+  opacity: 1;
 }
 
 /*
@@ -1018,18 +1134,9 @@ li.active a, li.active a:hover {
 }
 
 /*
-.successful-student__detail--minus {
-  -webkit-transform: translate(0 , -30px);
-     -moz-transform: translate(0 , -30px);
-       -o-transform: translate(0 , -30px);
-      -ms-transform: translate(0 , -30px);
-}
-*/
-
-
-/*
 * Features of the Embibe
 */
+
 .feature {
   padding: 20px 0;
   color: #4D4D4F;
@@ -1131,13 +1238,13 @@ li.active a, li.active a:hover {
   width: 33.33%;
 }
 
-.know-jee__subject--precentage {
+.know-jee__subject-precentage {
   position: absolute;
   margin-top: 22%;
   left: 45%;
 }
 
-.know-jee__subject--std {
+.know-jee__subject-std {
   display: inline-block;
   width: 49%;
 }
@@ -1265,9 +1372,11 @@ li.active a, li.active a:hover {
 .paper__box-button:active , .paper__box-button:visited {
   outline: none;
 }
+
 /*
 *  on the iit_jee page.
 */
+
 .series-price {
   height: 800px;
   background-color: #E4EEF0;
@@ -1521,6 +1630,7 @@ li.active a, li.active a:hover {
 .faculties__images--three {
   background-color: green;
 }
+
 .signup {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -1580,7 +1690,7 @@ li.active a, li.active a:hover {
   color: #000033;
 }
 
-.btn {
+.signup__submit-btn {
   height: 40px;
   width: 260px;
   margin-left: 150px;
@@ -1593,7 +1703,7 @@ li.active a, li.active a:hover {
   border-radius:40px;
 }
 
-.btn:hover {
+.signup__submit-btn:hover {
   color: grey;
   cursor: pointer;
   text-decoration: none;
@@ -1728,6 +1838,7 @@ li.active a, li.active a:hover {
 /*
 * wedo images in about us page
 */
+
 .wedo {
   height: 1100px;
   padding: 20px 0;
@@ -1754,7 +1865,7 @@ li.active a, li.active a:hover {
 .wedo__album {
   list-style-type: none;
 }
-.wedo__album--image {
+.wedo__album-image {
   width: 33.33%;
   margin-top: 15px;
   display: inline-block;
@@ -1779,7 +1890,7 @@ li.active a, li.active a:hover {
   overflow: hidden;
 }
 
-#carousel_ul {
+.carousel__ul {
   position:relative;
   left:-1300px;
   width:9999px;
@@ -1788,7 +1899,7 @@ li.active a, li.active a:hover {
   list-style-type: none;
 }
 
-#carousel_ul li {
+.carousel_ul-li {
   float: left;
   width:1281px;
   padding:0px;
@@ -1802,13 +1913,13 @@ li.active a, li.active a:hover {
   padding: 55px;
 }
 
-#left_scroll,
-#right_scroll {
+.left__scroll,
+.right__scroll {
   float:left;
 }
 
-#left_scroll i,
-#right_scroll i {
+#left__scroll-icon,
+#right__scroll-icon{
   z-index: 1;
   position: absolute;
   margin-top: 100px;
@@ -1817,11 +1928,11 @@ li.active a, li.active a:hover {
   cursor: pointer;
 }
 
-#left_scroll i {
+#left__scroll-icon {
   margin-left: 8%;
 }
 
-#right_scroll i {
+#right__scroll-icon {
   margin-left: -8%;
 }
 
@@ -1845,13 +1956,13 @@ li.active a, li.active a:hover {
   font-size: 50px;
 }
 
-.investors__details--image {
+.investors__details-image {
   width: 50%;
   display: inline-block;
   text-align: center;
 }
 
-.investors__details--about {
+.investors__details-about {
   padding: 0 10%;
 }
 
@@ -1884,7 +1995,7 @@ li.active a, li.active a:hover {
   margin-top: 70px;
 }
 
-.in-news__logo--image {
+.in-news__logo-image {
   display: inline-block;
   width: 24%;
   text-align: center;
@@ -1988,12 +2099,12 @@ li.active a, li.active a:hover {
   vertical-align: top;
 }
 
-.news__detail--date {
+.news__detail-date {
   font-size: 12px;
 }
 
-.news__details--info,
-.news__detail--date {
+.news__details-info,
+.news__detail-date {
   margin: 0;
   padding: 0;
   padding-right: 120px;
@@ -2022,7 +2133,7 @@ li.active a, li.active a:hover {
   vertical-align: top;
 }
 
-.contact__list--link {
+.contact__list-link {
   list-style-type: none;
   color: white;
   text-decoration: none;
@@ -2041,7 +2152,7 @@ li.active a, li.active a:hover {
   color: #a8a8a8;
 }
 
- .contact__list--page {
+ .contact__list-page {
   line-height: 40px;
  }
 
@@ -2049,10 +2160,20 @@ li.active a, li.active a:hover {
   color: white;
 }
 
-.contact__list--subheader {
+.contact__list-subheader {
   margin-top: -5px;
   font-size: 12px;
   color: #a8a8a8;
+}
+
+.contact__list-page-one {
+  display: inline-block;
+  width:25%;
+}
+
+.contact__list-page-two {
+  display: inline-block;
+  width:73%;
 }
 
 /*
@@ -2075,6 +2196,11 @@ li.active a, li.active a:hover {
   padding: 20px 0;
 }
 
+.footer__copyright {
+  color: #696969;
+  font-size:12px;
+}
+
 .footer__list {
   display: inline-block;
 }
@@ -2090,11 +2216,7 @@ li.active a, li.active a:hover {
   color: #A6A8AB;
 }
 
-/*
-* Terms styles
-*/
-
-#terms {
+.footer__list--terms {
   padding-left: 50px;
   padding-right: 30px;
 }

@@ -7,16 +7,25 @@ var reviseAnim = function(){
     "stroke-dasharray": ""+totalLength3+" "+totalLength3+"",
     "stroke-dashoffset": totalLength3
   });
-  nextStep(fillpath3, anchorPoints3, 0, reviseAnimations);
+  nextStep(fillpath3, anchorPoints3, 0, reviseAnimations)
 }
 
 var reviseAnimations = function reviseAnimations(fillpath3 , anchorPoints3 , index3){
   index3++;
   if(index3 == 1){
-    Snap("#points").attr({"display":"inline"});
-    Snap("#tooltip1").attr({"display":"inline"});
+    var x = 1;
+    var points_arrow = setInterval(function(){
+      if(x == 1){
+        Snap("#lines").attr({"display":"inline"});
+      }else if(x == 2) {        
+        Snap("#points").attr({"display":"inline"});
+      }else if(x == 3){
+        Snap("#tooltip1_1_").attr({"display":"inline"});
+      }
+      x++;
+    } ,500);
     nextStep(fillpath3, anchorPoints3, index3, reviseAnimations)
-  } 
+  }
   if(index3 == 2){
     var clip = Snap("#upper-clip");
     var rotate = -15;
@@ -29,15 +38,15 @@ var reviseAnimations = function reviseAnimations(fillpath3 , anchorPoints3 , ind
       }
       else{
         Snap("#rays").attr({"display":"inline"});
-        Snap("#tooltip2").attr({"display":"inline"});
+        Snap("#tooltip_x5F_2").attr({"display":"inline"});
+        nextStep(fillpath3, anchorPoints3, index3, reviseAnimations)
         clearInterval(clip_interval);
       }
       x++;
     } ,500);
-    nextStep(fillpath3, anchorPoints3, index3, reviseAnimations)
   }
   if(index3 == 3){
-    Snap("#tooltip3").attr({"display":"inline"});
+    Snap("#tooltip_x5F_3").attr({"display":"inline"});    
     nextStep(fillpath3, anchorPoints3, index3, reviseAnimations)
   }
   if(index3 == 4){
