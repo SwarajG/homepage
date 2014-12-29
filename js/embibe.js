@@ -181,10 +181,10 @@ var pricing_box = function pricing_box(){
         // Add active class to section title
         $(this).addClass('active');
         // Open up the hidden content panel
-        $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+        $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
     }
     e.preventDefault();
-  }); 
+  });
 };var analyseAnim = function(){
   var path2 = document.querySelector('.analyse #fillpath');
   var totalLength2 = path2.getTotalLength();

@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['*.*', '**/*.*'],
+      files: ['js/home.js'],
       tasks: ['default'],
       options: {
         livereload: 35729,
