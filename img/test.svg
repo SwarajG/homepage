@@ -26,7 +26,7 @@
 <g>
 	<g>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<path fill="#F27D8C" d="M355.2,301.9v5.8c0,16-13.3,28.9-29.2,28.9h-6.5l-14.7,11.1c-1.3,0.9-3,0.1-3-1.6v-9.5h-30.8
+		<path fill="#F27D8C" d="M355.2,301.9v5.8c0,16-13.3,28.9-29.2,28.9h-6.5l-14.7,11.1c-1.3,0.9-3,0.1-3-1.6v-9.5H271
 			c-16,0-28.9-12.9-28.9-28.9v-5.8c0-16,13.1-28.9,28.9-28.9h54.8c9.9,0,18.9,5.1,24.2,12.8C353.4,290.4,355.2,295.9,355.2,301.9"/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
 		<path fill="#F390A4" d="M355.1,299.1L355.1,299.1L355.1,299.1 M355.1,299.1L355.1,299.1L355.1,299.1 M355.1,299.4L355.1,299.4
@@ -62,11 +62,11 @@
 			C354.7,294.8,353.4,290.8,351.1,287.2"/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<g id="yellow_x5F_bubble">
-			<path fill="#FFC74C" d="M230,306.4H269c11.4,0,20.6,9.9,20.6,21.8v4.2c0,11.7-9.2,21.1-20.6,21.1h-21.5v7.4
+		<g id="yellow_x5F_bubble" display="none">
+			<path display="inline" fill="#FFC74C" d="M230,306.4h39c11.4,0,20.6,9.9,20.6,21.8v4.2c0,11.7-9.2,21.1-20.6,21.1h-21.5v7.4
 				c0,1.2-1.5,1.7-2.4,1.1l-10.7-8.3h-4.6c-11.4,0-21-9.4-21-21.1v-4.2C208.8,316.4,218.5,306.4,230,306.4"/>
-			<path fill="#FDB515" d="M289.8,328.2v4.2c0,11.7-9.2,21.6-20.6,21.6h-21.5v6.9c0,1.2-1.5,2-2.4,1.3l-10.7-8.2h-0.5l44.9-44.9
-				C285.3,312.8,289.8,320,289.8,328.2"/>
+			<path display="inline" fill="#FDB515" d="M289.8,328.2v4.2c0,11.7-9.2,21.6-20.6,21.6h-21.5v6.9c0,1.2-1.5,2-2.4,1.3l-10.7-8.2
+				h-0.5l44.9-44.9C285.3,312.8,289.8,320,289.8,328.2"/>
 		</g>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
 		<path fill="#FFFFFF" d="M305.3,319.7c0,2.1-1.7,4-4,4s-4-1.7-4-4c0-2.1,1.7-4,4-4S305.3,317.6,305.3,319.7"/>
@@ -75,17 +75,18 @@
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
 		<path fill="#FFFFFF" d="M336.5,319.7c0,2.1-1.7,4-4,4c-2.1,0-4-1.7-4-4c0-2.1,1.7-4,4-4S336.5,317.6,336.5,319.7"/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<path fill="#FFFFFF" d="M235.1,340.3c0,2-1.6,3.6-3.6,3.6c-2,0-3.6-1.6-3.6-3.6c0-2,1.6-3.6,3.6-3.6
-			C233.5,336.7,235.1,338.3,235.1,340.3"/>
+		<path fill="#FFFFFF" d="M235.1,340.3c0,2-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6C233.5,336.7,235.1,338.3,235.1,340.3"
+			/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<path fill="#FFFFFF" d="M249.5,340.3c0,2-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6c0-2,1.6-3.6,3.6-3.6
-			C247.9,336.7,249.5,338.3,249.5,340.3"/>
+		<path fill="#FFFFFF" d="M249.5,340.3c0,2-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6C247.9,336.7,249.5,338.3,249.5,340.3"
+			/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<path fill="#FFFFFF" d="M263.9,340.3c0,2-1.6,3.6-3.6,3.6c-2,0-3.6-1.6-3.6-3.6c0-2,1.6-3.6,3.6-3.6
-			C262.3,336.7,263.9,338.3,263.9,340.3"/>
+		<path fill="#FFFFFF" d="M263.9,340.3c0,2-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6C262.3,336.7,263.9,338.3,263.9,340.3"
+			/>
 		<rect x="189.7" y="273" fill="none" width="165.7" height="89.5"/>
-		<path id="blue_x5F_bubble" fill="#35B8EB" d="M228.1,282.3v1.8c0,5.1-4.5,9.4-9.9,9.4H216l-5,3.6c-0.4,0.3-1.1,0-1.1-0.5v-3h-10.4
-			c-5.4,0-9.9-4.2-9.9-9.4v-1.8c0-5.1,4.5-9.4,9.9-9.4h18.7c3.4,0,6.5,1.6,8.2,4.1C227.5,278.7,228.1,280.4,228.1,282.3"/>
+		<path id="blue_x5F_bubble" display="none" fill="#35B8EB" d="M228.1,282.3v1.8c0,5.1-4.5,9.4-9.9,9.4H216l-5,3.6
+			c-0.4,0.3-1.1,0-1.1-0.5v-3h-10.4c-5.4,0-9.9-4.2-9.9-9.4v-1.8c0-5.1,4.5-9.4,9.9-9.4h18.7c3.4,0,6.5,1.6,8.2,4.1
+			C227.5,278.7,228.1,280.4,228.1,282.3"/>
 	</g>
 </g>
 <g>
@@ -108,7 +109,8 @@
 <g id="points_x5F_graph" display="none">
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
 	<path display="inline" fill="#0775A2" d="M165,500.8c-4.9,0-8.8,4-8.8,8.8c0,4.9,4,8.8,8.8,8.8s8.8-4,8.8-8.8
-		C173.9,504.9,169.9,500.8,165,500.8 M165,502c4.2,0,7.8,3.4,7.8,7.8s-3.4,7.8-7.8,7.8c-4.2,0-7.8-3.4-7.8-7.8S160.7,502,165,502"/>
+		C173.9,504.9,169.9,500.8,165,500.8 M165,502c4.2,0,7.8,3.4,7.8,7.8c0,4.4-3.4,7.8-7.8,7.8c-4.2,0-7.8-3.4-7.8-7.8
+		S160.7,502,165,502"/>
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
 	<path display="inline" fill="#FBEC1C" d="M127.3,528.9c0,3-2.5,5.5-5.5,5.5c-1.2,0-2.4-0.4-3.3-1.1c-1.3-1.1-2.2-2.6-2.2-4.5
 		c0-3,2.5-5.5,5.5-5.5c1.8,0,3.4,0.9,4.5,2.2C126.7,526.5,127.3,527.7,127.3,528.9"/>
@@ -116,66 +118,21 @@
 	<path display="inline" fill="#FDB515" d="M127.3,528.9c0,3-2.5,5.5-5.5,5.5c-1.2,0-2.4-0.4-3.3-1.1l7.8-7.8
 		C126.7,526.5,127.3,527.7,127.3,528.9"/>
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
-	<path display="inline" fill="#C2A5CE" d="M150.4,528.9c0,3-2.5,5.5-5.5,5.5c-3,0-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5
-		C147.9,523.4,150.4,525.9,150.4,528.9"/>
+	<path display="inline" fill="#C2A5CE" d="M150.4,528.9c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5
+		S150.4,525.9,150.4,528.9"/>
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
 	<path display="inline" fill="#9B7BB7" d="M150.4,528.9c0,3-2.5,5.5-5.5,5.5c-1.2,0-2.4-0.4-3.3-1.1l7.8-7.8
 		C150,526.5,150.4,527.7,150.4,528.9"/>
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
-	<path display="inline" fill="#0775A2" d="M170.6,509.8c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5
+	<path display="inline" fill="#0775A2" d="M170.6,509.8c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5
 		S170.6,506.7,170.6,509.8"/>
 	<rect x="88.7" y="472.3" display="inline" fill="none" width="113.8" height="92.7"/>
 	<path display="inline" fill="#0B6A82" d="M170.6,509.8c0,3-2.5,5.5-5.5,5.5c-1.2,0-2.4-0.4-3.3-1.1l7.8-7.8
 		C170,507.4,170.6,508.5,170.6,509.8"/>
 </g>
-<g>
-	<g>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#7E62AA" d="M400.5,579c-0.8,0-1.3-0.7-1.3-1.3v-64.9c0-0.8,0.7-1.3,1.3-1.3h97.7c0.8,0,1.3,0.7,1.3,1.3v64.9
-			c0,0.8-0.7,1.3-1.3,1.3H400.5z"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#714FA0" d="M498.2,506.4h-97.7c-3.4,0-6.3,2.9-6.3,6.3v64.9c0,3.4,2.9,6.3,6.3,6.3h97.7c3.4,0,6.3-2.9,6.3-6.3v-64.9
-			C504.5,509.3,501.6,506.4,498.2,506.4 M494.5,574.1h-90.4v-57.7h90.4V574.1z"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#E85F54" d="M421.6,477.2v57.4l-14.1,13.6H367c-1.7,0-3.4-1.7-3.4-3.4v-67.6c0-1.7,1.7-3,3.4-3h51
-			C419.8,474.3,421.6,475.5,421.6,477.2"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#FFFFFF" d="M397.2,531.6c0,0.8-0.7,1.5-1.5,1.5h-5.4c-0.8,0-1.5-0.7-1.5-1.5v-5.4c0-0.8,0.7-1.5,1.5-1.5h5.4
-			c0.8,0,1.5,0.7,1.5,1.5V531.6z M383.9,492c2.2-1.5,5-2.1,8.3-2.1c4.4,0,7.9,1.1,10.7,3c2.9,2.1,4.2,5.1,4.2,9.1
-			c0,2.5-0.7,4.6-1.8,6.2c-0.7,1.1-2.1,2.4-4.2,4l-2,1.6c-1.1,0.9-1.8,1.8-2.2,3c-0.1,0.5-0.3,0.7-0.3,1.6c0,0.8-0.7,0.9-1.5,0.9
-			h-4.8c-0.9,0-1.6-0.3-1.5-1.2c0.1-2.4,0.4-3.8,0.8-4.9c0.5-1.2,1.7-2.5,3.8-4.1l2.1-1.6c0.7-0.5,1.2-1.1,1.7-1.7
-			c0.8-1.1,1.2-2.2,1.2-3.4c0-1.5-0.4-2.8-1.3-4c-0.8-1.2-2.4-1.8-4.6-1.8s-3.8,0.8-4.8,2.2c-0.7,1.1-1.1,1.7-1.3,2.8
-			c-0.1,0.8-0.8,0.8-1.5,0.8h-5.3c-0.9,0-1.6-0.3-1.5-1.2C378.9,496.7,380.7,493.9,383.9,492"/>
-	</g>
-	<polygon fill="#FABFB9" points="407.1,548.1 421.4,535.3 407.1,535.3 	"/>
-	<polygon fill="#D24228" points="407.5,534.7 407.5,548.1 393.9,548.1 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="409" y1="567.1" x2="489.3" y2="567.1"/>
-	<g>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#FFC857" d="M491.3,567.5c0,2.4-2,4.4-4.4,4.4s-4.4-2-4.4-4.4c0-2.4,2-4.4,4.4-4.4S491.3,565.1,491.3,567.5"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		
-			<path id="wave" fill="none" stroke="#F8961D" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M431,482.1c8.3,2.2,15.2,7.9,18.9,15.6 M431,474.5c12.4,2.6,22.4,11.5,26.8,23.1 M466,497.6c-4.8-15.8-18.2-28-34.8-30.9"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#714FA0" d="M444.9,528.5c-2,0-3.7,1.7-3.7,3.7v16.9c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.9
-			C448.4,530.2,446.8,528.5,444.9,528.5"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#714FA0" d="M458.9,528.5c-2,0-3.7,1.7-3.7,3.7v16.9c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.9
-			C462.6,530.2,461,528.5,458.9,528.5"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#FFC857" d="M442.8,527.2c-2,0-3.7,1.7-3.7,3.7v16.9c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.9
-			C446.4,528.9,444.9,527.2,442.8,527.2"/>
-		<rect x="363.7" y="465.3" fill="none" width="140.8" height="118.7"/>
-		<path fill="#FFC857" d="M456.9,527.2c-2,0-3.7,1.7-3.7,3.7v16.9c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.9
-			C460.6,528.9,458.9,527.2,456.9,527.2"/>
-	</g>
-</g>
 <path fill="#29B5E8" d="M334.8,781.6h-118c-4.8,0-8.7-4-8.7-8.7s4-8.7,8.7-8.7h117.9c4.8,0,8.7,4,8.7,8.7
 	C343.5,777.7,339.5,781.6,334.8,781.6"/>
-<path fill="#FFFFFF" d="M340.2,772.9c0,3-2.5,5.5-5.5,5.5c-3,0-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5
-	C337.7,767.3,340.2,769.8,340.2,772.9"/>
+<path fill="#FFFFFF" d="M340.2,772.9c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5C337.7,767.3,340.2,769.8,340.2,772.9"/>
 <path fill="#196C95" d="M222.3,773.3c0,3.2-2.6,5.8-5.8,5.8s-5.8-2.6-5.8-5.8s2.6-5.8,5.8-5.8C219.7,767.3,222.3,770,222.3,773.3"/>
 <path fill="#29B5E8" d="M216.5,764.8c-4.6,0-8.4,3.8-8.4,8.4s3.8,8.4,8.4,8.4s8.4-3.8,8.4-8.4C225,768.5,221.1,764.8,216.5,764.8
 	 M216.5,766c4,0,7.3,3.3,7.3,7.3s-3.3,7.3-7.3,7.3s-7.3-3.3-7.3-7.3C209.2,769.2,212.4,766,216.5,766"/>
@@ -187,169 +144,172 @@
 	c0.7,0,1.2-0.5,1.2-1.2V701.3z"/>
 <path fill="#0775A2" d="M334.8,759.5h-57.6c-4.8,0-8.7-4-8.7-8.7c0-4.8,4-8.7,8.7-8.7h57.6c4.8,0,8.7,4,8.7,8.7
 	C343.5,755.7,339.5,759.5,334.8,759.5"/>
-<path fill="#FFFFFF" d="M340.2,750.8c0,3-2.5,5.5-5.5,5.5c-3,0-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5
-	C337.7,745.3,340.2,747.8,340.2,750.8"/>
+<path fill="#FFFFFF" d="M340.2,750.8c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5S340.2,747.8,340.2,750.8"/>
 <path fill="#4BB963" d="M343.1,728.5c0,4.8-3.8,8.4-8.4,8.4h-76.3c-4.8,0-8.4-3.8-8.4-8.4c0-4.8,3.8-8.4,8.4-8.4h76.3
 	C339.3,720.1,343.1,723.9,343.1,728.5"/>
-<path fill="#FFFFFF" d="M339.8,728.6c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5
-	C337.3,723.1,339.8,725.6,339.8,728.6"/>
-<line fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169.4" y1="703" x2="166.7" y2="694.6"/>
-<line fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="165.7" y1="705.7" x2="159.5" y2="699.5"/>
-<line fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="163.4" y1="709.5" x2="155" y2="706.9"/>
-<line fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="162.5" y1="714.1" x2="153.8" y2="715"/>
+<path fill="#FFFFFF" d="M339.8,728.6c0,3-2.5,5.5-5.5,5.5s-5.5-2.5-5.5-5.5s2.5-5.5,5.5-5.5S339.8,725.6,339.8,728.6"/>
+<line display="none" fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169.4" y1="703" x2="166.7" y2="694.6"/>
+<line display="none" fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="165.7" y1="705.7" x2="159.5" y2="699.5"/>
+<line display="none" fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="163.4" y1="709.5" x2="155" y2="706.9"/>
+<line display="none" fill="none" stroke="#29B5E8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="162.5" y1="714.1" x2="153.8" y2="715"/>
 <polyline fill="none" points="152.9,781.6 343.5,781.6 343.5,693.7 152.9,693.7 "/>
-<g id="tooltip1_1_" display="none">
+<g id="tooltip_x5F_1" display="none">
 	
-		<text transform="matrix(0.6727 0 0 1 206.1206 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">c</text>
+		<text transform="matrix(0.6727 0 0 1 206.1205 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">c</text>
 	
-		<text transform="matrix(0.6727 0 0 1 210.7749 204.7851)" display="inline" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
+		<text transform="matrix(0.6727 0 0 1 210.7752 204.7852)" display="inline" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
 	
-		<text transform="matrix(0.6727 0 0 1 216.5425 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
+		<text transform="matrix(0.6727 0 0 1 216.5424 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
 	
-		<text transform="matrix(0.6727 0 0 1 221.5503 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">s</text>
+		<text transform="matrix(0.6727 0 0 1 221.5502 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">s</text>
 	
-		<text transform="matrix(0.6727 0 0 1 225.6646 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 225.6647 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 230.8696 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 230.8696 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 233.0728 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 233.0728 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 236.5122 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
+		<text transform="matrix(0.6727 0 0 1 236.5119 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
 	
-		<text transform="matrix(0.6727 0 0 1 242.2788 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 242.2791 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 247.4839 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 247.4839 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 249.686 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
+		<text transform="matrix(0.6727 0 0 1 249.6857 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
 	
-		<text transform="matrix(0.6727 0 0 1 253.1265 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
+		<text transform="matrix(0.6727 0 0 1 253.1264 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
 	
-		<text transform="matrix(0.6727 0 0 1 255.5571 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
+		<text transform="matrix(0.6727 0 0 1 255.557 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
 	
-		<text transform="matrix(0.6727 0 0 1 261.3657 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
+		<text transform="matrix(0.6727 0 0 1 261.3656 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
 	
-		<text transform="matrix(0.6727 0 0 1 267.0913 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 267.0913 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 270.5298 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 270.5298 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 272.7329 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 272.7326 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 276.1714 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
+		<text transform="matrix(0.6727 0 0 1 276.1713 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
 	
-		<text transform="matrix(0.6727 0 0 1 281.1802 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
+		<text transform="matrix(0.6727 0 0 1 281.1801 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
 	
-		<text transform="matrix(0.6727 0 0 1 284.4946 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
+		<text transform="matrix(0.6727 0 0 1 284.4943 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
 	
-		<text transform="matrix(0.6727 0 0 1 290.3022 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 290.3019 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 295.5083 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 295.5083 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 298.9165 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">,</text>
+		<text transform="matrix(0.6727 0 0 1 298.9165 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">,</text>
 	
-		<text transform="matrix(0.6727 0 0 1 301.0669 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 301.0668 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 303.27 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">j</text>
+		<text transform="matrix(0.6727 0 0 1 303.2701 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">j</text>
 	
-		<text transform="matrix(0.6727 0 0 1 305.7944 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
+		<text transform="matrix(0.6727 0 0 1 305.7948 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
 	
-		<text transform="matrix(0.6727 0 0 1 311.5205 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">s</text>
+		<text transform="matrix(0.6727 0 0 1 311.5206 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">s</text>
 	
-		<text transform="matrix(0.6727 0 0 1 315.6348 204.7851)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 315.6347 204.7852)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 206.1206 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 206.1205 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 215.3257 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 215.3257 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 220.5317 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 220.5316 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 222.7339 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
+		<text transform="matrix(0.6727 0 0 1 222.7339 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
 	
-		<text transform="matrix(0.6727 0 0 1 226.1733 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
+		<text transform="matrix(0.6727 0 0 1 226.1734 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
 	
-		<text transform="matrix(0.6727 0 0 1 228.605 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
+		<text transform="matrix(0.6727 0 0 1 228.6051 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
 	
-		<text transform="matrix(0.6727 0 0 1 234.4136 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
+		<text transform="matrix(0.6727 0 0 1 234.4137 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">h</text>
 	
-		<text transform="matrix(0.6727 0 0 1 240.1382 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 240.1385 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 243.5776 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 243.5776 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 245.7798 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
+		<text transform="matrix(0.6727 0 0 1 245.7798 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
 	
-		<text transform="matrix(0.6727 0 0 1 250.7886 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">m</text>
+		<text transform="matrix(0.6727 0 0 1 250.7886 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">m</text>
 	
-		<text transform="matrix(0.6727 0 0 1 259.4536 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
+		<text transform="matrix(0.6727 0 0 1 259.4537 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
 	
-		<text transform="matrix(0.6727 0 0 1 265.1587 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
+		<text transform="matrix(0.6727 0 0 1 265.1588 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
 	
-		<text transform="matrix(0.6727 0 0 1 270.8833 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">n</text>
+		<text transform="matrix(0.6727 0 0 1 270.883 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">n</text>
 	
-		<text transform="matrix(0.6727 0 0 1 276.6079 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 276.6078 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 280.0483 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 280.0483 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 282.2505 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 282.2506 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 285.6265 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
+		<text transform="matrix(0.6727 0 0 1 285.6265 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
 	
-		<text transform="matrix(0.6727 0 0 1 291.3315 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 291.3315 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 293.5347 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
+		<text transform="matrix(0.6727 0 0 1 293.5348 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
 	
-		<text transform="matrix(0.6727 0 0 1 299.3423 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 299.3424 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 304.5483 223.3212)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 304.5483 223.3213)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 206.1206 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
+		<text transform="matrix(0.6727 0 0 1 206.1205 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">i</text>
 	
-		<text transform="matrix(0.6727 0 0 1 208.5513 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">n</text>
+		<text transform="matrix(0.6727 0 0 1 208.5512 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">n</text>
 	
-		<text transform="matrix(0.6727 0 0 1 214.2759 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
+		<text transform="matrix(0.6727 0 0 1 214.2759 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">t</text>
 	
-		<text transform="matrix(0.6727 0 0 1 217.6538 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
+		<text transform="matrix(0.6727 0 0 1 217.6538 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
 	
-		<text transform="matrix(0.6727 0 0 1 223.3579 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 223.3579 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 225.561 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">y</text>
+		<text transform="matrix(0.6727 0 0 1 225.5611 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">y</text>
 	
-		<text transform="matrix(0.6727 0 0 1 230.3501 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
+		<text transform="matrix(0.6727 0 0 1 230.3502 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
 	
-		<text transform="matrix(0.6727 0 0 1 236.0542 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
+		<text transform="matrix(0.6727 0 0 1 236.0542 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">u</text>
 	
-		<text transform="matrix(0.6727 0 0 1 241.7798 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
+		<text transform="matrix(0.6727 0 0 1 241.7799 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
 	
-		<text transform="matrix(0.6727 0 0 1 245.1772 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 245.1771 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 247.3804 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">d</text>
+		<text transform="matrix(0.6727 0 0 1 247.3804 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">d</text>
 	
-		<text transform="matrix(0.6727 0 0 1 253.2407 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
+		<text transform="matrix(0.6727 0 0 1 253.2411 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">r</text>
 	
-		<text transform="matrix(0.6727 0 0 1 256.5347 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 256.5346 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 261.7397 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
+		<text transform="matrix(0.6727 0 0 1 261.7399 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">a</text>
 	
-		<text transform="matrix(0.6727 0 0 1 266.7476 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">m</text>
+		<text transform="matrix(0.6727 0 0 1 266.7472 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">m</text>
 	
-		<text transform="matrix(0.6727 0 0 1 275.4136 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
+		<text transform="matrix(0.6727 0 0 1 275.4139 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467"> </text>
 	
-		<text transform="matrix(0.6727 0 0 1 277.6167 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">c</text>
+		<text transform="matrix(0.6727 0 0 1 277.6167 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">c</text>
 	
-		<text transform="matrix(0.6727 0 0 1 282.2085 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
+		<text transform="matrix(0.6727 0 0 1 282.2081 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">o</text>
 	
-		<text transform="matrix(0.6727 0 0 1 287.9136 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">l</text>
+		<text transform="matrix(0.6727 0 0 1 287.9136 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">l</text>
 	
-		<text transform="matrix(0.6727 0 0 1 290.3657 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">l</text>
+		<text transform="matrix(0.6727 0 0 1 290.3656 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">l</text>
 	
-		<text transform="matrix(0.6727 0 0 1 292.8179 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 292.8179 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	
-		<text transform="matrix(0.6727 0 0 1 298.0229 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
+		<text transform="matrix(0.6727 0 0 1 298.0228 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">g</text>
 	
-		<text transform="matrix(0.6727 0 0 1 303.8315 241.8554)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
+		<text transform="matrix(0.6727 0 0 1 303.8314 241.8555)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="15.4467">e</text>
 	<path display="inline" fill="#25B5E9" d="M346.8,254.4c0,1.4-0.5,2.4-1.6,2.4h-69.1l-6.2,10.1l-6.8-10.1h-72.2
 		c-0.1,0-0.2-0.2-0.2-0.4v-74c0-0.2,0.2-0.4,0.4-0.4H347v72.4H346.8z"/>
-	<text id="tool_x5F_text1" transform="matrix(0.7552 0 0 1 197.8179 205.2959)" display="inline" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">        Test to score more.</tspan><tspan x="0" y="19.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">Discuss your improvement </tspan><tspan x="0" y="39.1" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">             with experts.</tspan></text>
+	
+		<text transform="matrix(0.7552 0 0 1 197.8178 205.2959)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">        Test to score more.</text>
+	
+		<text transform="matrix(0.7552 0 0 1 197.8178 224.896)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">Discuss your improvement </text>
+	
+		<text transform="matrix(0.7552 0 0 1 197.8178 244.396)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16.3017">             with experts.</text>
 </g>
-<g id="tooltip2" display="none">
+<g id="tooltip_x5F_2" display="none">
 	
 		<text transform="matrix(0.919 0 0 1 76.6084 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">c</text>
 	
@@ -371,9 +331,9 @@
 	
 		<text transform="matrix(0.919 0 0 1 117.9717 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
 	
-		<text transform="matrix(0.919 0 0 1 120.1738 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">r</text>
+		<text transform="matrix(0.919 0 0 1 120.1739 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">r</text>
 	
-		<text transform="matrix(0.919 0 0 1 123.6143 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">i</text>
+		<text transform="matrix(0.919 0 0 1 123.6142 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">i</text>
 	
 		<text transform="matrix(0.919 0 0 1 126.0449 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">g</text>
 	
@@ -391,7 +351,7 @@
 	
 		<text transform="matrix(0.919 0 0 1 154.9824 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">g</text>
 	
-		<text transform="matrix(0.919 0 0 1 160.79 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">e</text>
+		<text transform="matrix(0.919 0 0 1 160.7901 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">e</text>
 	
 		<text transform="matrix(0.919 0 0 1 165.9961 417.8174)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">t</text>
 	
@@ -415,7 +375,7 @@
 	
 		<text transform="matrix(0.919 0 0 1 93.2217 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">r</text>
 	
-		<text transform="matrix(0.919 0 0 1 96.6611 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">i</text>
+		<text transform="matrix(0.919 0 0 1 96.6612 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">i</text>
 	
 		<text transform="matrix(0.919 0 0 1 99.0928 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">g</text>
 	
@@ -423,7 +383,7 @@
 	
 		<text transform="matrix(0.919 0 0 1 110.626 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">t</text>
 	
-		<text transform="matrix(0.919 0 0 1 114.0654 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
+		<text transform="matrix(0.919 0 0 1 114.0655 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
 	
 		<text transform="matrix(0.919 0 0 1 116.2676 431.3848)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">a</text>
 	
@@ -469,7 +429,7 @@
 	
 		<text transform="matrix(0.919 0 0 1 112.2676 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">r</text>
 	
-		<text transform="matrix(0.919 0 0 1 115.665 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
+		<text transform="matrix(0.919 0 0 1 115.6651 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
 	
 		<text transform="matrix(0.919 0 0 1 117.8682 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">d</text>
 	
@@ -479,7 +439,7 @@
 	
 		<text transform="matrix(0.919 0 0 1 132.2275 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">a</text>
 	
-		<text transform="matrix(0.919 0 0 1 137.2354 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">m</text>
+		<text transform="matrix(0.919 0 0 1 137.2353 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">m</text>
 	
 		<text transform="matrix(0.919 0 0 1 145.9014 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306"> </text>
 	
@@ -498,33 +458,36 @@
 		<text transform="matrix(0.919 0 0 1 174.3193 444.9512)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="11.306">e</text>
 	<path display="inline" fill="#25B5E9" d="M217.3,454.1c0,1-0.5,1.8-1.6,1.8h-69.1l-6.2,7.4l-6.8-7.4H61.4c-0.1,0-0.2-0.1-0.2-0.3
 		v-54.2c0-0.1,0.2-0.3,0.4-0.3h155.9v53H217.3z"/>
-	<text id="tool_x5F_text1_1_" transform="matrix(0.7455 0 0 1 67.9995 424.0059)" display="inline" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="17.616">               Mesure test </tspan><tspan x="0" y="21.1" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="17.616">confidence  and  strategy.</tspan></text>
-</g>
-<g id="tooltip3" display="none">
 	
-		<text transform="matrix(0.7995 0 0 1 388.0274 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">c</text>
+		<text transform="matrix(0.7455 0 0 1 67.9995 424.0059)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="17.616">               Mesure test </text>
+	
+		<text transform="matrix(0.7455 0 0 1 67.9995 445.1055)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="17.616">confidence  and  strategy.</text>
+</g>
+<g id="tooltip_x5F_3" display="none">
+	
+		<text transform="matrix(0.7995 0 0 1 388.0273 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">c</text>
 	
 		<text transform="matrix(0.7995 0 0 1 392.5176 401.5371)" display="inline" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12.5391">h</text>
 	
-		<text transform="matrix(0.7995 0 0 1 398.0821 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
+		<text transform="matrix(0.7995 0 0 1 398.082 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
 	
-		<text transform="matrix(0.7995 0 0 1 402.9131 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">s</text>
+		<text transform="matrix(0.7995 0 0 1 402.913 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">s</text>
 	
-		<text transform="matrix(0.7995 0 0 1 406.8828 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
+		<text transform="matrix(0.7995 0 0 1 406.8829 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 411.9043 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 411.9044 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
 		<text transform="matrix(0.7995 0 0 1 414.0303 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
 		<text transform="matrix(0.7995 0 0 1 417.3487 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">h</text>
 	
-		<text transform="matrix(0.7995 0 0 1 422.9121 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
+		<text transform="matrix(0.7995 0 0 1 422.912 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 427.9346 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 427.9345 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
-		<text transform="matrix(0.7995 0 0 1 430.0586 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
+		<text transform="matrix(0.7995 0 0 1 430.0585 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
 	
-		<text transform="matrix(0.7995 0 0 1 433.378 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
+		<text transform="matrix(0.7995 0 0 1 433.3779 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
 	
 		<text transform="matrix(0.7995 0 0 1 435.7237 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">g</text>
 	
@@ -532,11 +495,11 @@
 	
 		<text transform="matrix(0.7995 0 0 1 446.8516 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 450.169 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 450.1689 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
 		<text transform="matrix(0.7995 0 0 1 452.294 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 455.6114 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
+		<text transform="matrix(0.7995 0 0 1 455.6113 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
 	
 		<text transform="matrix(0.7995 0 0 1 460.4444 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
 	
@@ -546,53 +509,53 @@
 	
 		<text transform="matrix(0.7995 0 0 1 474.2676 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 477.5567 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">,</text>
+		<text transform="matrix(0.7995 0 0 1 477.5566 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">,</text>
 	
 		<text transform="matrix(0.7995 0 0 1 479.6309 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
-		<text transform="matrix(0.7995 0 0 1 481.7569 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">j</text>
+		<text transform="matrix(0.7995 0 0 1 481.7568 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">j</text>
 	
 		<text transform="matrix(0.7995 0 0 1 484.1924 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">u</text>
 	
-		<text transform="matrix(0.7995 0 0 1 489.7168 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">s</text>
+		<text transform="matrix(0.7995 0 0 1 489.7167 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">s</text>
 	
 		<text transform="matrix(0.7995 0 0 1 493.6866 401.5371)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 388.0274 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
+		<text transform="matrix(0.7995 0 0 1 388.0273 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 396.9082 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
+		<text transform="matrix(0.7995 0 0 1 396.9083 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 401.9307 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 401.9308 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
 		<text transform="matrix(0.7995 0 0 1 404.0557 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
 	
-		<text transform="matrix(0.7995 0 0 1 407.3741 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
+		<text transform="matrix(0.7995 0 0 1 407.3739 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
 	
-		<text transform="matrix(0.7995 0 0 1 409.7198 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">g</text>
+		<text transform="matrix(0.7995 0 0 1 409.7197 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">g</text>
 	
-		<text transform="matrix(0.7995 0 0 1 415.3242 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">h</text>
+		<text transform="matrix(0.7995 0 0 1 415.3243 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">h</text>
 	
 		<text transform="matrix(0.7995 0 0 1 420.8467 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
 		<text transform="matrix(0.7995 0 0 1 424.1651 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
-		<text transform="matrix(0.7995 0 0 1 426.2901 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
+		<text transform="matrix(0.7995 0 0 1 426.29 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
 	
 		<text transform="matrix(0.7995 0 0 1 431.1221 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">m</text>
 	
 		<text transform="matrix(0.7995 0 0 1 439.4825 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
 	
-		<text transform="matrix(0.7995 0 0 1 444.9864 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">u</text>
+		<text transform="matrix(0.7995 0 0 1 444.9863 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">u</text>
 	
 		<text transform="matrix(0.7995 0 0 1 450.5098 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">n</text>
 	
-		<text transform="matrix(0.7995 0 0 1 456.0332 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
+		<text transform="matrix(0.7995 0 0 1 456.0331 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 459.3526 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 459.3525 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
 		<text transform="matrix(0.7995 0 0 1 461.4766 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 464.7344 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
+		<text transform="matrix(0.7995 0 0 1 464.7343 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
 	
 		<text transform="matrix(0.7995 0 0 1 470.2383 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
@@ -600,58 +563,63 @@
 	
 		<text transform="matrix(0.7995 0 0 1 477.9668 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 482.9903 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
+		<text transform="matrix(0.7995 0 0 1 482.9902 416.584)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 388.0274 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
+		<text transform="matrix(0.7995 0 0 1 388.0273 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">i</text>
 	
-		<text transform="matrix(0.7995 0 0 1 390.3721 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">n</text>
+		<text transform="matrix(0.7995 0 0 1 390.3722 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">n</text>
 	
 		<text transform="matrix(0.7995 0 0 1 395.8955 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">t</text>
 	
-		<text transform="matrix(0.7995 0 0 1 399.1543 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
+		<text transform="matrix(0.7995 0 0 1 399.1542 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
 	
-		<text transform="matrix(0.7995 0 0 1 404.6573 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 404.6572 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
 		<text transform="matrix(0.7995 0 0 1 406.7832 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">y</text>
 	
 		<text transform="matrix(0.7995 0 0 1 411.4034 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
 	
-		<text transform="matrix(0.7995 0 0 1 416.9073 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">u</text>
+		<text transform="matrix(0.7995 0 0 1 416.9072 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">u</text>
 	
 		<text transform="matrix(0.7995 0 0 1 422.4307 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
 	
-		<text transform="matrix(0.7995 0 0 1 425.709 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
+		<text transform="matrix(0.7995 0 0 1 425.7089 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
-		<text transform="matrix(0.7995 0 0 1 427.834 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">d</text>
+		<text transform="matrix(0.7995 0 0 1 427.8341 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">d</text>
 	
-		<text transform="matrix(0.7995 0 0 1 433.4883 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
+		<text transform="matrix(0.7995 0 0 1 433.4884 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">r</text>
 	
 		<text transform="matrix(0.7995 0 0 1 436.666 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 441.6885 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
+		<text transform="matrix(0.7995 0 0 1 441.6884 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">a</text>
 	
-		<text transform="matrix(0.7995 0 0 1 446.5196 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">m</text>
+		<text transform="matrix(0.7995 0 0 1 446.5195 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">m</text>
 	
 		<text transform="matrix(0.7995 0 0 1 454.8809 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391"> </text>
 	
-		<text transform="matrix(0.7995 0 0 1 457.0059 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">c</text>
+		<text transform="matrix(0.7995 0 0 1 457.0058 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">c</text>
 	
-		<text transform="matrix(0.7995 0 0 1 461.4366 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
+		<text transform="matrix(0.7995 0 0 1 461.4365 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">o</text>
 	
-		<text transform="matrix(0.7995 0 0 1 466.9405 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">l</text>
+		<text transform="matrix(0.7995 0 0 1 466.9404 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">l</text>
 	
 		<text transform="matrix(0.7995 0 0 1 469.3067 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">l</text>
 	
-		<text transform="matrix(0.7995 0 0 1 471.6719 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
+		<text transform="matrix(0.7995 0 0 1 471.6718 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	
-		<text transform="matrix(0.7995 0 0 1 476.6944 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">g</text>
+		<text transform="matrix(0.7995 0 0 1 476.6943 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">g</text>
 	
-		<text transform="matrix(0.7995 0 0 1 482.2979 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
+		<text transform="matrix(0.7995 0 0 1 482.2978 431.6309)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12.5391">e</text>
 	<path display="inline" fill="#25B5E9" d="M523.8,441.8c0,1.2-0.5,2-1.5,2h-66.7l-6,8.2l-6.6-8.2h-69.7c-0.1,0-0.2-0.2-0.2-0.3
-		v-60.1c0-0.2,0.2-0.3,0.4-0.3H524v58.8H523.8z"/>
-	<text id="tool_x5F_text1_2_" transform="matrix(1.3324 0 0 1 379.7217 402.9424)" display="inline" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">   Detaild text and </tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12"> video solutions for</tspan><tspan x="0" y="28.8" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12"> the sport revisions. </tspan></text>
+		v-60.1c0-0.2,0.2-0.3,0.4-0.3H524v58.8h-0.2V441.8z"/>
+	
+		<text transform="matrix(1.3324 0 0 1 379.7207 402.9424)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">   Detaild text and </text>
+	
+		<text transform="matrix(1.3324 0 0 1 379.7207 417.3428)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12"> video solutions for</text>
+	
+		<text transform="matrix(1.3324 0 0 1 379.7207 431.7422)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12"> the sport revisions. </text>
 </g>
-<g id="tooltip4" display="none">
+<g id="tooltip_x5F_4" display="none">
 	
 		<text transform="matrix(1.0114 0 0 1 236.3818 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">c</text>
 	
@@ -665,13 +633,13 @@
 	
 		<text transform="matrix(1.0114 0 0 1 260.2588 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 262.3847 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 262.3848 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 265.7031 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">h</text>
 	
 		<text transform="matrix(1.0114 0 0 1 271.2666 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 276.289 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 276.2891 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
 		<text transform="matrix(1.0114 0 0 1 278.4131 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
 	
@@ -681,7 +649,7 @@
 	
 		<text transform="matrix(1.0114 0 0 1 289.6816 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">h</text>
 	
-		<text transform="matrix(1.0114 0 0 1 295.206 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 295.2061 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 298.5234 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
@@ -689,33 +657,33 @@
 	
 		<text transform="matrix(1.0114 0 0 1 303.9663 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">a</text>
 	
-		<text transform="matrix(1.0114 0 0 1 308.7993 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
+		<text transform="matrix(1.0114 0 0 1 308.7998 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
 	
-		<text transform="matrix(1.0114 0 0 1 311.9966 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
+		<text transform="matrix(1.0114 0 0 1 311.9971 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
 	
-		<text transform="matrix(1.0114 0 0 1 317.6001 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
+		<text transform="matrix(1.0114 0 0 1 317.6006 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 322.6225 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 322.623 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
-		<text transform="matrix(1.0114 0 0 1 325.9116 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">,</text>
+		<text transform="matrix(1.0114 0 0 1 325.9121 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">,</text>
 	
-		<text transform="matrix(1.0114 0 0 1 327.9858 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 327.9863 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 330.1118 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">j</text>
+		<text transform="matrix(1.0114 0 0 1 330.1123 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">j</text>
 	
-		<text transform="matrix(1.0114 0 0 1 332.5473 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">u</text>
+		<text transform="matrix(1.0114 0 0 1 332.5479 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">u</text>
 	
-		<text transform="matrix(1.0114 0 0 1 338.0717 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">s</text>
+		<text transform="matrix(1.0114 0 0 1 338.0723 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">s</text>
 	
-		<text transform="matrix(1.0114 0 0 1 342.0415 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 342.042 637)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 236.3818 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 245.2627 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 250.2851 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 250.2852 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 252.4101 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
+		<text transform="matrix(1.0114 0 0 1 252.4102 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
 	
 		<text transform="matrix(1.0114 0 0 1 255.7285 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">i</text>
 	
@@ -723,39 +691,39 @@
 	
 		<text transform="matrix(1.0114 0 0 1 263.6787 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">h</text>
 	
-		<text transform="matrix(1.0114 0 0 1 269.2011 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 269.2012 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 272.5195 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
 		<text transform="matrix(1.0114 0 0 1 274.6445 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">a</text>
 	
-		<text transform="matrix(1.0114 0 0 1 279.4765 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">m</text>
+		<text transform="matrix(1.0114 0 0 1 279.4766 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">m</text>
 	
 		<text transform="matrix(1.0114 0 0 1 287.8369 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">o</text>
 	
 		<text transform="matrix(1.0114 0 0 1 293.3408 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">u</text>
 	
-		<text transform="matrix(1.0114 0 0 1 298.8642 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">n</text>
+		<text transform="matrix(1.0114 0 0 1 298.8643 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">n</text>
 	
 		<text transform="matrix(1.0114 0 0 1 304.3882 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
-		<text transform="matrix(1.0114 0 0 1 307.7075 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 307.708 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 309.8315 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 309.832 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
-		<text transform="matrix(1.0114 0 0 1 313.0893 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">o</text>
+		<text transform="matrix(1.0114 0 0 1 313.0898 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">o</text>
 	
-		<text transform="matrix(1.0114 0 0 1 318.5932 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 318.5938 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 320.7192 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
+		<text transform="matrix(1.0114 0 0 1 320.7197 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
 	
-		<text transform="matrix(1.0114 0 0 1 326.3217 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
+		<text transform="matrix(1.0114 0 0 1 326.3223 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 331.3452 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
+		<text transform="matrix(1.0114 0 0 1 331.3457 648.8945)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
 		<text transform="matrix(1.0114 0 0 1 236.3818 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">i</text>
 	
-		<text transform="matrix(1.0114 0 0 1 238.7265 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">n</text>
+		<text transform="matrix(1.0114 0 0 1 238.7266 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">n</text>
 	
 		<text transform="matrix(1.0114 0 0 1 244.25 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">t</text>
 	
@@ -769,17 +737,17 @@
 	
 		<text transform="matrix(1.0114 0 0 1 265.2617 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">u</text>
 	
-		<text transform="matrix(1.0114 0 0 1 270.7851 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
+		<text transform="matrix(1.0114 0 0 1 270.7852 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
 	
-		<text transform="matrix(1.0114 0 0 1 274.0634 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
+		<text transform="matrix(1.0114 0 0 1 274.0635 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117"> </text>
 	
-		<text transform="matrix(1.0114 0 0 1 276.1884 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">d</text>
+		<text transform="matrix(1.0114 0 0 1 276.1885 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">d</text>
 	
-		<text transform="matrix(1.0114 0 0 1 281.8427 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
+		<text transform="matrix(1.0114 0 0 1 281.8428 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">r</text>
 	
 		<text transform="matrix(1.0114 0 0 1 285.0205 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 290.0429 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">a</text>
+		<text transform="matrix(1.0114 0 0 1 290.043 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">a</text>
 	
 		<text transform="matrix(1.0114 0 0 1 294.874 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">m</text>
 	
@@ -787,20 +755,92 @@
 	
 		<text transform="matrix(1.0114 0 0 1 305.3608 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">c</text>
 	
-		<text transform="matrix(1.0114 0 0 1 309.7915 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">o</text>
+		<text transform="matrix(1.0114 0 0 1 309.792 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">o</text>
 	
-		<text transform="matrix(1.0114 0 0 1 315.2954 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">l</text>
+		<text transform="matrix(1.0114 0 0 1 315.2959 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">l</text>
 	
-		<text transform="matrix(1.0114 0 0 1 317.6616 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">l</text>
+		<text transform="matrix(1.0114 0 0 1 317.6621 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">l</text>
 	
-		<text transform="matrix(1.0114 0 0 1 320.0268 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
+		<text transform="matrix(1.0114 0 0 1 320.0273 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	
-		<text transform="matrix(1.0114 0 0 1 325.0493 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
+		<text transform="matrix(1.0114 0 0 1 325.0498 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">g</text>
 	
-		<text transform="matrix(1.0114 0 0 1 330.6528 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
+		<text transform="matrix(1.0114 0 0 1 330.6533 660.7891)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="9.9117">e</text>
 	<path display="inline" fill="#25B5E9" d="M372.1,668.9c0,0.9-0.5,1.6-1.5,1.6h-66.7l-6,6.5l-6.6-6.5h-69.7c-0.1,0-0.2-0.1-0.2-0.3
 		v-47.5c0-0.1,0.2-0.3,0.4-0.3h150.4v46.5H372.1z"/>
-	<text id="tool_x5F_text1_3_" transform="matrix(0.9693 0 0 1 228.0757 641.9199)" display="inline" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2954">   Compare with 2014 </tspan><tspan x="0" y="17.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2954">toppers and your peers.</tspan></text>
+	
+		<text transform="matrix(0.9693 0 0 1 228.0757 641.9199)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2954">   Compare with 2014 </text>
+	
+		<text transform="matrix(0.9693 0 0 1 228.0757 659.1201)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="14.2954">toppers and your peers.</text>
 </g>
 <rect x="157" y="601" fill="none" width="89" height="134"/>
+<g id="stop">
+	<g>
+		<path fill="#9E59FF" d="M400.6,579c-0.7,0-1.4-0.6-1.4-1.4v-65c0-0.7,0.6-1.4,1.4-1.4h97.6c0.7,0,1.4,0.6,1.4,1.4v65
+			c0,0.7-0.6,1.4-1.4,1.4H400.6z"/>
+		<path fill="#783DC4" d="M498.2,506.3h-97.6c-3.5,0-6.3,2.8-6.3,6.3v65c0,3.5,2.8,6.3,6.3,6.3h97.6c3.5,0,6.3-2.8,6.3-6.3v-65
+			C504.5,509.2,501.7,506.3,498.2,506.3 M494.6,574.1h-90.4v-57.8h90.4V574.1z"/>
+		<path fill="#783DC4" d="M444.7,528.2l19.4,11.4c1.2,0.7,1.1,2.5-0.1,3.2l-19.2,11.4c-1.2,0.7-2.3-0.2-2.3-1.6v-22.8
+			C442.4,528.3,443.4,527.4,444.7,528.2"/>
+		<path fill="#FFC754" d="M442.3,526.5l19.8,11.4c1.2,0.7,1.3,2.5,0,3.2l-19.9,11.4c-1.2,0.7-2.9-0.2-2.9-1.6v-22.8
+			C439.4,526.7,441.1,525.8,442.3,526.5"/>
+		<path fill="#E85E54" d="M421.1,477.2v57.5l-13.4,13.6h-40.4c-1.7,0-3.3-1.7-3.3-3.4v-67.7c0-1.7,1.6-3,3.3-3h50.9
+			C419.9,474.2,421.1,475.5,421.1,477.2"/>
+		<path fill="#FFFFFF" d="M396.7,531.5c0,0.8-0.7,1.5-1.5,1.5h-5.4c-0.8,0-1.5-0.7-1.5-1.5v-5.4c0-0.8,0.7-1.5,1.5-1.5h5.4
+			c0.8,0,1.5,0.7,1.5,1.5V531.5z M384,491.9c2.2-1.4,5-2.2,8.3-2.2c4.3,0,7.9,1,10.7,3.1c2.8,2.1,4.3,5.1,4.3,9.2
+			c0,2.5-0.6,4.6-1.9,6.3c-0.7,1-2.1,2.3-4.2,4l-2,1.6c-1.1,0.9-1.8,1.9-2.2,3c-0.2,0.5-0.3,0.7-0.3,1.5c-0.1,0.8-0.7,1-1.5,1h-4.7
+			c-0.9,0-1.6-0.3-1.5-1.2c0.1-2.4,0.4-3.8,0.8-4.9c0.5-1.2,1.8-2.5,3.8-4.1l2.1-1.6c0.7-0.5,1.2-1.1,1.7-1.7c0.8-1,1.1-2.2,1.1-3.5
+			c0-1.5-0.4-2.8-1.3-4c-0.8-1.2-2.4-1.8-4.6-1.8c-2.2,0-3.8,0.7-4.7,2.2c-0.7,1.1-1.1,1.7-1.3,2.8c-0.1,0.7-0.7,0.8-1.5,0.8H380
+			c-0.9,0-1.6-0.3-1.5-1.2C379,496.7,380.8,493.9,384,491.9"/>
+	</g>
+	<polygon fill="#FCBFB8" points="407.4,548.1 421.5,535.3 407.4,535.3 	"/>
+	<polygon fill="#D14029" points="407.6,534.7 407.6,548.1 394,548.1 	"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="409.1" y1="567.2" x2="489.4" y2="567.2"/>
+	<g>
+		<path id="player_x5F_button" fill="#FFC754" d="M416.4,567.5c0,2.4-1.9,4.4-4.4,4.4c-2.4,0-4.4-2-4.4-4.4s1.9-4.4,4.4-4.4
+			C414.5,563.2,416.4,565.1,416.4,567.5"/>
+	</g>
+</g>
+<g id="play" display="none">
+	<g display="inline">
+		<path fill="#9E59FF" d="M400.7,579c-0.7,0-1.4-0.6-1.4-1.4v-64.8c0-0.7,0.6-1.4,1.4-1.4h97.4c0.7,0,1.4,0.6,1.4,1.4v64.8
+			c0,0.7-0.6,1.4-1.4,1.4H400.7z"/>
+		<path fill="#783DC4" d="M498.2,506.6h-97.4c-3.5,0-6.3,2.8-6.3,6.3v64.8c0,3.5,2.8,6.3,6.3,6.3h97.4c3.5,0,6.3-2.8,6.3-6.3v-64.8
+			C504.5,509.4,501.7,506.6,498.2,506.6 M494.6,574.1h-90.3v-57.6h90.3V574.1z"/>
+		<path fill="#E85E54" d="M420.9,478.7v56.4L407,548.4h-39.7c-1.7,0-3.3-1.6-3.3-3.3v-66.4c0-1.7,1.6-2.9,3.3-2.9h50
+			C419,475.8,420.9,477,420.9,478.7"/>
+		<path fill="#FFFFFF" d="M397.5,531.7c0,0.8-0.7,1.5-1.5,1.5h-5.4c-0.8,0-1.5-0.7-1.5-1.5v-5.4c0-0.8,0.7-1.5,1.5-1.5h5.4
+			c0.8,0,1.5,0.7,1.5,1.5V531.7z M384.2,492.2c2.2-1.4,5-2.2,8.3-2.2c4.3,0,7.9,1,10.7,3.1c2.8,2.1,4.3,5.1,4.3,9.1
+			c0,2.5-0.6,4.6-1.9,6.3c-0.7,1-2.1,2.3-4.2,3.9l-2,1.6c-1.1,0.9-1.8,1.9-2.2,3c-0.2,0.5-0.3,0.7-0.3,1.5c-0.1,0.8-0.7,1-1.5,1
+			h-4.7c-0.9,0-1.6-0.3-1.5-1.2c0.1-2.4,0.4-3.8,0.8-4.8c0.5-1.2,1.8-2.5,3.8-4.1l2.1-1.6c0.7-0.5,1.2-1,1.7-1.7
+			c0.8-1,1.1-2.2,1.1-3.4c0-1.4-0.4-2.8-1.3-3.9c-0.8-1.2-2.4-1.8-4.6-1.8c-2.2,0-3.8,0.7-4.7,2.2c-0.7,1.1-1.1,1.7-1.3,2.8
+			c-0.1,0.7-0.7,0.8-1.5,0.8h-5.2c-0.9,0-1.6-0.3-1.5-1.2C379.1,497,381,494.2,384.2,492.2"/>
+	</g>
+	<polygon display="inline" fill="#FCBFB8" points="407.4,548.2 421.6,535.5 407.4,535.5 	"/>
+	<polygon display="inline" fill="#D14029" points="407.8,534.9 407.8,548.2 394.1,548.2 	"/>
+	
+		<line display="inline" fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="409.2" y1="567.2" x2="489.4" y2="567.2"/>
+	<g display="inline">
+		<path id="player_x5F_btn" fill="#FFC754" d="M416.4,567.6c0,2.4-1.9,4.3-4.3,4.3c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3
+			C414.5,563.2,416.4,565.2,416.4,567.6"/>
+		
+			<path id="one" display="none" fill="none" stroke="#FF9600" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M431.2,482.4c8.3,2.2,15.1,7.9,18.8,15.5"/>
+		
+			<path id="two" display="none" fill="none" stroke="#FF9600" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M431.2,474.8c12.4,2.6,22.4,11.4,26.8,23"/>
+		
+			<path id="three" display="none" fill="none" stroke="#FF9600" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M466,497.9c-4.8-15.9-18.2-28-34.8-30.8"/>
+		<path fill="#783DC4" d="M445,528.7c-2,0-3.7,1.7-3.7,3.7v16.8c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.8
+			C448.6,530.4,447,528.7,445,528.7"/>
+		<path fill="#783DC4" d="M459,528.7c-2,0-3.7,1.7-3.7,3.7v16.8c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.8
+			C462.7,530.4,461,528.7,459,528.7"/>
+		<path fill="#FFC754" d="M443,527.4c-2,0-3.7,1.7-3.7,3.7v16.8c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.8
+			C446.6,529.1,445,527.4,443,527.4"/>
+		<path fill="#FFC754" d="M457,527.4c-2,0-3.7,1.7-3.7,3.7v16.8c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7v-16.8
+			C460.7,529.1,459,527.4,457,527.4"/>
+	</g>
+</g>
 </svg>
