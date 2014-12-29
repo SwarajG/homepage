@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Home</title>
+
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 	  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -89,13 +90,10 @@
         </div>
     </section>
 
-    <!-- parallax list layers -->
     <section class="home-work">
-      <div class="home-work home-work__practice" id="home-work__layer1">
-
-      </div>
-      <div class="home-work home-work__quote" id="home-work__layer2">
-          <h1 class="home-work__quote-header">Embibe helps you <span style="color:#FFB800;">practice</span> what you should and when.</h1>
+      <div class="home-work home-work__practice" id="parallax-body" data-stellar-ratio="0.3">
+        <div class="home-work home-work__quote">
+          <h1 class="home-work__quote-header">Embibe helps you <span style="color:#FFB800;">practice</span> what <br>you should and when.</h1>
           <p class="home-work__quote-p">
             <i>
               Prof Nipun Tandon,Mumbai<br>
@@ -103,6 +101,7 @@
             </i>
           </p>
         </div>
+      </div>
     </section>
 
     <section class="home-method">
@@ -133,11 +132,17 @@
       </div>
     </section>
 
-    <!-- End of the layer -->
-
-    <section class="home-work home-work__analysis">
-      <div class="home-work__container">
-
+    <section class="home-work">
+      <div class="home-work home-work__analysis" id ="parallax-body" data-stellar-ratio="0.5">
+        <div class="home-work home-work__quote">
+          <h1 class="home-work__quote-header">Thorough <span style="color:#9735D5;">analysis</span> of my performance <br>directed me to plan my preparation effectively.</h1>
+          <p class="home-work__quote-p">
+            <i>
+              Shubham Prasad,MP<br>
+              139 JEE Main Score
+            </i>
+          </p>
+        </div>
       </div>
     </section>
 
@@ -184,9 +189,17 @@
       </div>
     </section>
 
-    <section class="home-work home-work__revise">
-      <div class="home-work__container">
-
+    <section class="home-work">
+      <div class="home-work home-work__revise" id="parallax-body" data-stellar-ratio="0.5">
+        <div class="home-work home-work__quote">
+          <h1 class="home-work__quote-header">With embibe, our son was able to <span style="color:#009858;">revise</span> his<br>bookmarked questions and silly mistakes effectively.</h1>
+          <p class="home-work__quote-p">
+            <i>
+              Parents of Omakaar Sadrangini, Kalkata<br>
+              330 JEE Main Score,244 JEE Advanced Score
+            </i>
+          </p>
+        </div>
       </div>
     </section>
 
@@ -233,13 +246,21 @@
       </div>
     </section>
 
-    <section class="home-work home-work__test">
-      <div class="home-work__container">
-
+    <section class="home-work">
+      <div class="home-work home-work__test" id="parallax-body" data-stellar-ratio="0.5">
+        <div class="home-work home-work__quote">
+          <h1 class="home-work__quote-header">Time bound <span style="color:#FF4949;">test</span> and their instant results with<br>compelete statistics helped me to improve myself.</h1>
+          <p class="home-work__quote-p">
+            <i>
+              Chitraang Murdia<br>
+              139 JEE Main Score
+            </i>
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="home-method">
+    <section class="home-method home-method--test">
       <div class="home-method__container">
         <div class="home-method__test-part">
           <div class="home-method__part-container">
@@ -377,6 +398,11 @@
      </div>
     </footer>
   </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+  <script>
+    $("#parallax-body").stellar();
+  </script>
   <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
   <script src="js/snap.svg.js"></script>
   <script src="js/practice.js"></script>

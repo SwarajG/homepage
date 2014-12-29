@@ -308,6 +308,7 @@ body {
 .jumbotron__header--faq{
   padding-top: 130px;
   text-align: left;
+  font-size: 85px;
 }
 
 .jumbotron__header--tos ,
@@ -331,6 +332,7 @@ body {
   padding: 0;
   width: 50%;
   text-align: left;
+  font-size: 18px;
 }
 
 .jumbotron__subheader--about {
@@ -527,20 +529,22 @@ body {
 .home-work__quote {
   float: right;
   position: absolute;
-  width: 45%;
+  width: 60%;
   top: 20%;
-  left: 50%;
+  left: 36%;
   text-align: right;
   color: white;
 }
 
 .home-work__quote-header {
+  color: white;
   font-size: 32px;
 }
 
 .home-work__quote-p {
   font-size: 18px;
   line-height: 25px;
+  color: white;
 }
 
 .home-work__practice {
@@ -580,12 +584,16 @@ body {
 */
 
 /*
-* Practice - home page
+* Practice - home page.
 */
 
 .home-method {
   position: relative;
-  height: 650px;
+  height: 650px
+}
+
+.home-method--test {
+  height: 750px;
 }
 
 .home-method__test-part {
@@ -985,7 +993,20 @@ li.active a, li.active a:hover {
   padding: 5px 40px;
   text-align: center;
   color: #4E4E50;
-  display: inline-block;
+  display: inline-block;  
+}
+
+.subject-product__li--pro {
+  width:387px;
+  margin-left: 68px;
+}
+
+.subject-product__li--info {
+  width: 96px;
+}
+
+.subject-product__li--sku {
+  width: 232px;
 }
 
 .checkbox {
